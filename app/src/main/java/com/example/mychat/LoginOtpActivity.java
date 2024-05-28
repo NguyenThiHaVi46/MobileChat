@@ -9,6 +9,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.HashMap;
+import java.util.Map;
+
 public class LoginOtpActivity extends AppCompatActivity {
 
     String phoneNumber;
@@ -21,6 +26,8 @@ public class LoginOtpActivity extends AppCompatActivity {
 
         phoneNumber = getIntent().getExtras().getString("phone");
         Toast.makeText(getApplicationContext(),phoneNumber, Toast.LENGTH_SHORT).show();
+
+        
 
     }
 }
