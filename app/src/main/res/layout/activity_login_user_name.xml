@@ -92,7 +92,6 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:hint="Username"
-            android:inputType="phone"
             android:layout_margin="10dp"
             android:background="@drawable/edit_text_rounded_corner"
             android:elevation="5dp"
@@ -114,12 +113,10 @@
             android:id="@+id/login_let_me_in_btn"/>
     </LinearLayout>
 
-    <TextView
+    <ProgressBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="10"
         android:gravity="center"
-        android:text="Resend OTP in 30 sec"
         android:id="@+id/login_progress_bar"/>
 
 </LinearLayout>
