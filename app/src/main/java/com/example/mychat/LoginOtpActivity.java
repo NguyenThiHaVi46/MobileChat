@@ -60,6 +60,15 @@ public class LoginOtpActivity extends AppCompatActivity {
         progressBar = findViewById(R.id.login_progress_bar);
         resendOtpTextView = findViewById(R.id.resend_otp_textview);
 
+        phoneNumber = getIntent().getExtras().getString("phone");
+
+        if (phoneNumber == null || phoneNumber.isEmpty()) {
+            Toast.makeText(getApplicationContext(), "Phone number is empty", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        Toast.makeText(getApplicationContext(), phoneNumber, Toast.LENGTH_SHORT).show();
+
         sendOtp(phoneNumber, false);
 
         nextBtn.setOnClickListener(v -> {
@@ -69,13 +78,11 @@ public class LoginOtpActivity extends AppCompatActivity {
             setInProgress(true);
         });
 
-        resendOtpTextView.setOnClickListener((v)-> {
+        resendOtpTextView.setOnClickListener(v -> {
             sendOtp(phoneNumber, true);
-                });
-
-        phoneNumber = getIntent().getExtras().getString("phone");
-        Toast.makeText(getApplicationContext(), phoneNumber, Toast.LENGTH_SHORT).show();
+        });
     }
+
 
     void sendOtp(String phoneNumber, boolean isResend) {
         startResendTimer();
