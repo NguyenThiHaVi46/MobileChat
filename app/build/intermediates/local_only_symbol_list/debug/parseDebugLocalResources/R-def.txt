@@ -1,12 +1,12 @@
 R_DEF: Internal format may change without notice
 local
+color beige
 color black
-color chat_color_receiver
-color chat_color_sender
+color brown
+color dark_grey
 color green
 color grey
 color ic_launcher_background
-color light_gary
 color my_primary
 color my_secondary
 color off_white
