@@ -35,6 +35,9 @@
             android:name="com.example.mychat.SearchUserActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.mychat.SearchUserActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.mychat.LoginUserNameActivity"
             android:exported="false" />
         <activity
