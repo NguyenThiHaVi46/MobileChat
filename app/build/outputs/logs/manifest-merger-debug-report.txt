@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-46:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\hungn\.gradle\caches\transforms-4\f40a43413ac92cc8e5a0ab721bfe5c9b\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hungn\.gradle\caches\transforms-4\3827aa737b139ac004ff3f00d3bae9c9\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.hbb20:ccp:2.5.0] C:\Users\hungn\.gradle\caches\transforms-4\b3db1ea85d1d90f02e9d73098c212b03\transformed\jetified-ccp-2.5.0\AndroidManifest.xml:2:1-9:12
@@ -81,8 +81,8 @@ MERGED from [io.michaelrocks:libphonenumber-android:8.12.19-2] C:\Users\hungn\.g
 	xmlns:android
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:5:5-41:19
-INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:5:5-41:19
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:5:5-44:19
+INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:5:5-44:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\hungn\.gradle\caches\transforms-4\f40a43413ac92cc8e5a0ab721bfe5c9b\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\hungn\.gradle\caches\transforms-4\f40a43413ac92cc8e5a0ab721bfe5c9b\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hungn\.gradle\caches\transforms-4\3827aa737b139ac004ff3f00d3bae9c9\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -154,45 +154,45 @@ ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml
 	android:name
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:18:13-47
 activity#com.example.mychat.LoginUserNameActivity
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:20:9-22:40
-	android:exported
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:22:13-37
-	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:21:13-50
-activity#com.example.mychat.LoginOtpActivity
 ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:24:13-45
-activity#com.example.mychat.LoginPhoneNumberActivity
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:24:13-50
+activity#com.example.mychat.LoginOtpActivity
 ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:27:13-53
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:27:13-45
+activity#com.example.mychat.LoginPhoneNumberActivity
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:29:9-31:40
+	android:exported
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:30:13-53
 activity#com.example.mychat.SplashActivity
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:29:9-37:20
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:32:9-40:20
 	android:exported
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:30:13-43
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:33:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:32:13-36:29
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:35:13-39:29
 action#android.intent.action.MAIN
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:33:17-69
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:33:25-66
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:35:17-77
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:35:27-74
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:38:27-74
 activity#com.example.mychat.MainActivity
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:38:9-40:40
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:40:13-37
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:39:13-41
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:42:13-41
 uses-sdk
 INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml
