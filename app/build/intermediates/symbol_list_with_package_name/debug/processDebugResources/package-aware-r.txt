@@ -2165,6 +2165,7 @@ color my_primary
 color my_secondary
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color off_white
 color pressed_bg
 color primary_dark_material_dark
@@ -2999,6 +3000,10 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -3403,6 +3408,7 @@ drawable ic_other_sign_in
 drawable ic_passkey
 drawable ic_password
 drawable ic_search_black_24
+drawable icon_back
 drawable icon_search
 drawable indeterminate_static
 drawable m3_avd_hide_password
@@ -3596,6 +3602,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id actionDown
 id actionDownUp
 id actionUp
@@ -3637,6 +3644,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back_btn
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3657,6 +3665,7 @@ id browser_actions_menu_view
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancel_action
 id cancel_button
 id cardViewRoot
 id carryVelocity
@@ -3738,6 +3747,7 @@ id elastic
 id embed
 id end
 id endToStart
+id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id escape
@@ -3849,6 +3859,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id media_actions
 id menu_chat
 id menu_geminiAi
 id menu_profile
@@ -3935,11 +3946,13 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id phone_text
 id pin
 id position
 id postLayout
 id preferenceDivider
 id pressed
+id profile_pic_image_view
 id progress_circular
 id progress_horizontal
 id radio
@@ -3977,6 +3990,10 @@ id search_go_btn
 id search_mag_icon
 id search_plate
 id search_src_text
+id search_user_btn
+id search_user_layout
+id search_user_recycler_view
+id search_username_input
 id search_voice_btn
 id select_dialog_listview
 id selected
@@ -4015,6 +4032,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status_bar_latest_event_content
 id stop
 id stretch
 id submenuarrow
@@ -4061,6 +4079,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -4080,6 +4099,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_name_text
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -4300,10 +4320,21 @@ layout mtrl_search_bar
 layout mtrl_search_view
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout profile_pic_view
+layout search_user_recycler_row
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -5008,9 +5039,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow

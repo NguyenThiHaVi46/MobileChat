@@ -17,11 +17,11 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.mychat.model.UserModel;
+import com.example.mychat.utils.FirebaseUtil;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.Timestamp;
 import com.google.firebase.firestore.DocumentSnapshot;
-
-import java.sql.Timestamp;
 
 public class LoginUserNameActivity extends AppCompatActivity {
 
@@ -60,11 +60,13 @@ public class LoginUserNameActivity extends AppCompatActivity {
             usernameInput.setError("Username length should be at least 3 chars");
             return;
         }
+
         if(userModel!=null){
             userModel.setUsername(username);
         }else{
-            userModel = new UserModel(phoneNumber,username, com.google.firebase.Timestamp.now());
+            userModel = new UserModel(phoneNumber,username);
         }
+        setInProgress(true);
 
         FirebaseUtil.currentUserDetails().set(userModel).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
