@@ -57,6 +57,7 @@ public class LoginOtpActivity extends AppCompatActivity {
             String enteredOtp = otpInput.getText().toString();
             PhoneAuthCredential credential = PhoneAuthProvider.getCredential(verificationCode, enteredOtp);
             signIn(credential);
+
         });
 
         resendOtpTextView.setOnClickListener((v) -> {

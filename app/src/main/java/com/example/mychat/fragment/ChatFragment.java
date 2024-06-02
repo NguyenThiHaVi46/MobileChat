@@ -13,10 +13,7 @@ import android.view.ViewGroup;
 
 import com.example.mychat.R;
 import com.example.mychat.adapter.RecentChatRecyclerAdapter;
-import com.example.mychat.adapter.SearchUserRecyclerAdapter;
-import com.example.mychat.models.ChatMessage;
 import com.example.mychat.models.ChatRoom;
-import com.example.mychat.models.User;
 import com.example.mychat.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.Query;
@@ -30,7 +27,9 @@ public class ChatFragment extends Fragment {
     public ChatFragment() {
     }
 
+
     @SuppressLint("MissingInflatedId")
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

@@ -1,6 +1,5 @@
 package com.example.mychat.activity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -14,7 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.mychat.R;
-//import com.example.mychat.data.dataHelper.UserDatabaseHelper;
+import com.example.mychat.data.dataHelper.UserDatabaseHelper;
 import com.example.mychat.models.User;
 import com.example.mychat.utils.FirebaseUtil;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -31,7 +30,6 @@ public class LoginUserNameActivity extends AppCompatActivity {
 
     String phoneNumber;
 
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,22 +56,21 @@ public class LoginUserNameActivity extends AppCompatActivity {
 
         String userName = userNameInput.getText().toString();
         String passWord = password.getText().toString();
-        String confirmPassWord = confirmPassword.getText().toString().trim();
         if(userName.isEmpty()||userName.length()<3){
             userNameInput.setError("Username length should be at least 3 chars");
             return;
         }
-        if (passWord.equals(confirmPassWord)) {
-//            UserDatabaseHelper db = new UserDatabaseHelper(this);
-//            User user = db.getUser(FirebaseUtil.currentUserId());
+        if (password.equals(confirmPassword)) {
+            UserDatabaseHelper db = new UserDatabaseHelper(this);
+            User user = db.getUser(FirebaseUtil.currentUserId());
             if (user != null) {
-                user.setUsername(userName);
+                user.setPhoneNumber(userName);
                 user.setPhoneNumber(phoneNumber);
-//                user.setPassword(passWord);
-//                db.updateUser(user);
+                user.setPassword(passWord);
+                db.updateUser(user);
             } else {
                 user = new User(phoneNumber, userName, Timestamp.now(), FirebaseUtil.currentUserId(), passWord);
-//                db.addUser(user);
+                db.addUser(user);
             }
         } else {
             Toast.makeText(LoginUserNameActivity.this, "Passwords do not match", Toast.LENGTH_SHORT).show();
@@ -96,33 +93,33 @@ public class LoginUserNameActivity extends AppCompatActivity {
         });
     }
 
-//    void getUserName(){
-//        setInProgress(true);
-//        UserDatabaseHelper db = new UserDatabaseHelper(this);
-//        User user = db.getUser(FirebaseUtil.currentUserId());
-//        userNameInput.setText(user.getUsername());
-//        setInProgress(false);
-//
-//    }
-
     void getUserName(){
         setInProgress(true);
-        FirebaseUtil.currentUserDetails().get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-                setInProgress(false);
-                if(task.isSuccessful()){
-                    user =  task.getResult().toObject(User.class);
-                   if(user!=null){
-                       userNameInput.setText(user.getUsername());
-                   }
-                }else {
+        UserDatabaseHelper db = new UserDatabaseHelper(this);
+        User user = db.getUser(FirebaseUtil.currentUserId());
+        userNameInput.setText(user.getUsername());
+        setInProgress(false);
 
-                }
-
-            }
-        });
     }
+
+//    void getUserName(){
+//        setInProgress(true);
+//        FirebaseUtil.currentUserDetails().get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+//            @Override
+//            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+//                setInProgress(false);
+//                if(task.isSuccessful()){
+//                    user =  task.getResult().toObject(User.class);
+//                   if(user!=null){
+//                       userNameInput.setText(user.getUserName());
+//                   }
+//                }else {
+//
+//                }
+//
+//            }
+//        });
+//    }
 
     void setInProgress(boolean inProgress) {
         if (inProgress) {

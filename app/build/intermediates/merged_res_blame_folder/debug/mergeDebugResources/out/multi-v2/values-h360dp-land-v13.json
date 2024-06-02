@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "com.example.mychat.app-mergeDebugResources-42:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\e0396a765cc9f62ed9e7ed7522b5a176\\transformed\\material-1.12.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+=======
+            "outputFile": "com.example.mychat.app-mergeDebugResources-40:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\f3842dbc06d7e03acfa1958c3d629d69\\transformed\\material-1.12.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+>>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

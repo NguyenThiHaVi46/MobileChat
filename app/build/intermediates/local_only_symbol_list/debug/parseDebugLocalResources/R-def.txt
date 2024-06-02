@@ -3,13 +3,19 @@ local
 color beige
 color black
 color brown
+<<<<<<< HEAD
 color chat_color_receiver
 color chat_color_sender
+=======
+>>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 color dark_grey
 color green
 color grey
 color ic_launcher_background
+<<<<<<< HEAD
 color light_gary
+=======
+>>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 color my_primary
 color my_secondary
 color off_white
@@ -23,6 +29,7 @@ drawable google_gemini_icon
 drawable header
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+<<<<<<< HEAD
 drawable icon_addbox
 drawable icon_back
 drawable icon_camera
@@ -88,6 +95,23 @@ id login_otp
 id login_password
 id login_phone
 id login_progress_bar
+=======
+drawable icon_back
+drawable icon_search
+drawable person_icon
+drawable phone_icon
+id back_btn
+id bottom_navigation
+id divider
+id imageView
+id login_countrycode
+id login_let_me_in_btn
+id login_mobile_number
+id login_next_btn
+id login_otp
+id login_progress_bar
+id login_username
+>>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id main
 id main_frameLayout
 id main_search_btn
@@ -95,6 +119,7 @@ id main_toolbar
 id menu_chat
 id menu_geminiAi
 id menu_profile
+<<<<<<< HEAD
 id message_send_btn
 id other_username
 id phone_text
@@ -112,11 +137,17 @@ id right_chat_video_thumbnail_Rela
 id right_file_layout
 id right_image_layout
 id right_video_layout
+=======
+id phone_text
+id profile_pic_image_view
+id resend_otp_textview
+>>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id search_user_btn
 id search_user_layout
 id search_user_recycler_view
 id search_username_input
 id send_otp_btn
+<<<<<<< HEAD
 id show_image
 id signup_confirm_password
 id signup_letMeIn_btn
@@ -129,12 +160,18 @@ id user_name_text
 layout activity_chat
 layout activity_chat_gemini_ai
 layout activity_login
+=======
+id textView
+id toolbar
+id user_name_text
+>>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 layout activity_login_otp
 layout activity_login_phone_number
 layout activity_login_user_name
 layout activity_main
 layout activity_search_user
 layout activity_splash
+<<<<<<< HEAD
 layout chat_message_recycler_row
 layout chat_room_gemini_recycler
 layout fragment_chat
@@ -142,6 +179,11 @@ layout fragment_chat_gemini
 layout fragment_profile
 layout profile_pic_view
 layout recent_chat_recycler_row
+=======
+layout fragment_chat
+layout fragment_profile
+layout profile_pic_view
+>>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 layout search_user_recycler_row
 menu bottom_navigation_menu
 mipmap ic_launcher

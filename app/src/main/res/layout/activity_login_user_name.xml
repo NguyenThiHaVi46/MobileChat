@@ -9,8 +9,9 @@
     android:gravity="center"
     android:layout_margin="20dp"
     android:weightSum="100"
-    tools:context=".activity.LoginUserNameActivity">
 
+    android:background="@color/purple"
+    tools:context=".activity.LoginUserNameActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
