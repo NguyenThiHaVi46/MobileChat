@@ -1,17 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "com.example.mychat.app-mergeDebugResources-42:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\8badd4877e19174b329f535605d31a7b\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
-=======
-            "outputFile": "com.example.mychat.app-mergeDebugResources-40:/values-h720dp-v13/values-h720dp-v13.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\655476e5c9e899200c7ed1e9bf4d06dc\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\122af31f9e255d8d1d18854f754405b7\\transformed\\appcompat-1.7.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -5,11 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
     tools:context=".activity.MainActivity">
-=======
-    tools:context=".MainActivity">
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 
     <RelativeLayout
         android:id="@+id/main_toolbar"
