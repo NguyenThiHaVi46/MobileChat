@@ -7,6 +7,50 @@ public class UserModel {
     private String username;
     private Timestamp timestamp;
 
+    public UserModel(String phoneNumber, String username, Timestamp timestamp, String userId) {
+        this.phoneNumber = phoneNumber;
+        this.username = username;
+        this.timestamp = timestamp;
+        this.userId = userId;
+    }
+
+    public UserModel(String phoneNumber, String username) {
+        this.phoneNumber = phoneNumber;
+        this.username = username;
+    }
+
+    private String userId;
+    private String fcmToken;
+    private String password;
+
+    public UserModel() {
+
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
+    public String getFcmToken() {
+        return fcmToken;
+    }
+
+    public void setFcmToken(String fcmToken) {
+        this.fcmToken = fcmToken;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     // Existing constructor
     public UserModel(String phoneNumber) {
         this.phoneNumber = phoneNumber;
@@ -19,7 +63,6 @@ public class UserModel {
         this.timestamp = timestamp;
     }
 
-    // Getters and setters for the fields
     public String getPhoneNumber() {
         return phoneNumber;
     }
