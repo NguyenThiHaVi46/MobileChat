@@ -1442,11 +1442,8 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
-<<<<<<< HEAD
 color chat_color_receiver
 color chat_color_sender
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -1512,10 +1509,7 @@ color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
-<<<<<<< HEAD
 color light_gary
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -3417,7 +3411,6 @@ drawable ic_other_sign_in
 drawable ic_passkey
 drawable ic_password
 drawable ic_search_black_24
-<<<<<<< HEAD
 drawable icon_addbox
 drawable icon_back
 drawable icon_camera
@@ -3429,10 +3422,6 @@ drawable icon_play_circle
 drawable icon_red_eye
 drawable icon_search
 drawable icon_send
-=======
-drawable icon_back
-drawable icon_search
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 drawable indeterminate_static
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3506,22 +3495,16 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-<<<<<<< HEAD
 drawable password_icon
 drawable person_icon
 drawable phone_icon
 drawable test_image
-=======
-drawable person_icon
-drawable phone_icon
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id AFRIKAANS
 id ALT
 id ARABIC
-<<<<<<< HEAD
 id Ai_back_btn
 id Ai_bottom_layout
 id Ai_chat_RecyclerView
@@ -3532,8 +3515,6 @@ id Ai_profile_pic_layout
 id Ai_selected_image_view
 id Ai_show_image
 id Ai_toolbar
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id BENGALI
 id BOTTOM_END
 id BOTTOM_START
@@ -3553,12 +3534,9 @@ id FUNCTION
 id GERMAN
 id GREEK
 id GUJARATI
-<<<<<<< HEAD
 id Gemini_delete_room
 id Gemini_edit_name_room
 id Gemini_name_room
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id HEBREW
 id HINDI
 id INDONESIA
@@ -3681,13 +3659,10 @@ id alertTitle
 id aligned
 id all
 id allStates
-<<<<<<< HEAD
 id all_chat_layout
 id all_file_layout
 id all_image_layout
 id all_video_layout
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id always
 id animateToEnd
 id animateToStart
@@ -3708,10 +3683,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
-<<<<<<< HEAD
 id bottom_layout
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id bottom_navigation
 id bounce
 id bounceBoth
@@ -3722,14 +3694,10 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-<<<<<<< HEAD
 id btn_create_new_chat
 id buttonPanel
 id button_camera
 id button_file
-=======
-id buttonPanel
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id cache_measures
 id callMeasure
 id cancel_action
@@ -3744,11 +3712,8 @@ id center_vertical
 id chain
 id chain2
 id chains
-<<<<<<< HEAD
 id chat_RecyclerView
 id chat_message_input
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id checkbox
 id checked
 id chronometer
@@ -3846,10 +3811,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
-<<<<<<< HEAD
 id glide_custom_view_target_tag
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id gone
 id graph
 id graph_wrap
@@ -3857,10 +3819,7 @@ id group_divider
 id grouping
 id groups
 id header_title
-<<<<<<< HEAD
 id hidden_buttons
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id hide_ime_id
 id hideable
 id home
@@ -3890,7 +3849,6 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labeled
-<<<<<<< HEAD
 id last_message_text
 id last_message_time_text
 id layout
@@ -3906,11 +3864,6 @@ id left_chat_video_thumbnail_Rela
 id left_file_layout
 id left_image_layout
 id left_video_layout
-=======
-id layout
-id left
-id leftToRight
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id legacy
 id light
 id line1
@@ -3920,7 +3873,6 @@ id linear_flag_border
 id linear_flag_holder
 id listMode
 id list_item
-<<<<<<< HEAD
 id login_back_phone_number
 id login_countryCode
 id login_goto_signupBtn
@@ -3931,15 +3883,6 @@ id login_otp
 id login_password
 id login_phone
 id login_progress_bar
-=======
-id login_countrycode
-id login_let_me_in_btn
-id login_mobile_number
-id login_next_btn
-id login_otp
-id login_progress_bar
-id login_username
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id m3_side_sheet
 id main
 id main_frameLayout
@@ -3975,10 +3918,7 @@ id menu_chat
 id menu_geminiAi
 id menu_profile
 id message
-<<<<<<< HEAD
 id message_send_btn
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id middle
 id mini
 id month_grid
@@ -4047,10 +3987,7 @@ id open_search_view_search_prefix
 id open_search_view_status_bar_spacer
 id open_search_view_toolbar
 id open_search_view_toolbar_container
-<<<<<<< HEAD
 id other_username
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id outline
 id outward
 id overshoot
@@ -4072,26 +4009,19 @@ id postLayout
 id preferenceDivider
 id pressed
 id profile_pic_image_view
-<<<<<<< HEAD
 id profile_pic_layout
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
 id recycler_countryDialog
-<<<<<<< HEAD
 id recycler_view
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id report_drawn
 id resend_otp_textview
 id reverseSawtooth
 id right
 id rightToLeft
-<<<<<<< HEAD
 id right_chat_fileView
 id right_chat_image
 id right_chat_layout
@@ -4104,10 +4034,6 @@ id right_icon
 id right_image_layout
 id right_side
 id right_video_layout
-=======
-id right_icon
-id right_side
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id rlClickConsumer
 id rl_query_holder
 id rl_title
@@ -4147,15 +4073,12 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-<<<<<<< HEAD
 id show_image
 id signup_confirm_password
 id signup_letMeIn_btn
 id signup_password
 id signup_progress_bar
 id signup_userName
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 id sin
 id skipCollapsed
 id skipped
@@ -4385,12 +4308,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-<<<<<<< HEAD
 layout activity_chat
 layout activity_chat_gemini_ai
 layout activity_login
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 layout activity_login_otp
 layout activity_login_phone_number
 layout activity_login_user_name
@@ -4399,11 +4319,8 @@ layout activity_search_user
 layout activity_splash
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
-<<<<<<< HEAD
 layout chat_message_recycler_row
 layout chat_room_gemini_recycler
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -4422,10 +4339,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fastscroll__default_bubble
 layout fragment_chat
-<<<<<<< HEAD
 layout fragment_chat_gemini
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 layout fragment_profile
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
@@ -4500,10 +4414,7 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout profile_pic_view
-<<<<<<< HEAD
 layout recent_chat_recycler_row
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 layout search_user_recycler_row
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -4630,10 +4541,7 @@ string fab_transformation_sheet_behavior
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
-<<<<<<< HEAD
 string fcm_fallback_notification_channel_label
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id

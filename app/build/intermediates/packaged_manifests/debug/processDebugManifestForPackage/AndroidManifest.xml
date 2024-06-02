@@ -10,12 +10,9 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-<<<<<<< HEAD
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
     <permission
@@ -38,7 +35,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyChat" >
         <activity
-<<<<<<< HEAD
             android:name="com.example.mychat.activity.ChatActivity"
             android:exported="false" />
         <activity
@@ -61,24 +57,6 @@
             android:exported="false" />
         <activity
             android:name="com.example.mychat.activity.SplashActivity"
-=======
-            android:name="com.example.mychat.SearchUserActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.mychat.SearchUserActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.mychat.LoginUserNameActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.mychat.LoginOtpActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.mychat.LoginPhoneNumberActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.mychat.SplashActivity"
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -87,11 +65,7 @@
             </intent-filter>
         </activity>
         <activity
-<<<<<<< HEAD
             android:name="com.example.mychat.activity.MainActivity"
-=======
-            android:name="com.example.mychat.MainActivity"
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
             android:exported="false" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
@@ -138,17 +112,16 @@
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
-                android:value="com.google.firebase.components.ComponentRegistrar" />
-            <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-                android:value="com.google.firebase.components.ComponentRegistrar" />
-            <meta-data
-<<<<<<< HEAD
                 android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
@@ -157,26 +130,23 @@
                 android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
-                android:value="com.google.firebase.components.ComponentRegistrar" />
-            <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
-                android:value="com.google.firebase.components.ComponentRegistrar" />
-            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
+                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
-<<<<<<< HEAD
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
@@ -214,9 +184,6 @@
             android:exported="false"
             android:initOrder="100" />
 
-=======
-        </service>
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
         <service
             android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
             android:enabled="true"
@@ -255,15 +222,6 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <provider
-<<<<<<< HEAD
-=======
-            android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.mychat.firebaseinitprovider"
-            android:directBootAware="true"
-            android:exported="false"
-            android:initOrder="100" />
-        <provider
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.mychat.androidx-startup"
             android:exported="false" >
@@ -278,13 +236,6 @@
                 android:value="androidx.startup" />
         </provider>
 
-<<<<<<< HEAD
-=======
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"
             android:directBootAware="false"
@@ -304,7 +255,6 @@
                 <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
             </intent-filter>
         </receiver>
-<<<<<<< HEAD
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -326,8 +276,6 @@
         <receiver
             android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
             android:exported="false" />
-=======
->>>>>>> 2b1a5c34bcf8e8cd6257110f4c26262b290443c6
     </application>
 
 </manifest>
