@@ -1,4 +1,4 @@
-package com.example.mychat;
+package com.example.mychat.activity;
 
 import static android.view.View.VISIBLE;
 
@@ -12,15 +12,12 @@ import android.widget.ProgressBar;
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-import com.example.mychat.model.UserModel;
+import com.example.mychat.R;
+import com.example.mychat.models.User;
 import com.example.mychat.utils.FirebaseUtil;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.Timestamp;
 import com.google.firebase.firestore.DocumentSnapshot;
 
 public class LoginUserNameActivity extends AppCompatActivity {
@@ -29,7 +26,7 @@ public class LoginUserNameActivity extends AppCompatActivity {
     Button letMeInBtn;
     ProgressBar progressBar;
     String phoneNumber;
-    UserModel userModel;
+    User user;
 
 
 
@@ -61,14 +58,14 @@ public class LoginUserNameActivity extends AppCompatActivity {
             return;
         }
 
-        if(userModel!=null){
-            userModel.setUsername(username);
+        if(user !=null){
+            user.setUsername(username);
         }else{
-            userModel = new UserModel(phoneNumber,username);
+            user = new User(phoneNumber,username);
         }
         setInProgress(true);
 
-        FirebaseUtil.currentUserDetails().set(userModel).addOnCompleteListener(new OnCompleteListener<Void>() {
+        FirebaseUtil.currentUserDetails().set(user).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 setInProgress(false);
@@ -89,9 +86,9 @@ public class LoginUserNameActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
                 setInProgress(false);
                 if(task.isSuccessful()){
-                   userModel = task.getResult().toObject(UserModel.class);
-                   if(userModel!=null){
-                       usernameInput.setText(userModel.getUsername());
+                   user = task.getResult().toObject(User.class);
+                   if(user !=null){
+                       usernameInput.setText(user.getUsername());
                    }
                 }
             }

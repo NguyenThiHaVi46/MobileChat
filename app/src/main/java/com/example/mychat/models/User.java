@@ -1,32 +1,26 @@
-package com.example.mychat.model;
+package com.example.mychat.models;
 
 import com.google.firebase.Timestamp;
 
-public class UserModel {
+public class User {
     private String phoneNumber;
     private String username;
     private Timestamp timestamp;
-
-    public UserModel(String phoneNumber, String username, Timestamp timestamp, String userId) {
-        this.phoneNumber = phoneNumber;
-        this.username = username;
-        this.timestamp = timestamp;
-        this.userId = userId;
-    }
-
-    public UserModel(String phoneNumber, String username) {
-        this.phoneNumber = phoneNumber;
-        this.username = username;
-    }
 
     private String userId;
     private String fcmToken;
     private String password;
 
-    public UserModel() {
+    public User() {
 
     }
-
+    public User(String phone, String userName, Timestamp createdTimestamp, String userId, String password) {
+        this.phoneNumber = phone;
+        this.username = userName;
+        this.timestamp = createdTimestamp;
+        this.userId = userId;
+        this.password = password;
+    }
     public String getUserId() {
         return userId;
     }
@@ -52,12 +46,11 @@ public class UserModel {
     }
 
     // Existing constructor
-    public UserModel(String phoneNumber) {
+    public User(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-
-    // New constructor
-    public UserModel(String phoneNumber, String username, Timestamp timestamp) {
+    //
+    public User(String phoneNumber, String username, Timestamp timestamp) {
         this.phoneNumber = phoneNumber;
         this.username = username;
         this.timestamp = timestamp;

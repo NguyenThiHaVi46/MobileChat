@@ -1,4 +1,4 @@
-package com.example.mychat;
+package com.example.mychat.activity;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -9,14 +9,12 @@ import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.mychat.R;
 import com.example.mychat.adapter.SearchUserRecyclerAdapter;
-import com.example.mychat.model.UserModel;
+import com.example.mychat.models.User;
 import com.example.mychat.utils.AndroidUtil;
 import com.example.mychat.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
@@ -123,8 +121,8 @@ public class SearchUserActivity extends AppCompatActivity {
                     .whereLessThanOrEqualTo("userName", searchTerm + '\uf8ff');
         }
 
-        FirestoreRecyclerOptions<UserModel> options = new FirestoreRecyclerOptions.Builder<UserModel>()
-                .setQuery(query, UserModel.class).build();
+        FirestoreRecyclerOptions<User> options = new FirestoreRecyclerOptions.Builder<User>()
+                .setQuery(query, User.class).build();
 
         adapter = new SearchUserRecyclerAdapter(options, getApplicationContext());
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

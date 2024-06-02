@@ -8,10 +8,8 @@ import android.os.Looper;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.mychat.LoginPhoneNumberActivity;
-import com.example.mychat.MainActivity;
 import com.example.mychat.R;
-import com.example.mychat.model.UserModel;
+import com.example.mychat.models.User;
 import com.example.mychat.utils.AndroidUtil;
 import com.example.mychat.utils.FirebaseUtil;
 
@@ -34,7 +32,7 @@ public class SplashActivity extends AppCompatActivity {
                 FirebaseUtil.allUserCollectionReference().document(userId).get()
                         .addOnCompleteListener(task -> {
                             if (task.isSuccessful()) {
-                                UserModel model = task.getResult().toObject(UserModel.class);
+                                User model = task.getResult().toObject(User.class);
 
                                 Intent intent = new Intent(this, ChatActivity.class);
                                 AndroidUtil.passUserModelAsIntent(intent, model);
