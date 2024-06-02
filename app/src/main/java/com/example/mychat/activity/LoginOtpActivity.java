@@ -1,6 +1,7 @@
 package com.example.mychat.activity;
 
-import static android.view.View.VISIBLE;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,11 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import androidx.activity.EdgeToEdge;
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.mychat.R;
 import com.example.mychat.utils.AndroidUtil;
@@ -37,7 +33,6 @@ public class LoginOtpActivity extends AppCompatActivity {
     String verificationCode;
     PhoneAuthProvider.ForceResendingToken resendingToken;
 
-
     EditText otpInput;
     Button nextBtn;
     ProgressBar progressBar;
@@ -47,7 +42,6 @@ public class LoginOtpActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login_otp);
 
         otpInput = findViewById(R.id.login_otp);
@@ -56,13 +50,6 @@ public class LoginOtpActivity extends AppCompatActivity {
         resendOtpTextView = findViewById(R.id.resend_otp_textview);
 
         phoneNumber = getIntent().getExtras().getString("phone");
-
-        if (phoneNumber == null || phoneNumber.isEmpty()) {
-            Toast.makeText(getApplicationContext(), "Phone number is empty", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        Toast.makeText(getApplicationContext(), phoneNumber, Toast.LENGTH_SHORT).show();
 
         sendOtp(phoneNumber, false);
 
@@ -73,11 +60,11 @@ public class LoginOtpActivity extends AppCompatActivity {
 
         });
 
-        resendOtpTextView.setOnClickListener(v -> {
+        resendOtpTextView.setOnClickListener((v) -> {
             sendOtp(phoneNumber, true);
         });
-    }
 
+    }
 
     void sendOtp(String phoneNumber, boolean isResend) {
         startResendTimer();
@@ -109,62 +96,64 @@ public class LoginOtpActivity extends AppCompatActivity {
                                 setInProgress(false);
                             }
                         });
-        if(isResend){
+        if (isResend) {
             PhoneAuthProvider.verifyPhoneNumber(builder.setForceResendingToken(resendingToken).build());
-        }else{
+        } else {
             PhoneAuthProvider.verifyPhoneNumber(builder.build());
         }
-
 
     }
 
     void setInProgress(boolean inProgress) {
         if (inProgress) {
-            progressBar.setVisibility(VISIBLE);
+            progressBar.setVisibility(View.VISIBLE);
             nextBtn.setVisibility(View.GONE);
-        }else{
-                progressBar.setVisibility(View.GONE);
-                nextBtn.setVisibility(VISIBLE);
-            }
+        } else {
+            progressBar.setVisibility(View.GONE);
+            nextBtn.setVisibility(View.VISIBLE);
         }
-
-        void signIn(PhoneAuthCredential phoneAuthCredential){
-        //Login and go to next activity
-            setInProgress(true);
-            mAuth.signInWithCredential(phoneAuthCredential).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                @Override
-                public void onComplete(@NonNull Task<AuthResult> task) {
-                    if(task.isSuccessful()){
-                        Intent intent = new Intent(LoginOtpActivity.this, LoginUserNameActivity.class);
-                        intent.putExtra("phone", phoneNumber);
-                        startActivity(intent);
-
-                    }else{
-                        AndroidUtil.showToast(getApplicationContext(), "OTP verification failed");
-                    }
-                }
-            });
-        }
-
-    void startResendTimer(){
-        resendOtpTextView.setEnabled(false);
-        Timer timer = new Timer();
-        TimerTask timerTask = new TimerTask() {
-            @Override
-            public void run() {
-                runOnUiThread(() -> {
-                    timeoutSeconds--;
-                    resendOtpTextView.setText("Resend OTP in " + timeoutSeconds + " seconds");
-                    if (timeoutSeconds <= 0) {
-                        timeoutSeconds = 60L;
-                        timer.cancel();
-                        resendOtpTextView.setEnabled(true);
-                    }
-                });
-            }
-        };
-        timer.scheduleAtFixedRate(timerTask, 0, 1000);
     }
 
-}
+    void signIn(PhoneAuthCredential phoneAuthCredential) {
+        //login and go to next activity
+        setInProgress(true);
+        mAuth.signInWithCredential(phoneAuthCredential).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                setInProgress(false);
+                if (task.isSuccessful()) {
+                    Intent intent = new Intent(LoginOtpActivity.this, LoginUserNameActivity.class);
+                    String cleanedPhoneNumber = AndroidUtil.formatPhoneNumber(phoneNumber, "VN");
+                    intent.putExtra("phone", cleanedPhoneNumber);
+                    startActivity(intent);
+                } else {
+                    AndroidUtil.showToast(getApplicationContext(), "OTP verification failed");
+                }
+            }
+        });
 
+    }
+
+    void startResendTimer() {
+        resendOtpTextView.setEnabled(false);
+        Timer timer = new Timer();
+
+        timer.scheduleAtFixedRate(new TimerTask() {
+            @Override
+            public void run() {
+                timeoutSeconds--;
+                resendOtpTextView.setText("Resend OTP in " + timeoutSeconds + " seconds");
+
+                if (timeoutSeconds <= 0) {
+                    timeoutSeconds = 60L;
+                    timer.cancel();
+                    runOnUiThread(() -> {
+                        resendOtpTextView.setEnabled(true);
+                    });
+                }
+
+            }
+        }, 0, 1000);
+
+    }
+}

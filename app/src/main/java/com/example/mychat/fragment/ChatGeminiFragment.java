@@ -15,7 +15,9 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.example.mychat.R;
-
+import com.example.mychat.activity.ChatGeminiAiActivity;
+import com.example.mychat.adapter.ChatRoomGeminiAdapter;
+import com.example.mychat.data.repository.ChatRoomGeminiRepository;
 import com.example.mychat.models.ChatRoomGemini;
 
 import java.util.List;

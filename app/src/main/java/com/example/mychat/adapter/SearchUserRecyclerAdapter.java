@@ -2,6 +2,9 @@ package com.example.mychat.adapter;
 
 
 import android.content.Context;
+
+import android.content.Intent;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +16,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.mychat.R;
+
+import com.example.mychat.activity.ChatActivity;
 import com.example.mychat.models.User;
+import com.example.mychat.utils.AndroidUtil;
+
 import com.example.mychat.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
@@ -36,13 +43,13 @@ public class SearchUserRecyclerAdapter extends FirestoreRecyclerAdapter<User, Se
         if(user.getUserId().equals(FirebaseUtil.currentUserId())){
             userModelViewHolder.usernameText.setText(user.getUsername() + "(Me)");
         }
-//
-//        userModelViewHolder.itemView.setOnClickListener(v->{
-//            Intent intent = new Intent(context, ChatActivity.class);
-//            AndroidUtil.passUserModelAsIntent(intent,user);
-//            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//            context.startActivity(intent);
-//        });
+        userModelViewHolder.itemView.setOnClickListener(v->{
+            Intent intent = new Intent(context, ChatActivity.class);
+            AndroidUtil.passUserModelAsIntent(intent,user);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            context.startActivity(intent);
+        });
+
     }
 
     @NonNull

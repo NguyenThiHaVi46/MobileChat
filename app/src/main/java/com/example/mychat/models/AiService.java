@@ -25,7 +25,8 @@ public class AiService {
     private static Map<Long, List<Content>> chatHistories = new HashMap<>();
 
     public static CompletableFuture<String> sendMessageAi(Context context, String message, Bitmap image, long chatRoomId) {
-        GenerativeModel gm = new GenerativeModel("gemini-1.5-flash", "AIzaSyDxT1xOsl_kBJEYWOXxdairtpTL-T35zjg");
+        GenerativeModel gm = new GenerativeModel("gemini-1.5-flash", "AIzaSyCNaCOVQFhuPFCGOuM9lLevLJ-ZRm_kSm0");
+
         GenerativeModelFutures model = GenerativeModelFutures.from(gm);
 
         List<Content> chatHistory = chatHistories.computeIfAbsent(chatRoomId, k -> new ArrayList<>());

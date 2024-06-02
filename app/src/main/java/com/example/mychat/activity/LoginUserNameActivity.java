@@ -1,34 +1,34 @@
 package com.example.mychat.activity;
 
-import static android.view.View.VISIBLE;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.mychat.R;
+import com.example.mychat.data.dataHelper.UserDatabaseHelper;
 import com.example.mychat.models.User;
 import com.example.mychat.utils.FirebaseUtil;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.Timestamp;
 import com.google.firebase.firestore.DocumentSnapshot;
 
 public class LoginUserNameActivity extends AppCompatActivity {
 
-    EditText usernameInput;
+    EditText userNameInput,password,confirmPassword;
     Button letMeInBtn;
     ProgressBar progressBar;
-    String phoneNumber;
     User user;
 
-
+    String phoneNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,72 +36,98 @@ public class LoginUserNameActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login_user_name);
 
-        usernameInput = findViewById(R.id.login_username);
-        letMeInBtn = findViewById(R.id.login_let_me_in_btn);
-        progressBar = findViewById(R.id.login_progress_bar);
 
+        userNameInput = findViewById(R.id.signup_userName);
+        letMeInBtn = findViewById(R.id.signup_letMeIn_btn);
+        progressBar = findViewById(R.id.signup_progress_bar);
         phoneNumber = getIntent().getExtras().getString("phone");
-        getUsername();
+        password = findViewById(R.id.signup_password);
+        confirmPassword = findViewById(R.id.signup_confirm_password);
 
-        letMeInBtn.setOnClickListener((v ->{
-            setUsername();
+        getUserName();
 
-    }));
 
+        letMeInBtn.setOnClickListener((v -> {
+            setUserName();
+        }));
     }
 
-    void setUsername(){
-        setInProgress(true);
-        String username = usernameInput.getText().toString();
-        if(username.isEmpty() || username.length()<3){
-            usernameInput.setError("Username length should be at least 3 chars");
+    void setUserName(){
+
+        String userName = userNameInput.getText().toString();
+        String passWord = password.getText().toString();
+        if(userName.isEmpty()||userName.length()<3){
+            userNameInput.setError("Username length should be at least 3 chars");
             return;
         }
-
-        if(user !=null){
-            user.setUsername(username);
-        }else{
-            user = new User(phoneNumber,username);
+        if (password.equals(confirmPassword)) {
+            UserDatabaseHelper db = new UserDatabaseHelper(this);
+            User user = db.getUser(FirebaseUtil.currentUserId());
+            if (user != null) {
+                user.setPhoneNumber(userName);
+                user.setPhoneNumber(phoneNumber);
+                user.setPassword(passWord);
+                db.updateUser(user);
+            } else {
+                user = new User(phoneNumber, userName, Timestamp.now(), FirebaseUtil.currentUserId(), passWord);
+                db.addUser(user);
+            }
+        } else {
+            Toast.makeText(LoginUserNameActivity.this, "Passwords do not match", Toast.LENGTH_SHORT).show();
+            return;
         }
         setInProgress(true);
+
 
         FirebaseUtil.currentUserDetails().set(user).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 setInProgress(false);
+
                 if(task.isSuccessful()){
-                    Intent intent = new Intent(LoginUserNameActivity.this,MainActivity.class);
-                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    Intent intent  = new Intent(LoginUserNameActivity.this,MainActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);
                 }
             }
         });
-
     }
 
-    void getUsername(){
+    void getUserName(){
         setInProgress(true);
-        FirebaseUtil.currentUserDetails().get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-                setInProgress(false);
-                if(task.isSuccessful()){
-                   user = task.getResult().toObject(User.class);
-                   if(user !=null){
-                       usernameInput.setText(user.getUsername());
-                   }
-                }
-            }
-        });
+        UserDatabaseHelper db = new UserDatabaseHelper(this);
+        User user = db.getUser(FirebaseUtil.currentUserId());
+        userNameInput.setText(user.getUsername());
+        setInProgress(false);
+
     }
+
+//    void getUserName(){
+//        setInProgress(true);
+//        FirebaseUtil.currentUserDetails().get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+//            @Override
+//            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+//                setInProgress(false);
+//                if(task.isSuccessful()){
+//                    user =  task.getResult().toObject(User.class);
+//                   if(user!=null){
+//                       userNameInput.setText(user.getUserName());
+//                   }
+//                }else {
+//
+//                }
+//
+//            }
+//        });
+//    }
 
     void setInProgress(boolean inProgress) {
         if (inProgress) {
-            progressBar.setVisibility(VISIBLE);
+            progressBar.setVisibility(View.VISIBLE);
             letMeInBtn.setVisibility(View.GONE);
-        }else{
+        } else {
             progressBar.setVisibility(View.GONE);
-            letMeInBtn.setVisibility(VISIBLE);
+            letMeInBtn.setVisibility(View.VISIBLE);
         }
     }
 }

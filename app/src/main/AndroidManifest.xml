@@ -15,7 +15,13 @@
 
         >
         <activity
-            android:name=".activity.SearchUserActivity"
+            android:name=".activity.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ChatGeminiAiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".activity.SearchUserActivity"

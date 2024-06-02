@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ChatGeminiAiActivity">
+
+    <RelativeLayout
+        android:id="@+id/Ai_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/my_primary"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/Ai_other_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@+id/Ai_profile_pic_layout"
+            android:text="Gemini AI"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView layout="@layout/profile_pic_view"
+            android:id="@+id/Ai_profile_pic_layout"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_toRightOf="@id/Ai_back_btn"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/google_gemini_icon"
+            />
+        <ImageButton
+            android:id="@+id/Ai_back_btn"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/icon_back"
+            app:tint="@color/white" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Ai_chat_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/Ai_bottom_layout"
+        android:layout_below="@id/Ai_toolbar"
+        android:layout_marginTop="-4dp"
+        android:layout_marginBottom="3dp"
+        tools:ignore="DuplicateIds" />
+
+    <RelativeLayout
+        android:id="@+id/Ai_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/Ai_selected_image_view"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:visibility="gone"
+                    android:layout_gravity="center"/>
+                <ImageButton
+                    android:id="@+id/Ai_show_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/icon_camera"
+                    android:layout_centerInParent="true"
+                    app:tint="@color/my_primary"
+                    android:backgroundTint="@color/white"
+                    />
+            </LinearLayout>
+
+            <EditText
+
+                android:id="@+id/Ai_chat_message_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Write message here"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_text_rounded_corner"
+                android:padding="10dp"
+                android:elevation="4dp"
+                />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/Ai_message_send_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/icon_send"
+            android:layout_centerInParent="true"
+            android:layout_alignParentEnd="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/my_primary"
+            android:padding="8dp"
+            android:layout_marginStart="10dp"/>
+    </RelativeLayout>
+</RelativeLayout>
