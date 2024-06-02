@@ -13,24 +13,24 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.mychat.R;
-import com.example.mychat.model.UserModel;
+import com.example.mychat.models.User;
 import com.example.mychat.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 
 
-public class SearchUserRecyclerAdapter extends FirestoreRecyclerAdapter<UserModel, SearchUserRecyclerAdapter.UserModelViewHolder> {
+public class SearchUserRecyclerAdapter extends FirestoreRecyclerAdapter<User, SearchUserRecyclerAdapter.UserModelViewHolder> {
 
     Context context;
 
-    public SearchUserRecyclerAdapter(@NonNull FirestoreRecyclerOptions<UserModel> options, Context context) {
+    public SearchUserRecyclerAdapter(@NonNull FirestoreRecyclerOptions<User> options, Context context) {
         super(options);
         this.context = context;
     }
 
 
     @Override
-    protected void onBindViewHolder(@NonNull UserModelViewHolder userModelViewHolder, int i, @NonNull UserModel user) {
+    protected void onBindViewHolder(@NonNull UserModelViewHolder userModelViewHolder, int i, @NonNull User user) {
         userModelViewHolder.usernameText.setText(user.getUsername());
         userModelViewHolder.phoneText.setText(user.getPhoneNumber());
         if(user.getUserId().equals(FirebaseUtil.currentUserId())){

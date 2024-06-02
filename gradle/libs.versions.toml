@@ -10,6 +10,7 @@ constraintlayout = "2.1.4"
 googleGmsGoogleServices = "4.4.1"
 firebaseFirestore = "25.0.0"
 googleServices = "4.4.1"
+firebaseMessaging = "24.0.0"
 
 
 [libraries]
@@ -24,7 +25,11 @@ firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore
 google-services = { group = "com.google.gms", name = "google-services", version.ref = "googleServices" }
 libphonenumber = { group = "com.googlecode.libphonenumber", name = "libphonenumber", version = "8.12.30" }
 firebaseui = {group = "com.firebaseui", name = "firebase-ui-firestore",version = "8.0.2"}
-
+glide = {group = "com.github.bumptech.glide",name = "glide",version = "4.16.0"}
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "firebaseMessaging" }
+generativeai = { group = "com.google.ai.client.generativeai", name = "generativeai", version = "0.6.0" }
+guava = { group = "com.google.guava", name = "guava", version = "31.0.1-android" }
+reactive-streams = { group = "org.reactivestreams", name = "reactive-streams", version = "1.0.4" }
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }

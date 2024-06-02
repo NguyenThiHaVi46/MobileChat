@@ -44,8 +44,13 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     implementation(libs.google.services)
     implementation(libs.firebaseui)
-
+    implementation(libs.generativeai)
+    implementation(libs.guava)
+    implementation(libs.reactive.streams)
     implementation(libs.libphonenumber)
+    implementation(libs.glide)
+    implementation(libs.firebase.messaging)
+
     implementation("com.hbb20:ccp:2.5.0")
 
     implementation(platform("com.google.firebase:firebase-bom:33.0.0"))
