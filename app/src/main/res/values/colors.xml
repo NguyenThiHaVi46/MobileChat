@@ -12,6 +12,6 @@
     <color name="my_primary">#D8C414</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
-
-
+    <color name="chat_color_sender">#1E88E5</color>
+    <color name="chat_color_receiver">#7CB342</color>
 </resources>
