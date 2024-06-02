@@ -11,21 +11,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyChat"
-        tools:targetApi="31">
+        tools:targetApi="31"
+
+        >
         <activity
-            android:name=".SearchUserActivity"
+            android:name=".activity.SearchUserActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginUserNameActivity"
+            android:name=".activity.SearchUserActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginOtpActivity"
+            android:name=".activity.LoginUserNameActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginPhoneNumberActivity"
+            android:name=".activity.LoginOtpActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".activity.LoginPhoneNumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,7 +39,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="false" />
     </application>
 
