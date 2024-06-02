@@ -25,7 +25,7 @@ public class ChatRoomGeminiAdapter extends RecyclerView.Adapter<ChatRoomGeminiAd
     private OnEditNameClickListener editListener;
     private OnDeleteRoomClickListener deleteListener;
 
-    public ChatRoomGeminiAdapter(Context context, List<ChatRoomGemini> chatRooms, OnChatRoomClickListener listener,
+    public ChatRoomGeminiAdapter(@NonNull Context context, List<ChatRoomGemini> chatRooms, OnChatRoomClickListener listener,
                                  OnEditNameClickListener editListener, OnDeleteRoomClickListener deleteListener) {
         this.context = context;
         this.chatRooms = chatRooms;

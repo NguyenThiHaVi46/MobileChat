@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mychat.app-mergeDebugResources-40:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.example.mychat.app-mergeDebugResources-42:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\f9ccbe2e5f040baeaf12f5a40f080bf7\\transformed\\core-1.13.0\\res\\values-en-rIN\\values-en-rIN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,151,253,352,451,555,658,774",
-                        "endColumns": "95,101,98,98,103,102,115,100",
-                        "endOffsets": "146,248,347,446,550,653,769,870"
-                    },
-                    "to": {
-                        "startLines": "31,32,33,34,35,36,37,43",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "2988,3084,3186,3285,3384,3488,3591,4193",
-                        "endColumns": "95,101,98,98,103,102,115,100",
-                        "endOffsets": "3079,3181,3280,3379,3483,3586,3702,4289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\ea6e6b111741c362c909d7c9b46f494c\\transformed\\browser-1.4.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\9dac23913d8c7f214e0536d073919724\\transformed\\browser-1.4.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\19b4975691f3a890dc8b17919fdea21a\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\52455b6be3c6f32cf830ef283835b12b\\transformed\\core-1.13.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,352,451,555,658,774",
+                        "endColumns": "95,101,98,98,103,102,115,100",
+                        "endOffsets": "146,248,347,446,550,653,769,870"
+                    },
+                    "to": {
+                        "startLines": "31,32,33,34,35,36,37,43",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "2988,3084,3186,3285,3384,3488,3591,4193",
+                        "endColumns": "95,101,98,98,103,102,115,100",
+                        "endOffsets": "3079,3181,3280,3379,3483,3586,3702,4289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\49bc96868a0b124c4bf886bf32d371c2\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\655476e5c9e899200c7ed1e9bf4d06dc\\transformed\\appcompat-1.6.1\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\8badd4877e19174b329f535605d31a7b\\transformed\\appcompat-1.6.1\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

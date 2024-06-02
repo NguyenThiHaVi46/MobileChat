@@ -11,6 +11,8 @@ googleGmsGoogleServices = "4.4.1"
 firebaseFirestore = "25.0.0"
 googleServices = "4.4.1"
 firebaseMessaging = "24.0.0"
+googleServicesVersion = "4.4.2"
+firebaseStorage = "21.0.0"
 
 
 [libraries]
@@ -30,6 +32,8 @@ firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging
 generativeai = { group = "com.google.ai.client.generativeai", name = "generativeai", version = "0.6.0" }
 guava = { group = "com.google.guava", name = "guava", version = "31.0.1-android" }
 reactive-streams = { group = "org.reactivestreams", name = "reactive-streams", version = "1.0.4" }
+gms-google-services = { group = "com.google.gms", name = "google-services", version.ref = "googleServicesVersion" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }

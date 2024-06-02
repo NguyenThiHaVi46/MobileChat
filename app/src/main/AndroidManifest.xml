@@ -11,11 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyChat"
-        tools:targetApi="31"
-
-        >
+        tools:targetApi="31">
         <activity
-            android:name=".activity.SearchUserActivity"
+            android:name=".activity.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ChatGeminiAiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".activity.SearchUserActivity"

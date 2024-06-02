@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mychat.app-mergeDebugResources-40:/values-land/values-land.xml",
+            "outputFile": "com.example.mychat.app-mergeDebugResources-42:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\f3842dbc06d7e03acfa1958c3d629d69\\transformed\\material-1.12.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\e0396a765cc9f62ed9e7ed7522b5a176\\transformed\\material-1.12.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,35,40",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\655476e5c9e899200c7ed1e9bf4d06dc\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\8badd4877e19174b329f535605d31a7b\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
