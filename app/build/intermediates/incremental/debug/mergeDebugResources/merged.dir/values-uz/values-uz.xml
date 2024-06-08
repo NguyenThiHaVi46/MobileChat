@@ -31,6 +31,7 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Ulashish"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> orqali ulashish"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Yig‘ish"</string>
+    <string name="action_cancel">Bekor qilish</string>
     <string msgid="8397015543330865059" name="android.credentials.TYPE_PASSWORD_CREDENTIAL">"Parol"</string>
     <string msgid="3929015085059320822" name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">"Kod"</string>
     <string name="bottomsheet_action_collapse">Quyi ekranni yigʻish</string>
@@ -68,7 +69,13 @@
     <string name="common_signin_button_text_long">Google orqali kirish</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"Havoladan vaqtinchalik xotiraga nusxa olindi"</string>
     <string name="error_a11y_label">Xato: yaroqsiz</string>
+    <string name="error_camera_app_not_found">Kamera uchun dastur topilmadi</string>
+    <string name="error_failed_pick_gallery_image">Galereyadan rasm tanlashda xatolik yuz berdi</string>
+    <string name="error_failed_to_compress_image">Rasmni zichlashda xatolik yuz berdi</string>
+    <string name="error_failed_to_create_camera_image_file">Kamera rasm fayli yaratishda xatolik yuz berdi</string>
+    <string name="error_failed_to_crop_image">Rasmni kesishda xatolik yuz berdi</string>
     <string name="error_icon_content_description">Xato</string>
+    <string name="error_task_cancelled">Vazifa bekor qilindi</string>
     <string name="exposed_dropdown_menu_content_description">Pastga ochiluvchi menyuni ochish</string>
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Havoladan nusxa olish"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Brauzerda ochish"</string>
@@ -134,9 +141,20 @@
     <string name="mtrl_timepicker_cancel">Bekor qilish</string>
     <string name="mtrl_timepicker_confirm">OK</string>
     <string name="password_toggle_content_description">Parol ochiq tursin</string>
+    <string name="permission_camera_denied">
+        <![CDATA[Rasmga olish uchun kameradan foydalanishga ruhsat berilishi kerak. Iltimos sozlamalardan ushbu ruhsatni amalga oshiring Sozlamalar > Ruhsatlar.]]></string>
     <string msgid="6264217191555673260" name="search_menu_title">"Qidiruv"</string>
     <string name="searchview_clear_text_content_description">Matnni tozalash</string>
     <string name="searchview_navigation_content_description">Orqaga</string>
     <string name="side_sheet_accessibility_pane_title">Yon varaq</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="title_camera">Kamera</string>
+    <string name="title_choose_image_provider">Tanlang</string>
+    <string name="title_gallery">Galereya</string>
+    <string name="ucrop_crop">Kesish</string>
+    <string name="ucrop_label_edit_photo">Rasmni o\'zgartirish</string>
+    <string name="ucrop_label_original">Original</string>
+    <string name="ucrop_menu_crop">Kesish</string>
+    <string name="ucrop_rotate">Aylantirish</string>
+    <string name="ucrop_scale">O\'lcham</string>
 </resources>

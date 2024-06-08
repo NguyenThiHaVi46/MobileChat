@@ -88,6 +88,7 @@ id login_otp
 id login_password
 id login_phone
 id login_progress_bar
+id logout_btn
 id main
 id main_frameLayout
 id main_search_btn
@@ -98,8 +99,13 @@ id menu_profile
 id message_send_btn
 id other_username
 id phone_text
+id profile_image_view
+id profile_phone
 id profile_pic_image_view
 id profile_pic_layout
+id profile_progress_bar
+id profile_update_btn
+id profile_username
 id recycler_view
 id resend_otp_textview
 id right_chat_fileView
