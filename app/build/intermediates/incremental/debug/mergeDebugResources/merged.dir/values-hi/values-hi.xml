@@ -31,6 +31,7 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"इससे शेयर करें:"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> से शेयर करें"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"छोटा करें"</string>
+    <string name="action_cancel">रद्द करें</string>
     <string msgid="8397015543330865059" name="android.credentials.TYPE_PASSWORD_CREDENTIAL">"पासवर्ड"</string>
     <string msgid="3929015085059320822" name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">"पासकी"</string>
     <string name="bottomsheet_action_collapse">बॉटम शीट को छोटा करें</string>
@@ -68,7 +69,13 @@
     <string name="common_signin_button_text_long">Google के ज़रिए साइन इन करें</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"लिंक क्लिपबोर्ड पर कॉपी किया गया"</string>
     <string name="error_a11y_label">गड़बड़ी: यह अमान्य है</string>
+    <string name="error_camera_app_not_found">कैमरा ऐप नहीं मिला</string>
+    <string name="error_failed_pick_gallery_image">गैलरी की तस्वीर लेने में विफल</string>
+    <string name="error_failed_to_compress_image">छवि को संपीड़ित करने में विफल</string>
+    <string name="error_failed_to_create_camera_image_file">कैमरा चित्र बनाने में विफल</string>
+    <string name="error_failed_to_crop_image">चित्र को काटना में विफल</string>
     <string name="error_icon_content_description">गड़बड़ी</string>
+    <string name="error_task_cancelled">कार्य रद्द कर दिया गया</string>
     <string name="exposed_dropdown_menu_content_description">ड्रॉपडाउन मेन्यू दिखाएं</string>
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"लिंक कॉपी करें"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ब्राउज़र में खोलें"</string>
@@ -134,9 +141,20 @@
     <string name="mtrl_timepicker_cancel">रद्द करें</string>
     <string name="mtrl_timepicker_confirm">ठीक है</string>
     <string name="password_toggle_content_description">पासवर्ड दिखाएं</string>
+    <string name="permission_camera_denied">
+        <![CDATA[चित्र लेने के लिए संग्रहण अनुमति की आवश्यकता होती है। कृपया सेटिंग्स> अनुमतियों से भंडारण की अनुमति दें।]]></string>
     <string msgid="6264217191555673260" name="search_menu_title">"खोजें"</string>
     <string name="searchview_clear_text_content_description">टेक्स्ट मिटाएं</string>
     <string name="searchview_navigation_content_description">वापस जाएं</string>
     <string name="side_sheet_accessibility_pane_title">साइड शीट</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="title_camera">कैमरा</string>
+    <string name="title_choose_image_provider">चुनें</string>
+    <string name="title_gallery">गेलरी</string>
+    <string name="ucrop_crop">काटना</string>
+    <string name="ucrop_label_edit_photo">फ़ोटो संपादित करें</string>
+    <string name="ucrop_label_original">मूल</string>
+    <string name="ucrop_menu_crop">काटना</string>
+    <string name="ucrop_rotate">घुमाएँ</string>
+    <string name="ucrop_scale">स्केल</string>
 </resources>

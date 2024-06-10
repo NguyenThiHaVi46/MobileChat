@@ -31,6 +31,7 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"આની સાથે શેર કરો"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>ની સાથે શેર કરો"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"સંકુચિત કરો"</string>
+    <string name="action_cancel">રદ કરો</string>
     <string msgid="8397015543330865059" name="android.credentials.TYPE_PASSWORD_CREDENTIAL">"પાસવર્ડ"</string>
     <string msgid="3929015085059320822" name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">"પાસકી"</string>
     <string name="bottomsheet_action_collapse">બોટમ શીટ નાની કરો</string>
@@ -68,7 +69,13 @@
     <string name="common_signin_button_text_long">Google માં સાઇન ઇન કરો</string>
     <string msgid="3260749812566568062" name="copy_toast_msg">"ક્લિપબોર્ડ પર લિંક કૉપિ કરી"</string>
     <string name="error_a11y_label">ભૂલ: અમાન્ય</string>
+    <string name="error_camera_app_not_found">કૅમેરા એપ્લિકેશન મળી નથી</string>
+    <string name="error_failed_pick_gallery_image">ગેલેરી છબી પસંદ કરવામાં નિષ્ફળ</string>
+    <string name="error_failed_to_compress_image">છબીને સંકુચિત કરવામાં નિષ્ફળ</string>
+    <string name="error_failed_to_create_camera_image_file">કૅમેરા છબી ફાઇલ બનાવવામાં નિષ્ફળ</string>
+    <string name="error_failed_to_crop_image">છબી કાપવામાં નિષ્ફળ</string>
     <string name="error_icon_content_description">ભૂલ</string>
+    <string name="error_task_cancelled">કાર્ય રદ કરવામાં આવ્યું છે</string>
     <string name="exposed_dropdown_menu_content_description">ડ્રૉપડાઉન મેનૂ બતાવો</string>
     <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"લિંક કૉપિ કરો"</string>
     <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"બ્રાઉઝરમાં ખોલો"</string>
@@ -134,9 +141,20 @@
     <string name="mtrl_timepicker_cancel">રદ કરો</string>
     <string name="mtrl_timepicker_confirm">ઓકે</string>
     <string name="password_toggle_content_description">પાસવર્ડ બતાવો</string>
+    <string name="permission_camera_denied">
+        <![CDATA[ચિત્ર લેવા માટે સ્ટોરેજ પરવાનગીની જરૂર છે. કૃપા કરીને સેટિંગ્સ>પરવાનગીથી સ્ટોરેજ પરવાનગીની મંજૂરી આપો.]]></string>
     <string msgid="6264217191555673260" name="search_menu_title">"શોધો"</string>
     <string name="searchview_clear_text_content_description">ટેક્સ્ટ સાફ કરો</string>
     <string name="searchview_navigation_content_description">પાછળ</string>
     <string name="side_sheet_accessibility_pane_title">સાઇડ શીટ</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="title_camera">કૅમેરા</string>
+    <string name="title_choose_image_provider">પસંદ કરો</string>
+    <string name="title_gallery">ગેલેરી</string>
+    <string name="ucrop_crop">કાપો</string>
+    <string name="ucrop_label_edit_photo">ફોટો સંપાદિત કરો</string>
+    <string name="ucrop_label_original">અસલ</string>
+    <string name="ucrop_menu_crop">કાપો</string>
+    <string name="ucrop_rotate">ફેરવો</string>
+    <string name="ucrop_scale">સ્કેલ</string>
 </resources>
