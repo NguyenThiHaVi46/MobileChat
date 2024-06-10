@@ -120,14 +120,15 @@ public class SearchUserActivity extends AppCompatActivity {
                     .whereGreaterThanOrEqualTo("username", searchTerm)
                     .whereLessThanOrEqualTo("username", searchTerm + '\uf8ff');
 
-            FirestoreRecyclerOptions<User> options = new FirestoreRecyclerOptions.Builder<User>()
-                    .setQuery(query, User.class).build();
-
-            adapter = new SearchUserRecyclerAdapter(options, getApplicationContext());
-            recyclerView.setLayoutManager(new LinearLayoutManager(this));
-            recyclerView.setAdapter(adapter);
-            adapter.startListening();
         }
+
+        FirestoreRecyclerOptions<User> options = new FirestoreRecyclerOptions.Builder<User>()
+                .setQuery(query, User.class).build();
+
+        adapter = new SearchUserRecyclerAdapter(options, getApplicationContext());
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setAdapter(adapter);
+        adapter.startListening();
 
 
     }

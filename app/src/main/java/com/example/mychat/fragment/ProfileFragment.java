@@ -102,6 +102,7 @@ public class ProfileFragment extends Fragment {
         }
         currentUserModel.setUsername(newUsername);
         setInProgress(true);
+
         if (selectedImageUri!=null){
             FirebaseUtil.getCurrentProfilePicStorageRef().putFile(selectedImageUri)
                     .addOnCompleteListener(task -> {
@@ -128,6 +129,15 @@ public class ProfileFragment extends Fragment {
 
     void getUserData() {
         setInProgress(true);
+
+        FirebaseUtil.getCurrentProfilePicStorageRef().getDownloadUrl()
+                        .addOnCompleteListener(task -> {
+                            if (task.isSuccessful()){
+                                Uri uri = task.getResult();
+                                AndroidUtil.setProfilePic(getContext(),uri,profilePic);
+                            }
+                        });
+
         FirebaseUtil.currentUserDetails().get().addOnCompleteListener(task -> {
             currentUserModel = task.getResult().toObject(User.class);
             setInProgress(false);

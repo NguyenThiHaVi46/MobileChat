@@ -118,13 +118,13 @@ public class ChatActivity extends AppCompatActivity {
         buttonCamera.setOnClickListener(v -> openFileChooser(PICK_IMAGE_VIDEO_REQUEST));
         buttonFile.setOnClickListener(v -> openFileChooser(PICK_FILE_REQUEST));
 
-//        FirebaseUtil.getOtherProfilePicStorageRef(otherUser.getUserId()).getDownloadUrl()
-//                .addOnCompleteListener(t -> {
-//                    if (t.isSuccessful()) {
-//                        Uri uri = t.getResult();
-//                        AndroidUtil.setProfilePic(this, uri, imageViewPic);
-//                    }
-//                });
+        FirebaseUtil.getOtherProfilePicStorageRef(otherUser.getUserId()).getDownloadUrl()
+                .addOnCompleteListener(t -> {
+                    if (t.isSuccessful()) {
+                        Uri uri = t.getResult();
+                        AndroidUtil.setProfilePic(this, uri, imageViewPic);
+                    }
+                });
 
         backBtn.setOnClickListener((v) -> {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
