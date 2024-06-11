@@ -74,17 +74,17 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
-//        getFCMToken();
+        getFCMToken();
     }
 
 
-//    void getFCMToken(){
-//        FirebaseMessaging.getInstance().getToken().addOnCompleteListener(task -> {
-//            if(task.isSuccessful()){
-//                String token = task.getResult();
-//                FirebaseUtil.currentUserDetails().update("fcmToken",token);
-//
-//            }
-//        });
-//    }
+    void getFCMToken(){
+        FirebaseMessaging.getInstance().getToken().addOnCompleteListener(task -> {
+            if(task.isSuccessful()){
+                String token = task.getResult();
+                FirebaseUtil.currentUserDetails().update("fcmToken",token);
+
+            }
+        });
+   }
 }

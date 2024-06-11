@@ -63,7 +63,7 @@ public class ChatActivity extends AppCompatActivity {
     ImageButton sendMessageBtn, backBtn,showImageBtn,buttonCamera,buttonFile;
     TextView otherUserName;
     RecyclerView recyclerView;
-    ImageView imageViewPic;
+    ImageView imageView;
 
     LinearLayout hiddenButtons;
 
@@ -84,13 +84,19 @@ public class ChatActivity extends AppCompatActivity {
         backBtn = findViewById(R.id.back_btn);
         otherUserName = findViewById(R.id.other_username);
         recyclerView = findViewById(R.id.chat_RecyclerView);
-        imageViewPic = findViewById(R.id.profile_pic_image_view);
+        imageView = findViewById(R.id.profile_pic_image_view);
 
         showImageBtn = findViewById(R.id.show_image);
         hiddenButtons = findViewById(R.id.hidden_buttons);
         buttonCamera = findViewById(R.id.button_camera);
         buttonFile = findViewById(R.id.button_file);
-
+        FirebaseUtil.getOtherProfilePicStorageRef(otherUser.getUserId()).getDownloadUrl()
+                .addOnCompleteListener(t -> {
+                    if (t.isSuccessful()) {
+                        Uri uri = t.getResult();
+                        AndroidUtil.setProfilePic(this, uri, imageView);
+                    }
+                });
         showImageBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -118,13 +124,7 @@ public class ChatActivity extends AppCompatActivity {
         buttonCamera.setOnClickListener(v -> openFileChooser(PICK_IMAGE_VIDEO_REQUEST));
         buttonFile.setOnClickListener(v -> openFileChooser(PICK_FILE_REQUEST));
 
-        FirebaseUtil.getOtherProfilePicStorageRef(otherUser.getUserId()).getDownloadUrl()
-                .addOnCompleteListener(t -> {
-                    if (t.isSuccessful()) {
-                        Uri uri = t.getResult();
-                        AndroidUtil.setProfilePic(this, uri, imageViewPic);
-                    }
-                });
+
 
         backBtn.setOnClickListener((v) -> {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));

@@ -47,12 +47,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyChat" >
         <activity
-            android:name="com.example.mychat.ProfileFragment"
-            android:exported="false" />
-        <activity
-            android:name="com.example.mychat.activity.ProfileFragment"
-            android:exported="false" />
-        <activity
             android:name="com.example.mychat.activity.ChatActivity"
             android:exported="false" />
         <activity
@@ -85,6 +79,15 @@
         <activity
             android:name="com.example.mychat.activity.MainActivity"
             android:exported="false" />
+
+        <service
+            android:name="com.example.mychat.activity.FCMNotificationService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
         <activity
             android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
             android:screenOrientation="unspecified"

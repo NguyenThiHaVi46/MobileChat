@@ -199,82 +199,82 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\AC
 		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:13:9-44
 	android:dataExtractionRules
 		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.mychat.ProfileFragment
-ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:15:9-17:40
-	android:exported
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:17:13-37
-	android:name
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:16:13-44
-activity#com.example.mychat.activity.ProfileFragment
-ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:18:9-20:40
-	android:exported
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:20:13-37
-	android:name
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:19:13-53
 activity#com.example.mychat.activity.ChatActivity
-ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:21:9-23:40
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:16:9-18:40
 	android:exported
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:22:13-50
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:17:13-50
 activity#com.example.mychat.activity.ChatGeminiAiActivity
-ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:24:9-26:40
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:25:13-58
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:20:13-58
 activity#com.example.mychat.activity.LoginActivity
-ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:27:9-29:40
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:22:9-24:40
 	android:exported
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:29:13-37
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:28:13-51
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:23:13-51
 activity#com.example.mychat.activity.SearchUserActivity
-ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:30:9-32:40
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:32:13-37
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:31:13-56
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:26:13-56
 activity#com.example.mychat.activity.LoginUserNameActivity
-ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:33:9-35:40
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:28:9-30:40
 	android:exported
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:34:13-59
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:29:13-59
 activity#com.example.mychat.activity.LoginOtpActivity
-ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:36:9-38:40
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:31:9-33:40
 	android:exported
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:38:13-37
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:37:13-54
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:32:13-54
 activity#com.example.mychat.activity.LoginPhoneNumberActivity
-ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:39:9-41:40
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:34:9-36:40
 	android:exported
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:41:13-37
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:40:13-62
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:35:13-62
 activity#com.example.mychat.activity.SplashActivity
-ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:42:9-50:20
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:37:9-45:20
 	android:exported
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:44:13-36
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:39:13-36
 	android:name
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:43:13-52
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:38:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:45:13-49:29
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:40:13-44:29
 action#android.intent.action.MAIN
-ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:46:17-69
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:46:25-66
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:48:17-77
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:43:17-77
 	android:name
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:48:27-74
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:43:27-74
 activity#com.example.mychat.activity.MainActivity
-ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:51:9-53:40
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:46:9-48:40
 	android:exported
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:53:13-37
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:48:13-37
 	android:name
-		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:52:13-50
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:47:13-50
+service#com.example.mychat.activity.FCMNotificationService
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:49:9-53:19
+	android:exported
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:49:66-90
+	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:49:18-65
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:50:13-52:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:51:25-75
 uses-sdk
 INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml
@@ -691,14 +691,6 @@ ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\
 		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:48:13-43
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:47:13-82
-intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:50:13-52:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:50:28-51
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:51:17-78
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:51:25-75
 meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
 ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:57:13-59:85
 	android:value
