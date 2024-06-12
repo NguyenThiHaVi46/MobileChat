@@ -16,6 +16,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.mychat.R;
+import com.example.mychat.data.repository.UserRepository;
 import com.example.mychat.models.User;
 import com.example.mychat.utils.FirebaseUtil;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -29,7 +30,7 @@ public class LoginUserNameActivity extends AppCompatActivity {
     Button letMeInBtn;
     ProgressBar progressBar;
     User user;
-
+    UserRepository userRepository;
     String phoneNumber;
 
     @Override
@@ -68,16 +69,15 @@ public class LoginUserNameActivity extends AppCompatActivity {
             return;
         }
         if (passWord.equals(confirmPassWord)) {
-//            UserDatabaseHelper db = new UserDatabaseHelper(this);
-//            User user = db.getUser(FirebaseUtil.currentUserId());
+
             if (user != null) {
                 user.setPhoneNumber(userName);
                 user.setPhoneNumber(phoneNumber);
                 user.setPassword(passWord);
-//                db.updateUser(user);
+                userRepository.updateUser(user);
             } else {
                 user = new User(phoneNumber, userName, Timestamp.now(), FirebaseUtil.currentUserId(), passWord);
-//                db.addUser(user);
+                userRepository.saveUser(user);
             }
         } else {
             Toast.makeText(LoginUserNameActivity.this, "Passwords do not match", Toast.LENGTH_SHORT).show();
@@ -100,14 +100,6 @@ public class LoginUserNameActivity extends AppCompatActivity {
         });
     }
 
-//    void getUserName(){
-//        setInProgress(true);
-//        UserDatabaseHelper db = new UserDatabaseHelper(this);
-//        User user = db.getUser(FirebaseUtil.currentUserId());
-//        userNameInput.setText(user.getUsername());
-//        setInProgress(false);
-//
-//    }
 
     void getUserName(){
         setInProgress(true);
