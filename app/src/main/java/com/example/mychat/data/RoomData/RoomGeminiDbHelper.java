@@ -1,8 +1,7 @@
-package com.example.mychat.data.dataHelper;
+package com.example.mychat.data.RoomData;
 
 
 import android.content.Context;
-import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 

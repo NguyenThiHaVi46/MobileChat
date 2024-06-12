@@ -76,6 +76,7 @@ MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\hung
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\hungn\.gradle\caches\transforms-4\a417a0aa6e178ecf874792a98f43cdae\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.9.0] C:\Users\hungn\.gradle\caches\transforms-4\fa8e1ff8fa9770337b21c311c792af31\transformed\jetified-activity-1.9.0\AndroidManifest.xml:17:1-22:12
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\hungn\.gradle\caches\transforms-4\f91aae4a25193de64e61b2af235d2d2f\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\hungn\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:15:1-31:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\b56eaafea76ba2ba9d01edc668159dd3\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
@@ -88,10 +89,12 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\hungn\.gradle
 MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\hungn\.gradle\caches\transforms-4\1f927c0de2492c2dc4916bef4c7d94b8\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\079d26c2d1f330b324ab3c480f8f0a0f\transformed\jetified-firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
 MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\hungn\.gradle\caches\transforms-4\dfc21bef885babc7eb888510024e011a\transformed\jetified-transport-api-3.1.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hungn\.gradle\caches\transforms-4\36fa8c10b14fb60f40db568e6a88836a\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\hungn\.gradle\caches\transforms-4\106c9471ae8621700fa9ce98d164c678\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\hungn\.gradle\caches\transforms-4\f124fd22fde729dea43f1359615cea24\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hungn\.gradle\caches\transforms-4\af5f978e2057c304dabf31f454f9bc28\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hungn\.gradle\caches\transforms-4\b577ff4d64bacd04270e623dbc007c89\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hungn\.gradle\caches\transforms-4\982f287c61cfeb0830ed26f24ff5cf7d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hungn\.gradle\caches\transforms-4\36fa8c10b14fb60f40db568e6a88836a\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hungn\.gradle\caches\transforms-4\e69a7ec78ee3ba1efe9459783ccb2941\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\hungn\.gradle\caches\transforms-4\d54bdd12c63123e15fa0a6cd6a0faf07\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\hungn\.gradle\caches\transforms-4\d17b8c1ebb61c504eb11471acf294ab1\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:2:1-7:12
@@ -163,6 +166,8 @@ MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\hungn\.
 MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\hungn\.gradle\caches\transforms-4\8034b04bcc7106d66f1467eb0078318c\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\hungn\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\hungn\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
 MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\hungn\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:21:5-29:19
 MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\hungn\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:21:5-29:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:27:5-35:19
@@ -407,6 +412,8 @@ MERGED from [androidx.activity:activity:1.9.0] C:\Users\hungn\.gradle\caches\tra
 MERGED from [androidx.activity:activity:1.9.0] C:\Users\hungn\.gradle\caches\transforms-4\fa8e1ff8fa9770337b21c311c792af31\transformed\jetified-activity-1.9.0\AndroidManifest.xml:20:5-44
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\hungn\.gradle\caches\transforms-4\f91aae4a25193de64e61b2af235d2d2f\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:5:5-44
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\hungn\.gradle\caches\transforms-4\f91aae4a25193de64e61b2af235d2d2f\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\hungn\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\hungn\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:18:5-20:41
@@ -431,14 +438,18 @@ MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\hungn\.gra
 MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\079d26c2d1f330b324ab3c480f8f0a0f\transformed\jetified-firebase-components-18.0.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\hungn\.gradle\caches\transforms-4\dfc21bef885babc7eb888510024e011a\transformed\jetified-transport-api-3.1.0\AndroidManifest.xml:18:5-44
 MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\hungn\.gradle\caches\transforms-4\dfc21bef885babc7eb888510024e011a\transformed\jetified-transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hungn\.gradle\caches\transforms-4\36fa8c10b14fb60f40db568e6a88836a\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hungn\.gradle\caches\transforms-4\36fa8c10b14fb60f40db568e6a88836a\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\hungn\.gradle\caches\transforms-4\106c9471ae8621700fa9ce98d164c678\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\hungn\.gradle\caches\transforms-4\106c9471ae8621700fa9ce98d164c678\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\hungn\.gradle\caches\transforms-4\f124fd22fde729dea43f1359615cea24\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\hungn\.gradle\caches\transforms-4\f124fd22fde729dea43f1359615cea24\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hungn\.gradle\caches\transforms-4\af5f978e2057c304dabf31f454f9bc28\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hungn\.gradle\caches\transforms-4\af5f978e2057c304dabf31f454f9bc28\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hungn\.gradle\caches\transforms-4\b577ff4d64bacd04270e623dbc007c89\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hungn\.gradle\caches\transforms-4\b577ff4d64bacd04270e623dbc007c89\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hungn\.gradle\caches\transforms-4\982f287c61cfeb0830ed26f24ff5cf7d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hungn\.gradle\caches\transforms-4\982f287c61cfeb0830ed26f24ff5cf7d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hungn\.gradle\caches\transforms-4\36fa8c10b14fb60f40db568e6a88836a\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\hungn\.gradle\caches\transforms-4\36fa8c10b14fb60f40db568e6a88836a\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hungn\.gradle\caches\transforms-4\e69a7ec78ee3ba1efe9459783ccb2941\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hungn\.gradle\caches\transforms-4\e69a7ec78ee3ba1efe9459783ccb2941\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\hungn\.gradle\caches\transforms-4\d54bdd12c63123e15fa0a6cd6a0faf07\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
@@ -875,6 +886,16 @@ ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\hungn
 		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\hungn\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\hungn\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
 meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
 ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\hungn\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
 	android:value

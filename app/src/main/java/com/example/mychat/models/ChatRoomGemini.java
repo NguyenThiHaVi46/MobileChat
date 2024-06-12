@@ -1,12 +1,20 @@
 package com.example.mychat.models;
 
 
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
+@Entity(tableName = "chatRoomGemini")
 public class ChatRoomGemini {
-    private  long id;
+
+    @PrimaryKey(autoGenerate = true)
+
+
+    private long id;
+
     private String name;
 
-    public ChatRoomGemini(long id, String name) {
-        this.id = id;
+    public ChatRoomGemini(String name) {
         this.name = name;
     }
 

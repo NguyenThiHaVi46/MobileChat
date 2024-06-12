@@ -7,7 +7,6 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,8 +17,13 @@ import com.example.mychat.R;
 import com.example.mychat.activity.ChatGeminiAiActivity;
 import com.example.mychat.adapter.ChatRoomGeminiAdapter;
 import com.example.mychat.data.repository.ChatRoomGeminiRepository;
+import com.example.mychat.data.repository.MessageGeminiRepository;
 import com.example.mychat.models.ChatRoomGemini;
+import com.example.mychat.models.MessageAi;
+import com.example.mychat.models.AiService;
+import com.google.ai.client.generativeai.type.Content;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ChatGeminiFragment extends Fragment {
@@ -28,6 +32,7 @@ public class ChatGeminiFragment extends Fragment {
     private ChatRoomGeminiAdapter adapter;
     private List<ChatRoomGemini> chatRoomList;
     private ChatRoomGeminiRepository chatRoomRepository;
+    private MessageGeminiRepository messageRepository;
     Button newChat;
 
     public ChatGeminiFragment() {
@@ -67,6 +72,21 @@ public class ChatGeminiFragment extends Fragment {
 
         adapter = new ChatRoomGeminiAdapter(getContext(), chatRoomList,
                 chatRoomId -> {
+                    // Load chat history from Room database and initialize chatHistories
+                    messageRepository = new MessageGeminiRepository(getContext(), chatRoomId);
+                    List<MessageAi> messages = messageRepository.getAllMessages(chatRoomId);
+                    List<Content> chatHistory = new ArrayList<>();
+                    for (MessageAi message : messages) {
+                        Content.Builder builder = new Content.Builder();
+                        builder.setRole(message.isSentByUser() ? "user" : "model");
+                        builder.addText(message.getText());
+                        if (message.getImage() != null) {
+                            builder.addImage(message.getImage());
+                        }
+                        chatHistory.add(builder.build());
+                    }
+                    AiService.setChatHistory(chatRoomId, chatHistory);
+
                     Intent intent = new Intent(getContext(), ChatGeminiAiActivity.class);
                     intent.putExtra("ROOM_ID", chatRoomId);
                     startActivity(intent);
@@ -78,7 +98,6 @@ public class ChatGeminiFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setAdapter(adapter);
     }
-
 
     private void showEditNameDialog(ChatRoomGemini chatRoom) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getContext());

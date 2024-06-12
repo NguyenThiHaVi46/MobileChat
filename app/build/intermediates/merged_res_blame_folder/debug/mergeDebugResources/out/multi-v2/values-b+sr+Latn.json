@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mychat.app-mergeDebugResources-42:/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "com.example.mychat.app-mergeDebugResources-45:/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\f86fe748db0f79cf279e281f78a703b3\\transformed\\browser-1.4.0\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",

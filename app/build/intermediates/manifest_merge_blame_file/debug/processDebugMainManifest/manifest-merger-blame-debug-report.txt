@@ -486,34 +486,42 @@
 261-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\hungn\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
 262
 263        <service
-263-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
-264            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-264-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
-265            android:exported="false" >
-265-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
-266            <meta-data
-266-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
-267                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-267-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
-268                android:value="cct" />
-268-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
-269        </service>
-270        <service
-270-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
-271            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-271-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
-272            android:exported="false"
-272-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
-273            android:permission="android.permission.BIND_JOB_SERVICE" >
-273-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
-274        </service>
-275
-276        <receiver
-276-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
-277            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-277-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
-278            android:exported="false" />
-278-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
-279    </application>
-280
-281</manifest>
+263-->[androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+264            android:name="androidx.room.MultiInstanceInvalidationService"
+264-->[androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+265            android:directBootAware="true"
+265-->[androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+266            android:exported="false" />
+266-->[androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+267        <service
+267-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+268            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+268-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+269            android:exported="false" >
+269-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+270            <meta-data
+270-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+271                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+271-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+272                android:value="cct" />
+272-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+273        </service>
+274        <service
+274-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+275            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+275-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+276            android:exported="false"
+276-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+277            android:permission="android.permission.BIND_JOB_SERVICE" >
+277-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+278        </service>
+279
+280        <receiver
+280-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+281            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+281-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+282            android:exported="false" />
+282-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+283    </application>
+284
+285</manifest>

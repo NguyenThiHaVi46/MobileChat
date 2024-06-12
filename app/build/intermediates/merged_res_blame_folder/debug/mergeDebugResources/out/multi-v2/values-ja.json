@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mychat.app-mergeDebugResources-42:/values-ja/values-ja.xml",
+            "outputFile": "com.example.mychat.app-mergeDebugResources-45:/values-ja/values-ja.xml",
             "map": [
                 {
                     "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\1acbbf21262871bc8adecb293e24fb0a\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-ja\\values-ja.xml",
