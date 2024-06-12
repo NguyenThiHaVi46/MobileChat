@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "com.example.mychat.app-mergeDebugResources-47:/values-nl/values-nl.xml",
+=======
             "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-nl/values-nl.xml",
+>>>>>>> main
             "map": [
                 {
                     "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\459948d8eb2cb622daa665655690841c\\transformed\\jetified-play-services-base-18.1.0\\res\\values-nl\\values.xml",
@@ -38,7 +42,45 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\4393d4c3677380fc0ee42a1ef51f6c5c\\transformed\\jetified-ucrop-2.2.6\\res\\values-nl\\values-nl.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,120,179",
+                        "endColumns": "64,58,54",
+                        "endOffsets": "115,174,229"
+                    },
+                    "to": {
+                        "startLines": "141,142,143",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "12968,13033,13092",
+                        "endColumns": "64,58,54",
+                        "endOffsets": "13028,13087,13142"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\f86fe748db0f79cf279e281f78a703b3\\transformed\\browser-1.4.0\\res\\values-nl\\values-nl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,158,259,370",
+                        "endColumns": "102,100,110,98",
+                        "endOffsets": "153,254,365,464"
+                    },
+                    "to": {
+                        "startLines": "68,72,73,74",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "7046,7362,7463,7574",
+                        "endColumns": "102,100,110,98",
+                        "endOffsets": "7144,7458,7569,7668"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\1acbbf21262871bc8adecb293e24fb0a\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-nl\\values-nl.xml",
+=======
                     "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\1acbbf21262871bc8adecb293e24fb0a\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-nl\\values-nl.xml",
+>>>>>>> main
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

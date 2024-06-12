@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "com.example.mychat.app-mergeDebugResources-47:/values-en-rCA/values-en-rCA.xml",
+=======
             "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-en-rCA/values-en-rCA.xml",
+>>>>>>> main
             "map": [
                 {
                     "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\f86fe748db0f79cf279e281f78a703b3\\transformed\\browser-1.4.0\\res\\values-en-rCA\\values-en-rCA.xml",

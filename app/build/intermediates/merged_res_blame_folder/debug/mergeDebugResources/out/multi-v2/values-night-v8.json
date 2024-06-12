@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "com.example.mychat.app-mergeDebugResources-47:/values-night-v8/values-night-v8.xml",
+=======
             "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-night-v8/values-night-v8.xml",
+>>>>>>> main
             "map": [
                 {
                     "source": "C:\\My chat\\MobileChat\\app\\src\\main\\res\\values-night\\themes.xml",

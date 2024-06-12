@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "com.example.mychat.app-mergeDebugResources-47:/values-watch-v21/values-watch-v21.xml",
+=======
             "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-watch-v21/values-watch-v21.xml",
+>>>>>>> main
             "map": [
                 {
                     "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\122af31f9e255d8d1d18854f754405b7\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",

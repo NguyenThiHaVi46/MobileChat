@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "com.example.mychat.app-mergeDebugResources-47:/values-fr/values-fr.xml",
+=======
             "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-fr/values-fr.xml",
+>>>>>>> main
             "map": [
                 {
                     "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\25c2175da41a10f07777aade5285ead7\\transformed\\core-1.13.0\\res\\values-fr\\values-fr.xml",
@@ -125,7 +129,28 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\4393d4c3677380fc0ee42a1ef51f6c5c\\transformed\\jetified-ucrop-2.2.6\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,124,182",
+                        "endColumns": "68,57,52",
+                        "endOffsets": "119,177,230"
+                    },
+                    "to": {
+                        "startLines": "141,142,143",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "13237,13306,13364",
+                        "endColumns": "68,57,52",
+                        "endOffsets": "13301,13359,13412"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\122af31f9e255d8d1d18854f754405b7\\transformed\\appcompat-1.7.0\\res\\values-fr\\values-fr.xml",
+=======
                     "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\1acbbf21262871bc8adecb293e24fb0a\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-fr\\values-fr.xml",
+>>>>>>> main
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

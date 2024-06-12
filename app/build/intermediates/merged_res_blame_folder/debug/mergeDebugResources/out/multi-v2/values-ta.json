@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "com.example.mychat.app-mergeDebugResources-47:/values-ta/values-ta.xml",
+=======
             "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-ta/values-ta.xml",
+>>>>>>> main
             "map": [
                 {
                     "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\1acbbf21262871bc8adecb293e24fb0a\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-ta\\values-ta.xml",

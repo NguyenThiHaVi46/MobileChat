@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
+            "outputFile": "com.example.mychat.app-mergeDebugResources-47:/values-sk/values-sk.xml",
+=======
             "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-sk/values-sk.xml",
+>>>>>>> main
             "map": [
                 {
                     "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\f86fe748db0f79cf279e281f78a703b3\\transformed\\browser-1.4.0\\res\\values-sk\\values-sk.xml",
@@ -21,7 +25,28 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\4393d4c3677380fc0ee42a1ef51f6c5c\\transformed\\jetified-ucrop-2.2.6\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,182",
+                        "endColumns": "69,56,50",
+                        "endOffsets": "120,177,228"
+                    },
+                    "to": {
+                        "startLines": "143,144,145",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "12981,13051,13108",
+                        "endColumns": "69,56,50",
+                        "endOffsets": "13046,13103,13154"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\122af31f9e255d8d1d18854f754405b7\\transformed\\appcompat-1.7.0\\res\\values-sk\\values-sk.xml",
+=======
                     "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\4393d4c3677380fc0ee42a1ef51f6c5c\\transformed\\jetified-ucrop-2.2.6\\res\\values-sk\\values-sk.xml",
+>>>>>>> main
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
