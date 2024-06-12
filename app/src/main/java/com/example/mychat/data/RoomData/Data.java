@@ -24,7 +24,6 @@ public abstract class Data extends RoomDatabase {
 
     public abstract MessageAIDAO messageAIDAO();
     public abstract ChatRoomGeminiDAO chatRoomGeminiDAO();
-//    public abstract UserDAO userDAO();
 
     public static synchronized Data getInstance(Context context) {
         if (instance == null) {

@@ -1,5 +1,6 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-61:12
 INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-61:12
 INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-61:12
@@ -103,17 +104,120 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\hungn\.
 MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\hungn\.gradle\caches\transforms-4\d17b8c1ebb61c504eb11471acf294ab1\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [io.michaelrocks:libphonenumber-android:8.12.19-2] C:\Users\hungn\.gradle\caches\transforms-4\05ac5ac6485056e4e674e0217c752954\transformed\jetified-libphonenumber-android-8.12.19-2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\ac9162f340693ce0b6f7f7dbfa4d5107\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+=======
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:2:1-61:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6b23b432cfd4bf02275e3f347faf98e3\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\9f10e633d1263a0e98d6716f993a3fc3\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.hbb20:ccp:2.5.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\d22777d86363bc68ad0ff3d05cf3d72a\transformed\jetified-ccp-2.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:2:1-42:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ddd1d6d6d01dcf16d1f5f9cb0ef06987\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.yalantis:ucrop:2.2.6] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\4393d4c3677380fc0ee42a1ef51f6c5c\transformed\jetified-ucrop-2.2.6\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\122af31f9e255d8d1d18854f754405b7\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ffa85e4577e51569fe2ecc63f7ffcc6d\transformed\jetified-glide-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.firebaseui:firebase-ui-firestore:8.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bba4d9adc2180129a7acd89e93e81855\transformed\jetified-firebase-ui-firestore-8.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:17:1-75:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\4d92ebb9d6126e8b6b620e53b3309ff4\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\90faf36924e3cba545c6a538946c71e1\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:17:1-66:12
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c3450da7ecf9572c4cbfdf66cda009c3\transformed\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a2f32290fd3a83db015ffd35ed5780cb\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6880388cb746401b6dccfab845832415\transformed\jetified-play-services-cloud-messaging-17.2.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\5df7596e24ad280e583548f1bb6f76a2\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fe634d3ea99433f0d0e6d7608fec9211\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\85390ce0bd10cbea89a138471a1c99a2\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\1acbbf21262871bc8adecb293e24fb0a\transformed\jetified-credentials-1.2.0-rc01\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\3c4569c700be90285f1ba4d5f67792e7\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ee497f2715c55b77f87c349fc66e903f\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f8114a099214dfa74e07c866cf0cd554\transformed\jetified-integrity-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\91827a163b4bc47567cd7c0ac5533195\transformed\jetified-firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\68f494f247ebce535b66316b2481b2dc\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fbfa08dd56c239f3a52adb876d860bc5\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\de1870c8cf7d0d2aab54df2e8ea01881\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.ai.client.generativeai:generativeai:0.6.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\68de618e5c7f0e25a2353d6de92705c5\transformed\jetified-generativeai-0.6.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.ai.client.generativeai:common:0.5.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\951b9314d72d7945e90a811cbff7f26c\transformed\jetified-common-0.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bad0dc68e5c43f26b05aed8a676ec28c\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\5bead0b604e769f617fc4428b9c8ba67\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\605ddcd2ba9a6011669bbdd71ab8814d\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\51bc9cd13447f51168ef52a9faab41bc\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c178a7856f79d44c1d03feccfc244055\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\cb67359fdd03851c523bacedc6edadfc\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\eedd9a2fa57f167e62446578a2aae75b\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b38798a66cf12d9e226b324d6553fb36\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\13c4a6a68825abd1fa1c90ccc56145b8\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\09deaf58f00a968c0a929bad0aa5b50d\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f86fe748db0f79cf279e281f78a703b3\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\29de743fd51676459656772c80a8789c\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\dbdfcf30e9ab2197414b4e35760a8d9c\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a7ef06d7a41e17ed15653a584dbe9c0f\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fb14c7af7ead016323a124036199d433\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\44e0dec74bafcf24ed9c86dc74053b7b\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\316d8e9e156900ed075f204d2f317848\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\9251707e63470cc29a9692c92f80f8c2\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\43f315b90edfed758bbf2c08bf0201be\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [com.firebaseui:firebase-ui-common:8.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\583c8ff0fc8ad74b37b612cebb0a9bf2\transformed\jetified-firebase-ui-common-8.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\1084e056bccb2beb6b25e051303a8d25\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fe8193bc3adad0c809ba29ea04980d3e\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\7ddb17eff82bc2798482ec6043401669\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\defd2f18ee54890d59dc71ad56193e74\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\23e29da4fc61e0792df0e678f858811c\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\52c17e56290e09807b03bf0c7c1b35a8\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.paging:paging-rxjava3:3.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\41a5392a0349cdc1967699796fd0226c\transformed\jetified-paging-rxjava3-3.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\8034b04bcc7106d66f1467eb0078318c\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a417a0aa6e178ecf874792a98f43cdae\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fa8e1ff8fa9770337b21c311c792af31\transformed\jetified-activity-1.9.0\AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f91aae4a25193de64e61b2af235d2d2f\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:15:1-31:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b56eaafea76ba2ba9d01edc668159dd3\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\16ae53965b4f538c14f78a325218a022\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c1a3026acd375f423c6fef7b17ef0c0f\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\585e3411937eeb52dadc28c95a578fc3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fbc540e38a741392af2f457176ed2937\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\54519bf4ed90786365262ba07a05de05\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\1f927c0de2492c2dc4916bef4c7d94b8\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\079d26c2d1f330b324ab3c480f8f0a0f\transformed\jetified-firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\dfc21bef885babc7eb888510024e011a\transformed\jetified-transport-api-3.1.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.documentfile:documentfile:1.0.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\19b4255b64c3b537d79ea931a0d94853\transformed\documentfile-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\af5f978e2057c304dabf31f454f9bc28\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b577ff4d64bacd04270e623dbc007c89\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\982f287c61cfeb0830ed26f24ff5cf7d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\36fa8c10b14fb60f40db568e6a88836a\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\d54bdd12c63123e15fa0a6cd6a0faf07\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\112bceecd472b7f058666178bc156c35\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\d17b8c1ebb61c504eb11471acf294ab1\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.michaelrocks:libphonenumber-android:8.12.19-2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\05ac5ac6485056e4e674e0217c752954\transformed\jetified-libphonenumber-android-8.12.19-2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ac9162f340693ce0b6f7f7dbfa4d5107\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+>>>>>>> main
 	package
-		INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:2:11-69
 application
+<<<<<<< HEAD
 ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:5:5-59:19
 INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:5:5-59:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\hungn\.gradle\caches\transforms-4\6b23b432cfd4bf02275e3f347faf98e3\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
@@ -182,27 +286,96 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hungn\.gradle\cach
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hungn\.gradle\caches\transforms-4\585e3411937eeb52dadc28c95a578fc3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hungn\.gradle\caches\transforms-4\982f287c61cfeb0830ed26f24ff5cf7d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hungn\.gradle\caches\transforms-4\982f287c61cfeb0830ed26f24ff5cf7d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+=======
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:5:5-59:19
+INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:5:5-59:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6b23b432cfd4bf02275e3f347faf98e3\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6b23b432cfd4bf02275e3f347faf98e3\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\9f10e633d1263a0e98d6716f993a3fc3\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\9f10e633d1263a0e98d6716f993a3fc3\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:21:5-40:19
+MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:21:5-40:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c3450da7ecf9572c4cbfdf66cda009c3\transformed\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c3450da7ecf9572c4cbfdf66cda009c3\transformed\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a2f32290fd3a83db015ffd35ed5780cb\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a2f32290fd3a83db015ffd35ed5780cb\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\5df7596e24ad280e583548f1bb6f76a2\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\5df7596e24ad280e583548f1bb6f76a2\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fe634d3ea99433f0d0e6d7608fec9211\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fe634d3ea99433f0d0e6d7608fec9211\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\85390ce0bd10cbea89a138471a1c99a2\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\85390ce0bd10cbea89a138471a1c99a2\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f8114a099214dfa74e07c866cf0cd554\transformed\jetified-integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f8114a099214dfa74e07c866cf0cd554\transformed\jetified-integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fbfa08dd56c239f3a52adb876d860bc5\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fbfa08dd56c239f3a52adb876d860bc5\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\8034b04bcc7106d66f1467eb0078318c\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\8034b04bcc7106d66f1467eb0078318c\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\585e3411937eeb52dadc28c95a578fc3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\585e3411937eeb52dadc28c95a578fc3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\982f287c61cfeb0830ed26f24ff5cf7d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\982f287c61cfeb0830ed26f24ff5cf7d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+>>>>>>> main
 	android:extractNativeLibs
-		INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.13.0] C:\Users\hungn\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:10:9-41
 	android:fullBackupContent
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:8:9-54
 	android:roundIcon
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:11:9-54
 	tools:targetApi
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:14:9-29
 	android:icon
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:13:9-44
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:13:9-44
 	android:dataExtractionRules
+<<<<<<< HEAD
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:7:9-65
 meta-data#com.google.firebase.messaging.default_notification_icon
 ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:15:9-16:57
@@ -596,11 +769,91 @@ ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\hungn\.gradle\cac
 		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\hungn\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:31:13-46
 	android:launchMode
 		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\hungn\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:33:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\hungn\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:32:13-36
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\hungn\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:34:13-72
+=======
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:7:9-65
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:15:9-16:57
+	android:resource
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:16:13-55
 	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:15:20-90
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:17:9-18:51
+	android:resource
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:18:13-49
+	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:17:20-91
+activity#com.example.mychat.activity.ChatActivity
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:22:13-50
+activity#com.example.mychat.activity.ChatGeminiAiActivity
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:24:9-26:40
+	android:exported
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:25:13-58
+activity#com.example.mychat.activity.LoginActivity
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:28:13-51
+activity#com.example.mychat.activity.SearchUserActivity
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:30:9-32:40
+	android:exported
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:31:13-56
+activity#com.example.mychat.activity.LoginUserNameActivity
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:33:9-35:40
+	android:exported
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:34:13-59
+activity#com.example.mychat.activity.LoginOtpActivity
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:37:13-54
+activity#com.example.mychat.activity.LoginPhoneNumberActivity
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:39:9-41:40
+	android:exported
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:40:13-62
+activity#com.example.mychat.activity.SplashActivity
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:42:9-50:20
+	android:exported
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:44:13-36
+	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:43:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:45:13-49:29
+action#android.intent.action.MAIN
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:48:27-74
+activity#com.example.mychat.activity.MainActivity
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:52:13-50
+service#com.example.mychat.activity.FCMNotificationService
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:54:9-58:19
+>>>>>>> main
+	android:exported
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:54:66-90
+	android:name
+<<<<<<< HEAD
 		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\hungn\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:30:13-80
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
 ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\hungn\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:35:13-45:29
@@ -718,243 +971,387 @@ meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseM
 ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\hungn\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:57:13-59:85
 	android:value
 		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\hungn\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:59:17-82
+=======
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:54:18-65
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:55:13-57:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:56:17-77
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\hungn\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:58:17-122
-meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
-ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\hungn\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:60:13-62:85
-	android:value
-		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\hungn\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:62:17-82
+		ADDED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:56:25-75
+uses-sdk
+INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml
+INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6b23b432cfd4bf02275e3f347faf98e3\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6b23b432cfd4bf02275e3f347faf98e3\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\9f10e633d1263a0e98d6716f993a3fc3\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\9f10e633d1263a0e98d6716f993a3fc3\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.hbb20:ccp:2.5.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\d22777d86363bc68ad0ff3d05cf3d72a\transformed\jetified-ccp-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.hbb20:ccp:2.5.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\d22777d86363bc68ad0ff3d05cf3d72a\transformed\jetified-ccp-2.5.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ddd1d6d6d01dcf16d1f5f9cb0ef06987\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ddd1d6d6d01dcf16d1f5f9cb0ef06987\transformed\jetified-appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.github.yalantis:ucrop:2.2.6] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\4393d4c3677380fc0ee42a1ef51f6c5c\transformed\jetified-ucrop-2.2.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.6] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\4393d4c3677380fc0ee42a1ef51f6c5c\transformed\jetified-ucrop-2.2.6\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\122af31f9e255d8d1d18854f754405b7\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\122af31f9e255d8d1d18854f754405b7\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ffa85e4577e51569fe2ecc63f7ffcc6d\transformed\jetified-glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ffa85e4577e51569fe2ecc63f7ffcc6d\transformed\jetified-glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-firestore:8.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bba4d9adc2180129a7acd89e93e81855\transformed\jetified-firebase-ui-firestore-8.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-firestore:8.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bba4d9adc2180129a7acd89e93e81855\transformed\jetified-firebase-ui-firestore-8.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:21:5-23:151
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\4d92ebb9d6126e8b6b620e53b3309ff4\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\4d92ebb9d6126e8b6b620e53b3309ff4\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\90faf36924e3cba545c6a538946c71e1\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\90faf36924e3cba545c6a538946c71e1\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c3450da7ecf9572c4cbfdf66cda009c3\transformed\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c3450da7ecf9572c4cbfdf66cda009c3\transformed\jetified-firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a2f32290fd3a83db015ffd35ed5780cb\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a2f32290fd3a83db015ffd35ed5780cb\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6880388cb746401b6dccfab845832415\transformed\jetified-play-services-cloud-messaging-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6880388cb746401b6dccfab845832415\transformed\jetified-play-services-cloud-messaging-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\5df7596e24ad280e583548f1bb6f76a2\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\5df7596e24ad280e583548f1bb6f76a2\transformed\jetified-play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fe634d3ea99433f0d0e6d7608fec9211\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fe634d3ea99433f0d0e6d7608fec9211\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\85390ce0bd10cbea89a138471a1c99a2\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\85390ce0bd10cbea89a138471a1c99a2\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\1acbbf21262871bc8adecb293e24fb0a\transformed\jetified-credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\1acbbf21262871bc8adecb293e24fb0a\transformed\jetified-credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\3c4569c700be90285f1ba4d5f67792e7\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\3c4569c700be90285f1ba4d5f67792e7\transformed\jetified-play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ee497f2715c55b77f87c349fc66e903f\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ee497f2715c55b77f87c349fc66e903f\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f8114a099214dfa74e07c866cf0cd554\transformed\jetified-integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f8114a099214dfa74e07c866cf0cd554\transformed\jetified-integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\91827a163b4bc47567cd7c0ac5533195\transformed\jetified-firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\91827a163b4bc47567cd7c0ac5533195\transformed\jetified-firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\68f494f247ebce535b66316b2481b2dc\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\68f494f247ebce535b66316b2481b2dc\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fbfa08dd56c239f3a52adb876d860bc5\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fbfa08dd56c239f3a52adb876d860bc5\transformed\jetified-play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\de1870c8cf7d0d2aab54df2e8ea01881\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\de1870c8cf7d0d2aab54df2e8ea01881\transformed\jetified-play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.ai.client.generativeai:generativeai:0.6.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\68de618e5c7f0e25a2353d6de92705c5\transformed\jetified-generativeai-0.6.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ai.client.generativeai:generativeai:0.6.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\68de618e5c7f0e25a2353d6de92705c5\transformed\jetified-generativeai-0.6.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ai.client.generativeai:common:0.5.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\951b9314d72d7945e90a811cbff7f26c\transformed\jetified-common-0.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ai.client.generativeai:common:0.5.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\951b9314d72d7945e90a811cbff7f26c\transformed\jetified-common-0.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bad0dc68e5c43f26b05aed8a676ec28c\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bad0dc68e5c43f26b05aed8a676ec28c\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\5bead0b604e769f617fc4428b9c8ba67\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\5bead0b604e769f617fc4428b9c8ba67\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\605ddcd2ba9a6011669bbdd71ab8814d\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\605ddcd2ba9a6011669bbdd71ab8814d\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\51bc9cd13447f51168ef52a9faab41bc\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\51bc9cd13447f51168ef52a9faab41bc\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c178a7856f79d44c1d03feccfc244055\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c178a7856f79d44c1d03feccfc244055\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\cb67359fdd03851c523bacedc6edadfc\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\cb67359fdd03851c523bacedc6edadfc\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\eedd9a2fa57f167e62446578a2aae75b\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\eedd9a2fa57f167e62446578a2aae75b\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b38798a66cf12d9e226b324d6553fb36\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b38798a66cf12d9e226b324d6553fb36\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\13c4a6a68825abd1fa1c90ccc56145b8\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\13c4a6a68825abd1fa1c90ccc56145b8\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\09deaf58f00a968c0a929bad0aa5b50d\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\09deaf58f00a968c0a929bad0aa5b50d\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f86fe748db0f79cf279e281f78a703b3\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f86fe748db0f79cf279e281f78a703b3\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\29de743fd51676459656772c80a8789c\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\29de743fd51676459656772c80a8789c\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\dbdfcf30e9ab2197414b4e35760a8d9c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\dbdfcf30e9ab2197414b4e35760a8d9c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a7ef06d7a41e17ed15653a584dbe9c0f\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a7ef06d7a41e17ed15653a584dbe9c0f\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fb14c7af7ead016323a124036199d433\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fb14c7af7ead016323a124036199d433\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\44e0dec74bafcf24ed9c86dc74053b7b\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\44e0dec74bafcf24ed9c86dc74053b7b\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\316d8e9e156900ed075f204d2f317848\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\316d8e9e156900ed075f204d2f317848\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\9251707e63470cc29a9692c92f80f8c2\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\9251707e63470cc29a9692c92f80f8c2\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\43f315b90edfed758bbf2c08bf0201be\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\43f315b90edfed758bbf2c08bf0201be\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-common:8.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\583c8ff0fc8ad74b37b612cebb0a9bf2\transformed\jetified-firebase-ui-common-8.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-common:8.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\583c8ff0fc8ad74b37b612cebb0a9bf2\transformed\jetified-firebase-ui-common-8.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\1084e056bccb2beb6b25e051303a8d25\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\1084e056bccb2beb6b25e051303a8d25\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fe8193bc3adad0c809ba29ea04980d3e\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fe8193bc3adad0c809ba29ea04980d3e\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\7ddb17eff82bc2798482ec6043401669\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\7ddb17eff82bc2798482ec6043401669\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\defd2f18ee54890d59dc71ad56193e74\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\defd2f18ee54890d59dc71ad56193e74\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\23e29da4fc61e0792df0e678f858811c\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\23e29da4fc61e0792df0e678f858811c\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\52c17e56290e09807b03bf0c7c1b35a8\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\52c17e56290e09807b03bf0c7c1b35a8\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-rxjava3:3.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\41a5392a0349cdc1967699796fd0226c\transformed\jetified-paging-rxjava3-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-rxjava3:3.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\41a5392a0349cdc1967699796fd0226c\transformed\jetified-paging-rxjava3-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\8034b04bcc7106d66f1467eb0078318c\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\8034b04bcc7106d66f1467eb0078318c\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a417a0aa6e178ecf874792a98f43cdae\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a417a0aa6e178ecf874792a98f43cdae\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fa8e1ff8fa9770337b21c311c792af31\transformed\jetified-activity-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fa8e1ff8fa9770337b21c311c792af31\transformed\jetified-activity-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f91aae4a25193de64e61b2af235d2d2f\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f91aae4a25193de64e61b2af235d2d2f\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b56eaafea76ba2ba9d01edc668159dd3\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b56eaafea76ba2ba9d01edc668159dd3\transformed\jetified-firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\16ae53965b4f538c14f78a325218a022\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\16ae53965b4f538c14f78a325218a022\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c1a3026acd375f423c6fef7b17ef0c0f\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c1a3026acd375f423c6fef7b17ef0c0f\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\585e3411937eeb52dadc28c95a578fc3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\585e3411937eeb52dadc28c95a578fc3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fbc540e38a741392af2f457176ed2937\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fbc540e38a741392af2f457176ed2937\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\54519bf4ed90786365262ba07a05de05\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\54519bf4ed90786365262ba07a05de05\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\1f927c0de2492c2dc4916bef4c7d94b8\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\1f927c0de2492c2dc4916bef4c7d94b8\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\079d26c2d1f330b324ab3c480f8f0a0f\transformed\jetified-firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\079d26c2d1f330b324ab3c480f8f0a0f\transformed\jetified-firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\dfc21bef885babc7eb888510024e011a\transformed\jetified-transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\dfc21bef885babc7eb888510024e011a\transformed\jetified-transport-api-3.1.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\19b4255b64c3b537d79ea931a0d94853\transformed\documentfile-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\19b4255b64c3b537d79ea931a0d94853\transformed\documentfile-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\af5f978e2057c304dabf31f454f9bc28\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\af5f978e2057c304dabf31f454f9bc28\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b577ff4d64bacd04270e623dbc007c89\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b577ff4d64bacd04270e623dbc007c89\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\982f287c61cfeb0830ed26f24ff5cf7d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\982f287c61cfeb0830ed26f24ff5cf7d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\36fa8c10b14fb60f40db568e6a88836a\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\36fa8c10b14fb60f40db568e6a88836a\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\d54bdd12c63123e15fa0a6cd6a0faf07\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\d54bdd12c63123e15fa0a6cd6a0faf07\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\112bceecd472b7f058666178bc156c35\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\112bceecd472b7f058666178bc156c35\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\d17b8c1ebb61c504eb11471acf294ab1\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\d17b8c1ebb61c504eb11471acf294ab1\transformed\jetified-googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [io.michaelrocks:libphonenumber-android:8.12.19-2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\05ac5ac6485056e4e674e0217c752954\transformed\jetified-libphonenumber-android-8.12.19-2\AndroidManifest.xml:5:5-7:41
+MERGED from [io.michaelrocks:libphonenumber-android:8.12.19-2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\05ac5ac6485056e4e674e0217c752954\transformed\jetified-libphonenumber-android-8.12.19-2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ac9162f340693ce0b6f7f7dbfa4d5107\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ac9162f340693ce0b6f7f7dbfa4d5107\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\My chat\MobileChat\app\src\main\AndroidManifest.xml
+queries
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:9:5-19:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:12:9-14:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:13:13-73
+>>>>>>> main
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\hungn\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:61:17-119
-meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
-ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:17:13-19:85
-	android:value
-		ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:19:17-82
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:13:21-70
+intent#action:name:android.intent.action.OPEN_DOCUMENT_TREE
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:16:9-18:18
+action#android.intent.action.OPEN_DOCUMENT_TREE
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:17:13-79
 	android:name
-		ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:18:17-122
-meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:20:13-22:85
-	android:value
-		ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:22:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:21:17-111
-meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
-ADDED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:30:13-32:85
-	android:value
-		ADDED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:32:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:31:17-118
-meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
-ADDED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:33:13-35:85
-	android:value
-		ADDED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:35:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:34:17-107
-meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
-ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
-	android:value
-		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
-meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
-ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
-	android:value
-		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
-meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
-ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
-	android:value
-		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
-meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
-ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
-	android:value
-		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
-meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
-ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
-	android:value
-		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
-meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
-ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
-	android:value
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
-service#androidx.credentials.playservices.CredentialProviderMetadataHolder
-ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
-	android:enabled
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
-	android:exported
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
-	tools:ignore
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:28:13-60
-	android:name
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
-meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
-ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
-	android:value
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
-	android:name
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
-activity#androidx.credentials.playservices.HiddenActivity
-ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
-	android:fitsSystemWindows
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
-	android:enabled
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
-	android:exported
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
-	android:configChanges
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:17:21-76
+activity#com.github.dhaval2404.imagepicker.ImagePickerActivity
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:22:9-25:68
+	android:screenOrientation
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:24:13-52
 	android:theme
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:25:13-65
 	android:name
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\hungn\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
-activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\hungn\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:23:13-81
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:26:9-29:72
+	android:screenOrientation
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:28:13-49
+	android:theme
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:27:13-60
+provider#com.github.dhaval2404.imagepicker.ImagePickerFileProvider
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:31:9-39:20
+	android:grantUriPermissions
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:35:13-47
+	android:authorities
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:33:13-72
+	android:exported
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:32:13-85
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:36:13-38:71
+	android:resource
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:38:17-68
+	android:name
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:37:17-67
+uses-permission#android.permission.INTERNET
+ADDED from [com.firebaseui:firebase-ui-firestore:8.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bba4d9adc2180129a7acd89e93e81855\transformed\jetified-firebase-ui-firestore-8.0.2\AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6880388cb746401b6dccfab845832415\transformed\jetified-play-services-cloud-messaging-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6880388cb746401b6dccfab845832415\transformed\jetified-play-services-cloud-messaging-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ee497f2715c55b77f87c349fc66e903f\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ee497f2715c55b77f87c349fc66e903f\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.ai.client.generativeai:generativeai:0.6.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\68de618e5c7f0e25a2353d6de92705c5\transformed\jetified-generativeai-0.6.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.ai.client.generativeai:generativeai:0.6.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\68de618e5c7f0e25a2353d6de92705c5\transformed\jetified-generativeai-0.6.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.ai.client.generativeai:common:0.5.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\951b9314d72d7945e90a811cbff7f26c\transformed\jetified-common-0.5.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.ai.client.generativeai:common:0.5.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\951b9314d72d7945e90a811cbff7f26c\transformed\jetified-common-0.5.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-firestore:8.0.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bba4d9adc2180129a7acd89e93e81855\transformed\jetified-firebase-ui-firestore-8.0.2\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6880388cb746401b6dccfab845832415\transformed\jetified-play-services-cloud-messaging-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6880388cb746401b6dccfab845832415\transformed\jetified-play-services-cloud-messaging-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ee497f2715c55b77f87c349fc66e903f\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ee497f2715c55b77f87c349fc66e903f\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f91aae4a25193de64e61b2af235d2d2f\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f91aae4a25193de64e61b2af235d2d2f\transformed\jetified-grpc-android-1.57.2\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:29:9-46:20
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\hungn\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:33:13-44
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\hungn\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:32:13-36
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\hungn\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:34:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\hungn\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
-service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\hungn\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:51:13-44
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\hungn\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
-	android:visibleToInstantApps
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\hungn\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
-	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\hungn\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\hungn\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
-uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\hungn\.gradle\caches\transforms-4\ee497f2715c55b77f87c349fc66e903f\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:5-98
-	android:name
-		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\hungn\.gradle\caches\transforms-4\ee497f2715c55b77f87c349fc66e903f\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:22-95
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\hungn\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\hungn\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:50:13-36
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\hungn\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:52:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\hungn\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hungn\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hungn\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hungn\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hungn\.gradle\caches\transforms-4\585e3411937eeb52dadc28c95a578fc3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hungn\.gradle\caches\transforms-4\585e3411937eeb52dadc28c95a578fc3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hungn\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:28:13-31
-	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hungn\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:22:9-28:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:22:9-28:19
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hungn\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
-	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hungn\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
-meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hungn\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hungn\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\hungn\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] C:\Users\hungn\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.0] C:\Users\hungn\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.13.0] C:\Users\hungn\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
-permission#com.example.mychat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] C:\Users\hungn\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
-	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.0] C:\Users\hungn\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
-	android:name
-		ADDED from [androidx.core:core:1.13.0] C:\Users\hungn\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
-uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] C:\Users\hungn\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.13.0] C:\Users\hungn\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
-uses-permission#com.example.mychat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] C:\Users\hungn\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
-	android:name
-		ADDED from [androidx.core:core:1.13.0] C:\Users\hungn\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
-meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hungn\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hungn\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\hungn\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:34:13-32
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\hungn\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\hungn\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:69:13-71:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\hungn\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:71:17-82
 	android:name
+<<<<<<< HEAD
 		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\hungn\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\hungn\.gradle\caches\transforms-4\452b24d13363aa34e2f33bb66a951163\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
@@ -970,33 +1367,326 @@ meta-data#com.google.firebase.components:com.google.firebase.datatransport.Trans
 ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\hungn\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
 	android:value
 		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\hungn\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
+=======
+		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:70:17-109
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:23:5-77
+>>>>>>> main
 	android:name
-		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\hungn\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
-service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
-ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:36:9-38:40
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:36:9-38:40
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:23:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6880388cb746401b6dccfab845832415\transformed\jetified-play-services-cloud-messaging-17.2.0\AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6880388cb746401b6dccfab845832415\transformed\jetified-play-services-cloud-messaging-17.2.0\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6880388cb746401b6dccfab845832415\transformed\jetified-play-services-cloud-messaging-17.2.0\AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6880388cb746401b6dccfab845832415\transformed\jetified-play-services-cloud-messaging-17.2.0\AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:29:9-40:20
 	android:exported
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
-	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
-meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
-ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
-	android:value
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
-	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
-service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
-ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
-	android:exported
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:31:13-36
 	android:permission
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:32:13-73
 	android:name
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
-receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
-ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:30:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:33:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:34:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:34:25-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:46:9-53:19
 	android:exported
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:48:13-43
 	android:name
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\hungn\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:47:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:61:17-119
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ee497f2715c55b77f87c349fc66e903f\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ee497f2715c55b77f87c349fc66e903f\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\585e3411937eeb52dadc28c95a578fc3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\585e3411937eeb52dadc28c95a578fc3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.example.mychat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.mychat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
