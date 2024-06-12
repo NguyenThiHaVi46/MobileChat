@@ -3492,6 +3492,7 @@ drawable icon_red_eye
 drawable icon_search
 drawable icon_send
 drawable indeterminate_static
+drawable launcher_icon
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -4557,6 +4558,7 @@ layout ucrop_view
 menu bottom_navigation_menu
 menu ucrop_menu_activity
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw a_new_lang_template
