@@ -34,6 +34,7 @@ drawable icon_play_circle
 drawable icon_red_eye
 drawable icon_search
 drawable icon_send
+drawable launcher_icon
 drawable password_icon
 drawable person_icon
 drawable phone_icon
@@ -151,6 +152,7 @@ layout recent_chat_recycler_row
 layout search_user_recycler_row
 menu bottom_navigation_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string gcm_defaultSenderId

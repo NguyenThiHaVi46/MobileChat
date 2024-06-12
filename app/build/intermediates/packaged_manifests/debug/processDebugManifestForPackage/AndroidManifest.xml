@@ -46,6 +46,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyChat" >
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/launcher_icon" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/my_primary" />
+
         <activity
             android:name="com.example.mychat.activity.ChatActivity"
             android:exported="false" />

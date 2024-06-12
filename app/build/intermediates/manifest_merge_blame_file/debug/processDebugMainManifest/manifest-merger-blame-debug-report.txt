@@ -58,7 +58,7 @@
 34-->[androidx.core:core:1.13.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25c2175da41a10f07777aade5285ead7\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 35
 36    <application
-36-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:5:5-54:19
+36-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:5:5-59:19
 37        android:allowBackup="true"
 37-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:6:9-35
 38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -80,508 +80,521 @@
 47        android:testOnly="true"
 48        android:theme="@style/Theme.MyChat" >
 48-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:13:9-44
-49        <activity
-49-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:16:9-18:40
-50            android:name="com.example.mychat.activity.ChatActivity"
-50-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:17:13-50
-51            android:exported="false" />
-51-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:18:13-37
-52        <activity
-52-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:19:9-21:40
-53            android:name="com.example.mychat.activity.ChatGeminiAiActivity"
-53-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:20:13-58
-54            android:exported="false" />
-54-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:21:13-37
-55        <activity
-55-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:22:9-24:40
-56            android:name="com.example.mychat.activity.LoginActivity"
-56-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:23:13-51
-57            android:exported="false" />
-57-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:24:13-37
-58        <activity
-58-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:25:9-27:40
-59            android:name="com.example.mychat.activity.SearchUserActivity"
-59-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:26:13-56
-60            android:exported="false" />
-60-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:27:13-37
-61        <activity
-61-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:28:9-30:40
-62            android:name="com.example.mychat.activity.LoginUserNameActivity"
-62-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:29:13-59
-63            android:exported="false" />
-63-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:30:13-37
-64        <activity
-64-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:31:9-33:40
-65            android:name="com.example.mychat.activity.LoginOtpActivity"
-65-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:32:13-54
-66            android:exported="false" />
-66-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:33:13-37
-67        <activity
-67-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:34:9-36:40
-68            android:name="com.example.mychat.activity.LoginPhoneNumberActivity"
-68-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:35:13-62
-69            android:exported="false" />
-69-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:36:13-37
-70        <activity
-70-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:37:9-45:20
-71            android:name="com.example.mychat.activity.SplashActivity"
-71-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:38:13-52
-72            android:exported="true" >
-72-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:39:13-36
-73            <intent-filter>
-73-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:40:13-44:29
-74                <action android:name="android.intent.action.MAIN" />
-74-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:41:17-69
-74-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:41:25-66
-75
-76                <category android:name="android.intent.category.LAUNCHER" />
-76-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:43:17-77
-76-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:43:27-74
-77            </intent-filter>
-78        </activity>
-79        <activity
-79-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:46:9-48:40
-80            android:name="com.example.mychat.activity.MainActivity"
-80-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:47:13-50
-81            android:exported="false" />
-81-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:48:13-37
+49        <meta-data
+49-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:15:9-16:57
+50            android:name="com.google.firebase.messaging.default_notification_icon"
+50-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:15:20-90
+51            android:resource="@drawable/launcher_icon" />
+51-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:16:13-55
+52        <meta-data
+52-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:17:9-18:51
+53            android:name="com.google.firebase.messaging.default_notification_color"
+53-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:17:20-91
+54            android:resource="@color/my_primary" />
+54-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:18:13-49
+55
+56        <activity
+56-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:21:9-23:40
+57            android:name="com.example.mychat.activity.ChatActivity"
+57-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:22:13-50
+58            android:exported="false" />
+58-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:23:13-37
+59        <activity
+59-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:24:9-26:40
+60            android:name="com.example.mychat.activity.ChatGeminiAiActivity"
+60-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:25:13-58
+61            android:exported="false" />
+61-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:26:13-37
+62        <activity
+62-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:27:9-29:40
+63            android:name="com.example.mychat.activity.LoginActivity"
+63-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:28:13-51
+64            android:exported="false" />
+64-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:29:13-37
+65        <activity
+65-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:30:9-32:40
+66            android:name="com.example.mychat.activity.SearchUserActivity"
+66-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:31:13-56
+67            android:exported="false" />
+67-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:32:13-37
+68        <activity
+68-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:33:9-35:40
+69            android:name="com.example.mychat.activity.LoginUserNameActivity"
+69-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:34:13-59
+70            android:exported="false" />
+70-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:35:13-37
+71        <activity
+71-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:36:9-38:40
+72            android:name="com.example.mychat.activity.LoginOtpActivity"
+72-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:37:13-54
+73            android:exported="false" />
+73-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:38:13-37
+74        <activity
+74-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:39:9-41:40
+75            android:name="com.example.mychat.activity.LoginPhoneNumberActivity"
+75-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:40:13-62
+76            android:exported="false" />
+76-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:41:13-37
+77        <activity
+77-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:42:9-50:20
+78            android:name="com.example.mychat.activity.SplashActivity"
+78-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:43:13-52
+79            android:exported="true" >
+79-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:44:13-36
+80            <intent-filter>
+80-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:45:13-49:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:46:17-69
+81-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:46:25-66
 82
-83        <service
-83-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:49:9-53:19
-84            android:name="com.example.mychat.activity.FCMNotificationService"
-84-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:49:18-65
-85            android:exported="false" >
-85-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:49:66-90
-86            <intent-filter>
-86-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:50:13-52:29
-87                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-87-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:51:17-77
-87-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:51:25-75
-88            </intent-filter>
-89        </service>
-90
-91        <activity
-91-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:22:9-25:68
-92            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
-92-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:23:13-81
-93            android:screenOrientation="unspecified"
-93-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:24:13-52
-94            android:theme="@style/Theme.Transparent.ImagePicker" />
-94-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:25:13-65
-95        <activity
-95-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:26:9-29:72
-96            android:name="com.yalantis.ucrop.UCropActivity"
-96-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:27:13-60
-97            android:screenOrientation="portrait"
-97-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:28:13-49
-98            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-98-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:29:13-69
-99
-100        <provider
-100-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:31:9-39:20
-101            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
-101-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:32:13-85
-102            android:authorities="com.example.mychat.imagepicker.provider"
-102-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:33:13-72
-103            android:exported="false"
-103-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:34:13-37
-104            android:grantUriPermissions="true" >
-104-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:35:13-47
-105            <meta-data
-105-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:36:13-38:71
-106                android:name="android.support.FILE_PROVIDER_PATHS"
-106-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:37:17-67
-107                android:resource="@xml/image_picker_provider_paths" />
-107-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:38:17-68
-108        </provider>
-109
-110        <activity
-110-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:29:9-46:20
-111            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-111-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:30:13-80
-112            android:excludeFromRecents="true"
-112-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:31:13-46
-113            android:exported="true"
-113-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:32:13-36
-114            android:launchMode="singleTask"
-114-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:33:13-44
-115            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-115-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:34:13-72
-116            <intent-filter>
-116-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:35:13-45:29
-117                <action android:name="android.intent.action.VIEW" />
-117-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
-117-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
-118
-119                <category android:name="android.intent.category.DEFAULT" />
-119-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
-119-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
-120                <category android:name="android.intent.category.BROWSABLE" />
-120-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
-120-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
-121
-122                <data
-122-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
-123                    android:host="firebase.auth"
-123-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
-124                    android:path="/"
-124-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
-125                    android:scheme="genericidp" />
-125-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
-126            </intent-filter>
-127        </activity>
-128        <activity
-128-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:47:9-64:20
-129            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-129-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:48:13-79
-130            android:excludeFromRecents="true"
-130-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:49:13-46
-131            android:exported="true"
-131-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:50:13-36
-132            android:launchMode="singleTask"
-132-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:51:13-44
-133            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-133-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:52:13-72
-134            <intent-filter>
-134-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:53:13-63:29
-135                <action android:name="android.intent.action.VIEW" />
-135-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
-135-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
-136
-137                <category android:name="android.intent.category.DEFAULT" />
-137-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
-137-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
-138                <category android:name="android.intent.category.BROWSABLE" />
-138-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
-138-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
-139
-140                <data
-140-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
-141                    android:host="firebase.auth"
-141-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
-142                    android:path="/"
-142-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
-143                    android:scheme="recaptcha" />
-143-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
-144            </intent-filter>
-145        </activity>
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:48:17-77
+83-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:48:27-74
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:51:9-53:40
+87            android:name="com.example.mychat.activity.MainActivity"
+87-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:52:13-50
+88            android:exported="false" />
+88-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:53:13-37
+89
+90        <service
+90-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:54:9-58:19
+91            android:name="com.example.mychat.activity.FCMNotificationService"
+91-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:54:18-65
+92            android:exported="false" >
+92-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:54:66-90
+93            <intent-filter>
+93-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:55:13-57:29
+94                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+94-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:56:17-77
+94-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:56:25-75
+95            </intent-filter>
+96        </service>
+97
+98        <activity
+98-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:22:9-25:68
+99            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+99-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:23:13-81
+100            android:screenOrientation="unspecified"
+100-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:24:13-52
+101            android:theme="@style/Theme.Transparent.ImagePicker" />
+101-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:25:13-65
+102        <activity
+102-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:26:9-29:72
+103            android:name="com.yalantis.ucrop.UCropActivity"
+103-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:27:13-60
+104            android:screenOrientation="portrait"
+104-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:28:13-49
+105            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+105-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:29:13-69
+106
+107        <provider
+107-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:31:9-39:20
+108            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+108-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:32:13-85
+109            android:authorities="com.example.mychat.imagepicker.provider"
+109-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:33:13-72
+110            android:exported="false"
+110-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:34:13-37
+111            android:grantUriPermissions="true" >
+111-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:35:13-47
+112            <meta-data
+112-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:36:13-38:71
+113                android:name="android.support.FILE_PROVIDER_PATHS"
+113-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:37:17-67
+114                android:resource="@xml/image_picker_provider_paths" />
+114-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f6f059ced9ad334d48ff9227d4b42943\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:38:17-68
+115        </provider>
+116
+117        <activity
+117-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:29:9-46:20
+118            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+118-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:30:13-80
+119            android:excludeFromRecents="true"
+119-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:31:13-46
+120            android:exported="true"
+120-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:32:13-36
+121            android:launchMode="singleTask"
+121-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:33:13-44
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+122-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:34:13-72
+123            <intent-filter>
+123-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:35:13-45:29
+124                <action android:name="android.intent.action.VIEW" />
+124-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
+124-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
+126-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
+127                <category android:name="android.intent.category.BROWSABLE" />
+127-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
+127-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
+128
+129                <data
+129-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
+130                    android:host="firebase.auth"
+130-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
+131                    android:path="/"
+131-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
+132                    android:scheme="genericidp" />
+132-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
+133            </intent-filter>
+134        </activity>
+135        <activity
+135-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:47:9-64:20
+136            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+136-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:48:13-79
+137            android:excludeFromRecents="true"
+137-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:49:13-46
+138            android:exported="true"
+138-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:50:13-36
+139            android:launchMode="singleTask"
+139-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:51:13-44
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+140-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:52:13-72
+141            <intent-filter>
+141-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:53:13-63:29
+142                <action android:name="android.intent.action.VIEW" />
+142-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
+142-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
+143
+144                <category android:name="android.intent.category.DEFAULT" />
+144-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
+144-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
+145                <category android:name="android.intent.category.BROWSABLE" />
+145-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
+145-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
 146
-147        <service
-147-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:66:9-72:19
-148            android:name="com.google.firebase.components.ComponentDiscoveryService"
-148-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:67:13-84
-149            android:directBootAware="true"
-149-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
-150            android:exported="false" >
-150-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:68:13-37
-151            <meta-data
-151-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:69:13-71:85
-152                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-152-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:70:17-109
-153                android:value="com.google.firebase.components.ComponentRegistrar" />
-153-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:71:17-82
-154            <meta-data
-154-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:57:13-59:85
-155                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
-155-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:58:17-122
-156                android:value="com.google.firebase.components.ComponentRegistrar" />
-156-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:59:17-82
-157            <meta-data
-157-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:60:13-62:85
-158                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-158-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:61:17-119
-159                android:value="com.google.firebase.components.ComponentRegistrar" />
-159-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:62:17-82
-160            <meta-data
-160-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:17:13-19:85
-161                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
-161-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:18:17-122
-162                android:value="com.google.firebase.components.ComponentRegistrar" />
-162-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:19:17-82
-163            <meta-data
-163-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:20:13-22:85
-164                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-164-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:21:17-111
-165                android:value="com.google.firebase.components.ComponentRegistrar" />
-165-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:22:17-82
-166            <meta-data
-166-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:30:13-32:85
-167                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
-167-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:31:17-118
-168                android:value="com.google.firebase.components.ComponentRegistrar" />
-168-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:32:17-82
-169            <meta-data
-169-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:33:13-35:85
-170                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-170-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:34:17-107
-171                android:value="com.google.firebase.components.ComponentRegistrar" />
-171-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:35:17-82
-172            <meta-data
-172-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
-173                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-173-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
-174                android:value="com.google.firebase.components.ComponentRegistrar" />
-174-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
-175            <meta-data
-175-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
-176                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-176-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
-177                android:value="com.google.firebase.components.ComponentRegistrar" />
-177-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
-178            <meta-data
-178-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
-179                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
-179-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
-180                android:value="com.google.firebase.components.ComponentRegistrar" />
-180-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
-181            <meta-data
-181-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
-182                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
-182-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
-183                android:value="com.google.firebase.components.ComponentRegistrar" />
-183-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
-184            <meta-data
-184-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
-185                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-185-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
-186                android:value="com.google.firebase.components.ComponentRegistrar" />
-186-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
-187            <meta-data
-187-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
-188                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-188-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
-189                android:value="com.google.firebase.components.ComponentRegistrar" />
-189-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
-190            <meta-data
-190-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
-191                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-191-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
-192                android:value="com.google.firebase.components.ComponentRegistrar" />
-192-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
-193        </service>
-194
-195        <receiver
-195-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:29:9-40:20
-196            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-196-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:30:13-78
-197            android:exported="true"
-197-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:31:13-36
-198            android:permission="com.google.android.c2dm.permission.SEND" >
-198-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:32:13-73
-199            <intent-filter>
-199-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:33:13-35:29
-200                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-200-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:34:17-81
-200-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:34:25-78
-201            </intent-filter>
-202
-203            <meta-data
-203-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:37:13-39:40
-204                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
-204-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:38:17-92
-205                android:value="true" />
-205-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:39:17-37
-206        </receiver>
-207        <!--
-208             FirebaseMessagingService performs security checks at runtime,
-209             but set to not exported to explicitly avoid allowing another app to call it.
-210        -->
-211        <service
-211-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:46:9-53:19
-212            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-212-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:47:13-82
-213            android:directBootAware="true"
-213-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:48:13-43
-214            android:exported="false" >
-214-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:49:13-37
-215            <intent-filter android:priority="-500" >
-215-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:50:13-52:29
-216                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-216-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:51:17-77
-216-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:51:25-75
-217            </intent-filter>
-218        </service>
-219
-220        <provider
-220-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
-221            android:name="com.google.firebase.provider.FirebaseInitProvider"
-221-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
-222            android:authorities="com.example.mychat.firebaseinitprovider"
-222-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
-223            android:directBootAware="true"
-223-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
-224            android:exported="false"
-224-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
-225            android:initOrder="100" />
-225-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+147                <data
+147-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
+148                    android:host="firebase.auth"
+148-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
+149                    android:path="/"
+149-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
+150                    android:scheme="recaptcha" />
+150-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
+151            </intent-filter>
+152        </activity>
+153
+154        <service
+154-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:66:9-72:19
+155            android:name="com.google.firebase.components.ComponentDiscoveryService"
+155-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:67:13-84
+156            android:directBootAware="true"
+156-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+157            android:exported="false" >
+157-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:68:13-37
+158            <meta-data
+158-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:69:13-71:85
+159                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+159-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:70:17-109
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-auth:23.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\96cc0d112e2b23ecb1f8d49996da477c\transformed\jetified-firebase-auth-23.0.0\AndroidManifest.xml:71:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:57:13-59:85
+162                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+162-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:58:17-122
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:59:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:60:13-62:85
+165                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+165-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:61:17-119
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:62:17-82
+167            <meta-data
+167-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:17:13-19:85
+168                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+168-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:18:17-122
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:19:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:20:13-22:85
+171                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+171-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:21:17-111
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50d699d3d1a1e4752d60ed3c15120829\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:22:17-82
+173            <meta-data
+173-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:30:13-32:85
+174                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+174-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:31:17-118
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:32:17-82
+176            <meta-data
+176-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:33:13-35:85
+177                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+177-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:34:17-107
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\762c81a59320233121c672765406d111\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:35:17-82
+179            <meta-data
+179-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+180                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+180-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+182            <meta-data
+182-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+183                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+183-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\10674abe3d72f7f506330b8269c9bc28\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+185            <meta-data
+185-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
+186                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+186-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
+187                android:value="com.google.firebase.components.ComponentRegistrar" />
+187-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
+188            <meta-data
+188-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
+189                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+189-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
+190                android:value="com.google.firebase.components.ComponentRegistrar" />
+190-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ad6dedb6b2554bfeaaa1920a32f4539d\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
+191            <meta-data
+191-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+192                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+192-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+193                android:value="com.google.firebase.components.ComponentRegistrar" />
+193-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c4fb4650af58a885b463090c9a61de8e\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+194            <meta-data
+194-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+195                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+195-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+196                android:value="com.google.firebase.components.ComponentRegistrar" />
+196-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+197            <meta-data
+197-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:25:13-27:85
+198                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+198-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:26:17-115
+199                android:value="com.google.firebase.components.ComponentRegistrar" />
+199-->[com.google.firebase:firebase-datatransport:18.2.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f988a2f03de65cc35e15d3ce6b6cf5ac\transformed\jetified-firebase-datatransport-18.2.0\AndroidManifest.xml:27:17-82
+200        </service>
+201
+202        <receiver
+202-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:29:9-40:20
+203            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+203-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:30:13-78
+204            android:exported="true"
+204-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:31:13-36
+205            android:permission="com.google.android.c2dm.permission.SEND" >
+205-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:32:13-73
+206            <intent-filter>
+206-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:33:13-35:29
+207                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+207-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:34:17-81
+207-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:34:25-78
+208            </intent-filter>
+209
+210            <meta-data
+210-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:37:13-39:40
+211                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+211-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:38:17-92
+212                android:value="true" />
+212-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:39:17-37
+213        </receiver>
+214        <!--
+215             FirebaseMessagingService performs security checks at runtime,
+216             but set to not exported to explicitly avoid allowing another app to call it.
+217        -->
+218        <service
+218-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:46:9-53:19
+219            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+219-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:47:13-82
+220            android:directBootAware="true"
+220-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:48:13-43
+221            android:exported="false" >
+221-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a8cc51498dc3acd5eb171371c1143e58\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:49:13-37
+222            <intent-filter android:priority="-500" >
+222-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:55:13-57:29
+223                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+223-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:56:17-77
+223-->C:\My chat\MobileChat\app\src\main\AndroidManifest.xml:56:25-75
+224            </intent-filter>
+225        </service>
 226
-227        <service
-227-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
-228            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
-228-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
-229            android:enabled="true"
-229-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
-230            android:exported="false" >
-230-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
-231            <meta-data
-231-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
-232                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
-232-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
-233                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
-233-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
-234        </service>
-235
-236        <activity
-236-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
-237            android:name="androidx.credentials.playservices.HiddenActivity"
-237-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
-238            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-238-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
-239            android:enabled="true"
-239-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
-240            android:exported="false"
-240-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
-241            android:fitsSystemWindows="true"
-241-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
-242            android:theme="@style/Theme.Hidden" >
-242-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
-243        </activity>
-244        <activity
-244-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
-245            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-245-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
-246            android:excludeFromRecents="true"
-246-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+227        <provider
+227-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+228            android:name="com.google.firebase.provider.FirebaseInitProvider"
+228-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+229            android:authorities="com.example.mychat.firebaseinitprovider"
+229-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+230            android:directBootAware="true"
+230-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+231            android:exported="false"
+231-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+232            android:initOrder="100" />
+232-->[com.google.firebase:firebase-common:21.0.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\964d06687005c2fd0d98fa8faf769d4c\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+233
+234        <service
+234-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+235            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+235-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+236            android:enabled="true"
+236-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+237            android:exported="false" >
+237-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+238            <meta-data
+238-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+239                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+239-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+240                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+240-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+241        </service>
+242
+243        <activity
+243-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+244            android:name="androidx.credentials.playservices.HiddenActivity"
+244-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+245            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+245-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+246            android:enabled="true"
+246-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
 247            android:exported="false"
-247-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
-248            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-248-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
-249        <!--
-250            Service handling Google Sign-In user revocation. For apps that do not integrate with
-251            Google Sign-In, this service will never be started.
-252        -->
-253        <service
-253-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
-254            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-254-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
-255            android:exported="true"
-255-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
-256            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-256-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
-257            android:visibleToInstantApps="true" />
-257-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
-258
-259        <activity
-259-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
-260            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-260-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
-261            android:exported="false"
-261-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
-262            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-262-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
-263
-264        <provider
-264-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-265            android:name="androidx.startup.InitializationProvider"
-265-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
-266            android:authorities="com.example.mychat.androidx-startup"
-266-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
-267            android:exported="false" >
-267-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
-268            <meta-data
-268-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-269                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-269-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
-270                android:value="androidx.startup" />
-270-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
-271            <meta-data
-271-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-272                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-272-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-273                android:value="androidx.startup" />
-273-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-274            <meta-data
-274-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-275                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-275-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-276                android:value="androidx.startup" />
-276-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-277        </provider>
-278
-279        <receiver
-279-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-280            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-280-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-281            android:directBootAware="false"
-281-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-282            android:enabled="true"
-282-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-283            android:exported="true"
-283-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-284            android:permission="android.permission.DUMP" >
-284-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-285            <intent-filter>
-285-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-286                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-286-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-286-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-287            </intent-filter>
-288            <intent-filter>
-288-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-289                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-289-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-289-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-290            </intent-filter>
-291            <intent-filter>
-291-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-292                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-292-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-292-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-293            </intent-filter>
-294            <intent-filter>
-294-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-295                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-295-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-295-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-296            </intent-filter>
-297        </receiver>
-298
-299        <meta-data
-299-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
-300            android:name="com.google.android.gms.version"
-300-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
-301            android:value="@integer/google_play_services_version" />
-301-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
-302
-303        <service
-303-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
-304            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-304-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
-305            android:exported="false" >
-305-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
-306            <meta-data
-306-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
-307                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-307-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
-308                android:value="cct" />
-308-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
-309        </service>
+247-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+248            android:fitsSystemWindows="true"
+248-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+249            android:theme="@style/Theme.Hidden" >
+249-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0eab6353deb2c44d5b0390c430999aad\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+250        </activity>
+251        <activity
+251-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+252            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+252-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+253            android:excludeFromRecents="true"
+253-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+254            android:exported="false"
+254-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+255            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+255-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+256        <!--
+257            Service handling Google Sign-In user revocation. For apps that do not integrate with
+258            Google Sign-In, this service will never be started.
+259        -->
+260        <service
+260-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+261            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+261-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+262            android:exported="true"
+262-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+263            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+263-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+264            android:visibleToInstantApps="true" />
+264-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\72e5b308cef72199856b47f4e0b455f3\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+265
+266        <activity
+266-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+267            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+267-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+268            android:exported="false"
+268-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+269            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+269-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\459948d8eb2cb622daa665655690841c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+270
+271        <provider
+271-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+272            android:name="androidx.startup.InitializationProvider"
+272-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+273            android:authorities="com.example.mychat.androidx-startup"
+273-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+274            android:exported="false" >
+274-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+275            <meta-data
+275-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+276                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+276-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+277                android:value="androidx.startup" />
+277-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b954e82d76b71b205993c5d3b836b786\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+278            <meta-data
+278-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+279                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+279-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+280                android:value="androidx.startup" />
+280-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\bb1f5ca93ec9e94e2b17de40571e435e\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+281            <meta-data
+281-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+282                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+282-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+283                android:value="androidx.startup" />
+283-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+284        </provider>
+285
+286        <receiver
+286-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+287            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+287-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+288            android:directBootAware="false"
+288-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+289            android:enabled="true"
+289-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+290            android:exported="true"
+290-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+291            android:permission="android.permission.DUMP" >
+291-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+292            <intent-filter>
+292-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+293                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+293-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+293-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+294            </intent-filter>
+295            <intent-filter>
+295-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+296                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+296-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+296-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+297            </intent-filter>
+298            <intent-filter>
+298-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+299                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+299-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+299-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+300            </intent-filter>
+301            <intent-filter>
+301-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+302                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+302-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+302-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2f435463c96e5132d0ef6eb2743dd585\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+303            </intent-filter>
+304        </receiver>
+305
+306        <meta-data
+306-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+307            android:name="com.google.android.gms.version"
+307-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+308            android:value="@integer/google_play_services_version" />
+308-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ce562a3f4178f053510f860b513111c5\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+309
 310        <service
-310-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
-311            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-311-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
-312            android:exported="false"
-312-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
-313            android:permission="android.permission.BIND_JOB_SERVICE" >
-313-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
-314        </service>
-315
-316        <receiver
-316-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
-317            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-317-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
-318            android:exported="false" />
-318-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
-319    </application>
-320
-321</manifest>
+310-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+311            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+311-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+312            android:exported="false" >
+312-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+313            <meta-data
+313-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+314                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+314-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+315                android:value="cct" />
+315-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c6c9c0f69419b3d08cdccad0b6195630\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+316        </service>
+317        <service
+317-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+318            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+318-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+319            android:exported="false"
+319-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+320            android:permission="android.permission.BIND_JOB_SERVICE" >
+320-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+321        </service>
+322
+323        <receiver
+323-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+324            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+324-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+325            android:exported="false" />
+325-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\ACER NITRO5\.gradle\caches\transforms-4\379d31084ee16ab56d4b4667b8fc664e\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+326    </application>
+327
+328</manifest>
