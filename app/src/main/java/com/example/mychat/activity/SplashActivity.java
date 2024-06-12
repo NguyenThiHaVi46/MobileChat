@@ -31,6 +31,7 @@ public class SplashActivity extends AppCompatActivity {
         if (getIntent().getExtras() != null) {
             String userId = getIntent().getExtras().getString("userId");
 
+
             if (userId != null && !userId.isEmpty()) {
                 Intent mainIntent = new Intent(this, MainActivity.class);
                 mainIntent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);

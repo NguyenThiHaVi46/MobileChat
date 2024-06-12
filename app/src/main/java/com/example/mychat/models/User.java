@@ -82,4 +82,7 @@ public class User {
     public void setTimestamp(Timestamp timestamp) {
         this.timestamp = timestamp;
     }
+
+
+
 }

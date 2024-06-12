@@ -34,6 +34,7 @@ import com.example.mychat.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+//import com.google.common.net.MediaType;
 import com.google.firebase.Timestamp;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.Query;
@@ -45,13 +46,20 @@ import org.json.JSONObject;
 import java.io.IOException;
 import java.util.Arrays;
 
-//import okhttp3.Call;
-//import okhttp3.Callback;
-//import okhttp3.MediaType;
-//import okhttp3.OkHttpClient;
-//import okhttp3.Request;
-//import okhttp3.RequestBody;
-//import okhttp3.Response;
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
+
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
 
 public class ChatActivity extends AppCompatActivity {
     private static final int PICK_IMAGE_VIDEO_REQUEST = 1;
@@ -66,7 +74,7 @@ public class ChatActivity extends AppCompatActivity {
     ImageButton sendMessageBtn, backBtn,showImageBtn,buttonCamera,buttonFile;
     TextView otherUserName;
     RecyclerView recyclerView;
-    ImageView imageViewPic;
+    ImageView imageView;
 
     LinearLayout hiddenButtons;
 
@@ -91,13 +99,19 @@ public class ChatActivity extends AppCompatActivity {
         backBtn = findViewById(R.id.back_btn);
         otherUserName = findViewById(R.id.other_username);
         recyclerView = findViewById(R.id.chat_RecyclerView);
-        imageViewPic = findViewById(R.id.profile_pic_image_view);
+        imageView = findViewById(R.id.profile_pic_image_view);
 
         showImageBtn = findViewById(R.id.show_image);
         hiddenButtons = findViewById(R.id.hidden_buttons);
         buttonCamera = findViewById(R.id.button_camera);
         buttonFile = findViewById(R.id.button_file);
-
+        FirebaseUtil.getOtherProfilePicStorageRef(otherUser.getUserId()).getDownloadUrl()
+                .addOnCompleteListener(t -> {
+                    if (t.isSuccessful()) {
+                        Uri uri = t.getResult();
+                        AndroidUtil.setProfilePic(this, uri, imageView);
+                    }
+                });
         showImageBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -125,13 +139,7 @@ public class ChatActivity extends AppCompatActivity {
         buttonCamera.setOnClickListener(v -> openFileChooser(PICK_IMAGE_VIDEO_REQUEST));
         buttonFile.setOnClickListener(v -> openFileChooser(PICK_FILE_REQUEST));
 
-//        FirebaseUtil.getOtherProfilePicStorageRef(otherUser.getUserId()).getDownloadUrl()
-//                .addOnCompleteListener(t -> {
-//                    if (t.isSuccessful()) {
-//                        Uri uri = t.getResult();
-//                        AndroidUtil.setProfilePic(this, uri, imageViewPic);
-//                    }
-//                });
+
 
         backBtn.setOnClickListener((v) -> {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
@@ -220,60 +228,70 @@ public class ChatActivity extends AppCompatActivity {
         });
     }
 
-//    void sendNotification(String message, String type){
-//
-//        FirebaseUtil.currentUserDetails().get().addOnCompleteListener(task -> {
-//            if(task.isSuccessful()){
-//                User currentUser = task.getResult().toObject(User.class);
-//                try{
-//                    JSONObject jsonObject  = new JSONObject();
-//
-//                    JSONObject notificationObj = new JSONObject();
-//                    notificationObj.put("title",currentUser.getUserName());
-//                    notificationObj.put("body",type.equals("image") ? "Sent an image" : (type.equals("video") ? "Sent a video" : message));
-//
-//                    JSONObject dataObj = new JSONObject();
-//                    dataObj.put("userId",currentUser.getUserId());
-//
-//                    jsonObject.put("notification",notificationObj);
-//                    jsonObject.put("data",dataObj);
-//                    jsonObject.put("to",otherUser.getFcmToken());
-//
-//                    callApi(jsonObject);
-//
-//
-//                }catch (Exception e){
-//
-//                }
-//
-//            }
-//        });
-//
-//    }
+    void sendNotification(String message, String type){
 
-//    void callApi(JSONObject jsonObject){
-//        MediaType JSON = MediaType.get("application/json; charset=utf-8");
-//        OkHttpClient client = new OkHttpClient();
-//        String url = "https://fcm.googleapis.com/fcm/send";
-//        RequestBody body = RequestBody.create(jsonObject.toString(),JSON);
-//        Request request = new Request.Builder()
-//                .url(url)
-//                .post(body)
-//                .header("Authorization","Bearer AAAAWupq0IU:APA91bF3VtCO6Ky6P8BlYFs0xu9nd7PfLoLCN_JB5mSVhm5dPBFq1b4FQvM_5gdcfN73QwOyHB1PD-_3-JxQaBDugFkSYoZny7e0i4FWVnD9w--vlJh2phaXpUcNPsUwI1bCRLSOuMpy")
-//                .build();
-//        client.newCall(request).enqueue(new Callback() {
-//            @Override
-//            public void onFailure(@NonNull Call call, @NonNull IOException e) {
-//
-//            }
-//
-//            @Override
-//            public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
-//
-//            }
-//        });
-//
-//    }
+        FirebaseUtil.currentUserDetails().get().addOnCompleteListener(task -> {
+            if(task.isSuccessful()){
+                User currentUser = task.getResult().toObject(User.class);
+                try{
+                    JSONObject jsonObject  = new JSONObject();
+
+                    JSONObject notificationObj = new JSONObject();
+                    notificationObj.put("title",currentUser.getUsername());
+                    notificationObj.put("body",type.equals("image") ? "Sent an image" : (type.equals("video") ? "Sent a video" : message));
+
+                    JSONObject dataObj = new JSONObject();
+                    dataObj.put("userId",currentUser.getUserId());
+
+                    jsonObject.put("notification",notificationObj);
+                 jsonObject.put("data",dataObj);
+                   jsonObject.put("to",otherUser.getFcmToken());
+
+                   callApi(jsonObject);
+
+
+                }catch (Exception e){
+
+                }
+
+            }
+       });
+
+   }
+
+
+    void callApi(JSONObject jsonObject) {
+        MediaType JSON = MediaType.get("application/json; charset=utf-8");
+        OkHttpClient client = new OkHttpClient();
+        String url = "https://fcm.googleapis.com/fcm/send";
+
+        RequestBody body = RequestBody.create(jsonObject.toString(), JSON);
+
+        Request request = new Request.Builder()
+                .url(url)
+                .post(body)
+                .header("Authorization", "key=6a7b8254f9f13d8ccc35bd25e71874e35f81a610")
+                .build();
+
+        client.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(@NonNull Call call, @NonNull IOException e) {
+                e.printStackTrace();
+                System.out.println("Request failed: " + e.getMessage());
+            }
+
+            @Override
+            public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
+                if (!response.isSuccessful()) {
+                    System.out.println("Request not successful: " + response.code() + " - " + response.message());
+                    System.out.println("Response: " + response.body().string());
+                    return;
+                }
+                System.out.println("Request successful: " + response.body().string());
+            }
+        });
+    }
+
 
     void openFileChooser(int requestCode) {
         Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
