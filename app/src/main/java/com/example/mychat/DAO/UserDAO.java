@@ -1,5 +1,6 @@
 package com.example.mychat.DAO;
 
+import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
@@ -9,10 +10,11 @@ import com.example.mychat.models.User;
 
 import java.util.List;
 
+@Dao
 public interface UserDAO {
 
     @Insert
-    long insertUser(User user);
+    void insertUser(User user);
 
     @Insert
     void insertUsers(List<User> users);

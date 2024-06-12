@@ -1,33 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "com.example.mychat.app-mergeDebugResources-45:/values-v21/values-v21.xml",
-=======
-            "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-v21/values-v21.xml",
->>>>>>> c469f56ebd52d2ddf7515ae15b0e933387d58a89
+            "outputFile": "com.example.mychat.app-mergeDebugResources-47:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\316d8e9e156900ed075f204d2f317848\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,5,8,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,223,386,554",
-                        "endLines": "4,7,10,13",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "218,381,549,716"
-                    },
-                    "to": {
-                        "startLines": "349,352,356,360",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "25798,25966,26255,26551",
-                        "endLines": "351,354,358,362",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "25961,26124,26418,26713"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\6b23b432cfd4bf02275e3f347faf98e3\\transformed\\material-1.12.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\6b23b432cfd4bf02275e3f347faf98e3\\transformed\\material-1.12.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,29,32,35,38,41,44,47,50,53,56,59,60,63,68,79,85,94,103,112,121,130,139,148,157,166,175,184,193,202,211,220,226,232,238,244,248,252,253,254,255,259,262,265,268,271,272,275,278,282,286",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -46,7 +23,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\122af31f9e255d8d1d18854f754405b7\\transformed\\appcompat-1.7.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\316d8e9e156900ed075f204d2f317848\\transformed\\media-1.0.0\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "349,352,356,360",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "25798,25966,26255,26551",
+                        "endLines": "351,354,358,362",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "25961,26124,26418,26713"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\122af31f9e255d8d1d18854f754405b7\\transformed\\appcompat-1.7.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,106,109,152,155,158,160,162,164,167,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,220,222,223,224,234,235,236,248",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -65,7 +61,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\25c2175da41a10f07777aade5285ead7\\transformed\\core-1.13.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\25c2175da41a10f07777aade5285ead7\\transformed\\core-1.13.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -84,7 +80,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\0eab6353deb2c44d5b0390c430999aad\\transformed\\jetified-credentials-play-services-auth-1.2.0-rc01\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\0eab6353deb2c44d5b0390c430999aad\\transformed\\jetified-credentials-play-services-auth-1.2.0-rc01\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

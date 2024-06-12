@@ -1,14 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "com.example.mychat.app-mergeDebugResources-45:/values-watch-v20/values-watch-v20.xml",
-=======
-            "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-watch-v20/values-watch-v20.xml",
->>>>>>> c469f56ebd52d2ddf7515ae15b0e933387d58a89
+            "outputFile": "com.example.mychat.app-mergeDebugResources-47:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\122af31f9e255d8d1d18854f754405b7\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\122af31f9e255d8d1d18854f754405b7\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -27,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\72e5b308cef72199856b47f4e0b455f3\\transformed\\jetified-play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\72e5b308cef72199856b47f4e0b455f3\\transformed\\jetified-play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

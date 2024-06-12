@@ -30,7 +30,7 @@ public class LoginUserNameActivity extends AppCompatActivity {
     Button letMeInBtn;
     ProgressBar progressBar;
     User user;
-    UserRepository userRepository;
+//    UserRepository userRepository;
     String phoneNumber;
 
     @Override
@@ -74,10 +74,10 @@ public class LoginUserNameActivity extends AppCompatActivity {
                 user.setPhoneNumber(userName);
                 user.setPhoneNumber(phoneNumber);
                 user.setPassword(passWord);
-                userRepository.updateUser(user);
+//                userRepository.updateUser(user);
             } else {
-                user = new User(phoneNumber, userName, Timestamp.now(), FirebaseUtil.currentUserId(), passWord);
-                userRepository.saveUser(user);
+                user = new User(phoneNumber, userName,Timestamp.now(), FirebaseUtil.currentUserId(), passWord);
+//                userRepository.saveUser(user);
             }
         } else {
             Toast.makeText(LoginUserNameActivity.this, "Passwords do not match", Toast.LENGTH_SHORT).show();
