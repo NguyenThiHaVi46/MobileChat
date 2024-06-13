@@ -1,14 +1,19 @@
 [versions]
-agp = "8.4.0"
+agp = "8.3.2"
 junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
-appcompat = "1.6.1"
+appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.9.0"
 constraintlayout = "2.1.4"
 googleGmsGoogleServices = "4.4.1"
-firebaseFirestore = "25.0.0"
+googleServices = "4.4.2"
+firebaseMessaging = "24.0.0"
+
+firebaseStorage = "21.0.0"
+
+
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -18,7 +23,17 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+google-services = { group = "com.google.gms", name = "google-services", version.ref = "googleServices" }
+libphonenumber = { group = "com.googlecode.libphonenumber", name = "libphonenumber", version = "8.12.30" }
+firebaseui = {group = "com.firebaseui", name = "firebase-ui-firestore",version = "8.0.2"}
+glide = {group = "com.github.bumptech.glide",name = "glide",version = "4.16.0"}
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "firebaseMessaging" }
+generativeai = { group = "com.google.ai.client.generativeai", name = "generativeai", version = "0.6.0" }
+guava = { group = "com.google.guava", name = "guava", version = "31.0.1-android" }
+reactive-streams = { group = "org.reactivestreams", name = "reactive-streams", version = "1.0.4" }
+
+
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
