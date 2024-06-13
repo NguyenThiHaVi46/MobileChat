@@ -1,7 +1,10 @@
 package com.example.mychat.models;
 
+import androidx.room.Entity;
+
 import com.google.firebase.Timestamp;
 
+@Entity(tableName = "user")
 public class User {
     private String phoneNumber;
     private String username;

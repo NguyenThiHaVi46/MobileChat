@@ -1,7 +1,15 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "com.example.mychat.app-mergeDebugResources-44:/values-pa/values-pa.xml",
+=======
+<<<<<<< HEAD
+            "outputFile": "com.example.mychat.app-mergeDebugResources-47:/values-pa/values-pa.xml",
+=======
+            "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-pa/values-pa.xml",
+>>>>>>> main
+>>>>>>> 718a89d35c267e3a31ef77761d4007b06df0a7ca
             "map": [
                 {
                     "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\f86fe748db0f79cf279e281f78a703b3\\transformed\\browser-1.4.0\\res\\values-pa\\values-pa.xml",

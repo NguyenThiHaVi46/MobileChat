@@ -11,9 +11,12 @@ import android.widget.Toast;
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
 
 import com.example.mychat.R;
-import com.example.mychat.data.dataHelper.UserDatabaseHelper;
+import com.example.mychat.data.repository.UserRepository;
 import com.example.mychat.models.User;
 import com.example.mychat.utils.FirebaseUtil;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -27,7 +30,7 @@ public class LoginUserNameActivity extends AppCompatActivity {
     Button letMeInBtn;
     ProgressBar progressBar;
     User user;
-
+//    UserRepository userRepository;
     String phoneNumber;
 
     @Override
@@ -35,7 +38,11 @@ public class LoginUserNameActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login_user_name);
-
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
 
         userNameInput = findViewById(R.id.signup_userName);
         letMeInBtn = findViewById(R.id.signup_letMeIn_btn);
@@ -62,16 +69,15 @@ public class LoginUserNameActivity extends AppCompatActivity {
             return;
         }
         if (passWord.equals(confirmPassWord)) {
-//            UserDatabaseHelper db = new UserDatabaseHelper(this);
-//            User user = db.getUser(FirebaseUtil.currentUserId());
+
             if (user != null) {
                 user.setPhoneNumber(userName);
                 user.setPhoneNumber(phoneNumber);
                 user.setPassword(passWord);
-//                db.updateUser(user);
+//                userRepository.updateUser(user);
             } else {
-                user = new User(phoneNumber, userName, Timestamp.now(), FirebaseUtil.currentUserId(), passWord);
-//                db.addUser(user);
+                user = new User(phoneNumber, userName,Timestamp.now(), FirebaseUtil.currentUserId(), passWord);
+//                userRepository.saveUser(user);
             }
         } else {
             Toast.makeText(LoginUserNameActivity.this, "Passwords do not match", Toast.LENGTH_SHORT).show();
@@ -94,14 +100,6 @@ public class LoginUserNameActivity extends AppCompatActivity {
         });
     }
 
-//    void getUserName(){
-//        setInProgress(true);
-//        UserDatabaseHelper db = new UserDatabaseHelper(this);
-//        User user = db.getUser(FirebaseUtil.currentUserId());
-//        userNameInput.setText(user.getUsername());
-//        setInProgress(false);
-//
-//    }
 
     void getUserName(){
         setInProgress(true);

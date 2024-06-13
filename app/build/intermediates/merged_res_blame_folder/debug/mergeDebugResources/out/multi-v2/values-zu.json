@@ -1,7 +1,15 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "com.example.mychat.app-mergeDebugResources-44:/values-zu/values-zu.xml",
+=======
+<<<<<<< HEAD
+            "outputFile": "com.example.mychat.app-mergeDebugResources-47:/values-zu/values-zu.xml",
+=======
+            "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-zu/values-zu.xml",
+>>>>>>> main
+>>>>>>> 718a89d35c267e3a31ef77761d4007b06df0a7ca
             "map": [
                 {
                     "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\ce562a3f4178f053510f860b513111c5\\transformed\\jetified-play-services-basement-18.3.0\\res\\values-zu\\values.xml",
