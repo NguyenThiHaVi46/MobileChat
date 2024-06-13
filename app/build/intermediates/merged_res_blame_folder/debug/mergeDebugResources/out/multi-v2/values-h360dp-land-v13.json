@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+            "outputFile": "com.example.mychat.app-mergeDebugResources-44:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\6b23b432cfd4bf02275e3f347faf98e3\\transformed\\material-1.12.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\6b23b432cfd4bf02275e3f347faf98e3\\transformed\\material-1.12.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
