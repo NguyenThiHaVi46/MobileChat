@@ -13,6 +13,8 @@ import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
 
+import java.util.regex.Pattern;
+
 public class AndroidUtil {
     public static void showToast(Context context, String message){
         Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
@@ -23,7 +25,8 @@ public class AndroidUtil {
         intent.putExtra("phone",user.getPhoneNumber());
         intent.putExtra("userId",user.getUserId());
         intent.putExtra("fcmToken",user.getFcmToken());
-
+        intent.putExtra("email",user.getEmail());
+        intent.putExtra("password",user.getPassword());
     }
 
     public static User getUserModelFromIntent(Intent intent){
@@ -32,7 +35,8 @@ public class AndroidUtil {
         user.setPhoneNumber(intent.getStringExtra("phone"));
         user.setUserId(intent.getStringExtra("userId"));
         user.setFcmToken(intent.getStringExtra("fcmToken"));
-
+        user.setEmail(intent.getStringExtra("email"));
+        user.setPassword(intent.getStringExtra("password"));
         return user;
     }
 
@@ -61,4 +65,14 @@ public class AndroidUtil {
         String regex = "\\d+";
         return phoneNumber.matches(regex);
     }
+
+    public static boolean isValidEmail(String email) {
+        String emailRegex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$";
+        Pattern pattern = Pattern.compile(emailRegex);
+        if (email == null) {
+            return false;
+        }
+        return pattern.matcher(email).matches();
+    }
+
 }

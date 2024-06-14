@@ -3487,6 +3487,7 @@ drawable icon_delete
 drawable icon_edit
 drawable icon_file
 drawable icon_file_present
+drawable icon_person_add
 drawable icon_play_circle
 drawable icon_red_eye
 drawable icon_search
@@ -3684,6 +3685,9 @@ id UZBEK
 id VIETNAMESE
 id VOICEMAIL
 id VOIP
+id ac_add_user
+id ac_back_btn
+id ac_recycler_view
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -3974,13 +3978,13 @@ id listMode
 id list_item
 id login_back_phone_number
 id login_countryCode
+id login_email
 id login_goto_signupBtn
 id login_loginBtn
 id login_mobile_number
 id login_next_btn
 id login_otp
 id login_password
-id login_phone
 id login_progress_bar
 id logout_btn
 id lytCameraPick
@@ -4112,6 +4116,7 @@ id position
 id postLayout
 id preferenceDivider
 id pressed
+id profile_account_conversion
 id profile_image_view
 id profile_phone
 id profile_pic_image_view
@@ -4186,6 +4191,7 @@ id showHome
 id showTitle
 id show_image
 id signup_confirm_password
+id signup_email
 id signup_letMeIn_btn
 id signup_password
 id signup_progress_bar
@@ -4435,6 +4441,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_account_conversion
 layout activity_chat
 layout activity_chat_gemini_ai
 layout activity_login

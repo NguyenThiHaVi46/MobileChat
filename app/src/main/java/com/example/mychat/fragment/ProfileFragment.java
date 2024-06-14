@@ -20,6 +20,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.mychat.R;
+import com.example.mychat.activity.AccountConversionActivity;
 import com.example.mychat.activity.SplashActivity;
 import com.example.mychat.models.User;
 import com.example.mychat.utils.AndroidUtil;
@@ -32,7 +33,6 @@ import com.google.firebase.messaging.FirebaseMessaging;
 import kotlin.Unit;
 import kotlin.jvm.functions.Function1;
 
-
 public class ProfileFragment extends Fragment {
 
     ImageView profilePic;
@@ -40,101 +40,105 @@ public class ProfileFragment extends Fragment {
     EditText phoneInput;
     Button updateProfileBtn;
     ProgressBar progressBar;
-    TextView logoutBtn;
+    TextView logoutBtn,accountConversionBtn;
     User currentUserModel;
-    ActivityResultLauncher<Intent> imagePickLaucher;
+    ActivityResultLauncher<Intent> imagePickLauncher;
     Uri selectedImageUri;
+
     public ProfileFragment() {
         // Required empty public constructor
     }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        imagePickLaucher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(),
-                result ->{
-                    if(result.getResultCode() == Activity.RESULT_OK){
+        imagePickLauncher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(),
+                result -> {
+                    if (result.getResultCode() == Activity.RESULT_OK) {
                         Intent data = result.getData();
-                        if(data!=null && data.getData()!=null){
+                        if (data != null && data.getData() != null) {
                             selectedImageUri = data.getData();
-                            AndroidUtil.setProfilePic(getContext(),selectedImageUri,profilePic);
-
+                            AndroidUtil.setProfilePic(getContext(), selectedImageUri, profilePic);
                         }
                     }
-                }
-                );
+                });
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_profile, container, false);
         profilePic = view.findViewById(R.id.profile_image_view);
         usernameInput = view.findViewById(R.id.profile_username);
-        phoneInput = view.findViewById(R.id.profile_phone); // Sửa lại từ R.id.profile_username thành R.id.profile_phone
+        phoneInput = view.findViewById(R.id.profile_phone);
         updateProfileBtn = view.findViewById(R.id.profile_update_btn);
         progressBar = view.findViewById(R.id.profile_progress_bar);
         logoutBtn = view.findViewById(R.id.logout_btn);
+        accountConversionBtn = view.findViewById(R.id.profile_account_conversion);
         getUserData();
+
         updateProfileBtn.setOnClickListener(v -> {
             UpdateBtnClick();
         });
+
         logoutBtn.setOnClickListener(v -> {
-            FirebaseMessaging.getInstance().deleteToken().addOnCompleteListener(new OnCompleteListener<Void>() {
-                @Override
-                public void onComplete(@NonNull Task<Void> task) {
-                    if(task.isSuccessful()){
-                        FirebaseUtil.logout();
-                        Intent intent =new Intent(getContext(), SplashActivity.class);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                        startActivity(intent);
-                    }
+            FirebaseMessaging.getInstance().deleteToken().addOnCompleteListener(task -> {
+                if (task.isSuccessful()) {
+                    FirebaseUtil.logout();
+                    Intent intent = new Intent(getContext(), SplashActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    startActivity(intent);
                 }
             });
-
         });
 
         profilePic.setOnClickListener(v -> {
-            ImagePicker.with(this).cropSquare().compress(512).maxResultSize(512,512)
+            ImagePicker.with(this).cropSquare().compress(512).maxResultSize(512, 512)
                     .createIntent(new Function1<Intent, Unit>() {
                         @Override
                         public Unit invoke(Intent intent) {
-                            imagePickLaucher.launch(intent);
+                            imagePickLauncher.launch(intent);
                             return null;
                         }
                     });
         });
+
+        accountConversionBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), AccountConversionActivity.class));
+            }
+        });
+
         return view;
     }
 
-    void UpdateBtnClick(){
+    void UpdateBtnClick() {
         String newUsername = usernameInput.getText().toString();
-        if(newUsername.isEmpty()||newUsername.length()<3){
+        if (newUsername.isEmpty() || newUsername.length() < 3) {
             usernameInput.setError("Username length should be at least 3 chars");
             return;
         }
         currentUserModel.setUsername(newUsername);
         setInProgress(true);
 
-        if (selectedImageUri!=null){
+        if (selectedImageUri != null) {
             FirebaseUtil.getCurrentProfilePicStorageRef().putFile(selectedImageUri)
                     .addOnCompleteListener(task -> {
                         updateToFirestore();
                     });
-        }else {
+        } else {
             updateToFirestore();
         }
-        FirebaseUtil.getCurrentProfilePicStorageRef().putFile(selectedImageUri);
-
-        updateToFirestore();
     }
-    void updateToFirestore(){
+
+    void updateToFirestore() {
         FirebaseUtil.currentUserDetails().set(currentUserModel)
                 .addOnCompleteListener(task -> {
                     setInProgress(false);
-                    if(task.isSuccessful()){
-                        AndroidUtil.showToast(getContext(),"Updated successfully");
-                    }else {
-                        AndroidUtil.showToast(getContext(),"Update failed");
+                    if (task.isSuccessful()) {
+                        AndroidUtil.showToast(getContext(), "Updated successfully");
+                    } else {
+                        AndroidUtil.showToast(getContext(), "Update failed");
                     }
                 });
     }
@@ -143,20 +147,21 @@ public class ProfileFragment extends Fragment {
         setInProgress(true);
 
         FirebaseUtil.getCurrentProfilePicStorageRef().getDownloadUrl()
-                        .addOnCompleteListener(task -> {
-                            if (task.isSuccessful()){
-                                Uri uri = task.getResult();
-                                AndroidUtil.setProfilePic(getContext(),uri,profilePic);
-                            }
-                        });
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful()) {
+                        Uri uri = task.getResult();
+                        AndroidUtil.setProfilePic(getContext(), uri, profilePic);
+                    }
+                });
 
         FirebaseUtil.currentUserDetails().get().addOnCompleteListener(task -> {
             currentUserModel = task.getResult().toObject(User.class);
             setInProgress(false);
             usernameInput.setText(currentUserModel.getUsername());
-            phoneInput.setText((currentUserModel.getPhoneNumber()));
+            phoneInput.setText(currentUserModel.getPhoneNumber());
         });
     }
+
     void setInProgress(boolean inProgress) {
         if (inProgress) {
             progressBar.setVisibility(View.VISIBLE);

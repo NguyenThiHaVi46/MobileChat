@@ -15,6 +15,8 @@ import com.example.mychat.DAO.ChatRoomGeminiDAO;
 import com.example.mychat.DAO.ChatRoomGeminiDAO_Impl;
 import com.example.mychat.DAO.MessageAIDAO;
 import com.example.mychat.DAO.MessageAIDAO_Impl;
+import com.example.mychat.DAO.UserDAO;
+import com.example.mychat.DAO.UserDAO_Impl;
 import java.lang.Class;
 import java.lang.Override;
 import java.lang.String;
@@ -32,22 +34,26 @@ public final class Data_Impl extends Data {
 
   private volatile ChatRoomGeminiDAO _chatRoomGeminiDAO;
 
+  private volatile UserDAO _userDAO;
+
   @Override
   @NonNull
   protected SupportSQLiteOpenHelper createOpenHelper(@NonNull final DatabaseConfiguration config) {
-    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(1) {
+    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(2) {
       @Override
       public void createAllTables(@NonNull final SupportSQLiteDatabase db) {
         db.execSQL("CREATE TABLE IF NOT EXISTS `messageAi` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `text` TEXT, `isSentByUser` INTEGER NOT NULL, `image` BLOB, `timestamp` INTEGER NOT NULL, `roomId` INTEGER NOT NULL)");
         db.execSQL("CREATE TABLE IF NOT EXISTS `chatRoomGemini` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT)");
+        db.execSQL("CREATE TABLE IF NOT EXISTS `user` (`phoneNumber` TEXT, `username` TEXT, `timestamp` INTEGER, `userId` TEXT NOT NULL, `fcmToken` TEXT, `password` TEXT, `email` TEXT, PRIMARY KEY(`userId`))");
         db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'ed8f2b5ec939ab9d64ef0d90fb06ea4b')");
+        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '073ef2aad6bc060c014b0ca8b0286468')");
       }
 
       @Override
       public void dropAllTables(@NonNull final SupportSQLiteDatabase db) {
         db.execSQL("DROP TABLE IF EXISTS `messageAi`");
         db.execSQL("DROP TABLE IF EXISTS `chatRoomGemini`");
+        db.execSQL("DROP TABLE IF EXISTS `user`");
         final List<? extends RoomDatabase.Callback> _callbacks = mCallbacks;
         if (_callbacks != null) {
           for (RoomDatabase.Callback _callback : _callbacks) {
@@ -119,9 +125,26 @@ public final class Data_Impl extends Data {
                   + " Expected:\n" + _infoChatRoomGemini + "\n"
                   + " Found:\n" + _existingChatRoomGemini);
         }
+        final HashMap<String, TableInfo.Column> _columnsUser = new HashMap<String, TableInfo.Column>(7);
+        _columnsUser.put("phoneNumber", new TableInfo.Column("phoneNumber", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsUser.put("username", new TableInfo.Column("username", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsUser.put("timestamp", new TableInfo.Column("timestamp", "INTEGER", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsUser.put("userId", new TableInfo.Column("userId", "TEXT", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsUser.put("fcmToken", new TableInfo.Column("fcmToken", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsUser.put("password", new TableInfo.Column("password", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsUser.put("email", new TableInfo.Column("email", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        final HashSet<TableInfo.ForeignKey> _foreignKeysUser = new HashSet<TableInfo.ForeignKey>(0);
+        final HashSet<TableInfo.Index> _indicesUser = new HashSet<TableInfo.Index>(0);
+        final TableInfo _infoUser = new TableInfo("user", _columnsUser, _foreignKeysUser, _indicesUser);
+        final TableInfo _existingUser = TableInfo.read(db, "user");
+        if (!_infoUser.equals(_existingUser)) {
+          return new RoomOpenHelper.ValidationResult(false, "user(com.example.mychat.models.User).\n"
+                  + " Expected:\n" + _infoUser + "\n"
+                  + " Found:\n" + _existingUser);
+        }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "ed8f2b5ec939ab9d64ef0d90fb06ea4b", "81a38684b9a99e673b7467851441a3e7");
+    }, "073ef2aad6bc060c014b0ca8b0286468", "cb2def73a11b21c2121823100b609039");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(config.context).name(config.name).callback(_openCallback).build();
     final SupportSQLiteOpenHelper _helper = config.sqliteOpenHelperFactory.create(_sqliteConfig);
     return _helper;
@@ -132,7 +155,7 @@ public final class Data_Impl extends Data {
   protected InvalidationTracker createInvalidationTracker() {
     final HashMap<String, String> _shadowTablesMap = new HashMap<String, String>(0);
     final HashMap<String, Set<String>> _viewTables = new HashMap<String, Set<String>>(0);
-    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "messageAi","chatRoomGemini");
+    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "messageAi","chatRoomGemini","user");
   }
 
   @Override
@@ -143,6 +166,7 @@ public final class Data_Impl extends Data {
       super.beginTransaction();
       _db.execSQL("DELETE FROM `messageAi`");
       _db.execSQL("DELETE FROM `chatRoomGemini`");
+      _db.execSQL("DELETE FROM `user`");
       super.setTransactionSuccessful();
     } finally {
       super.endTransaction();
@@ -159,6 +183,7 @@ public final class Data_Impl extends Data {
     final HashMap<Class<?>, List<Class<?>>> _typeConvertersMap = new HashMap<Class<?>, List<Class<?>>>();
     _typeConvertersMap.put(MessageAIDAO.class, MessageAIDAO_Impl.getRequiredConverters());
     _typeConvertersMap.put(ChatRoomGeminiDAO.class, ChatRoomGeminiDAO_Impl.getRequiredConverters());
+    _typeConvertersMap.put(UserDAO.class, UserDAO_Impl.getRequiredConverters());
     return _typeConvertersMap;
   }
 
@@ -201,6 +226,20 @@ public final class Data_Impl extends Data {
           _chatRoomGeminiDAO = new ChatRoomGeminiDAO_Impl(this);
         }
         return _chatRoomGeminiDAO;
+      }
+    }
+  }
+
+  @Override
+  public UserDAO userDAO() {
+    if (_userDAO != null) {
+      return _userDAO;
+    } else {
+      synchronized(this) {
+        if(_userDAO == null) {
+          _userDAO = new UserDAO_Impl(this);
+        }
+        return _userDAO;
       }
     }
   }
