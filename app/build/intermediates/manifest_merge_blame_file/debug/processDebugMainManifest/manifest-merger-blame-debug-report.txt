@@ -313,53 +313,53 @@
 170                android:value="com.google.firebase.components.ComponentRegistrar" />
 170-->[com.google.firebase:firebase-messaging:24.0.0] C:\Users\hungn\.gradle\caches\transforms-4\aed84ae68c3f910b6ac807dcaf71c626\transformed\jetified-firebase-messaging-24.0.0\AndroidManifest.xml:62:17-82
 171            <meta-data
-171-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\5707ed9aef403e112087d70fe4d9c342\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:30:13-32:85
-172                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
-172-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\5707ed9aef403e112087d70fe4d9c342\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:31:17-118
+171-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\2d0f8cf6022e33e19e47c24eea42d2c9\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:17:13-19:85
+172                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+172-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\2d0f8cf6022e33e19e47c24eea42d2c9\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:18:17-122
 173                android:value="com.google.firebase.components.ComponentRegistrar" />
-173-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\5707ed9aef403e112087d70fe4d9c342\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:32:17-82
+173-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\2d0f8cf6022e33e19e47c24eea42d2c9\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:19:17-82
 174            <meta-data
-174-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\5707ed9aef403e112087d70fe4d9c342\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:33:13-35:85
-175                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-175-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\5707ed9aef403e112087d70fe4d9c342\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:34:17-107
+174-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\2d0f8cf6022e33e19e47c24eea42d2c9\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:20:13-22:85
+175                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+175-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\2d0f8cf6022e33e19e47c24eea42d2c9\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:21:17-111
 176                android:value="com.google.firebase.components.ComponentRegistrar" />
-176-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\5707ed9aef403e112087d70fe4d9c342\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:35:17-82
+176-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\2d0f8cf6022e33e19e47c24eea42d2c9\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:22:17-82
 177            <meta-data
-177-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\155a17e6430c16316c605d47befd6975\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
-178                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
-178-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\155a17e6430c16316c605d47befd6975\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
+177-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\5707ed9aef403e112087d70fe4d9c342\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:30:13-32:85
+178                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+178-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\5707ed9aef403e112087d70fe4d9c342\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:31:17-118
 179                android:value="com.google.firebase.components.ComponentRegistrar" />
-179-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\155a17e6430c16316c605d47befd6975\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
+179-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\5707ed9aef403e112087d70fe4d9c342\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:32:17-82
 180            <meta-data
-180-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\155a17e6430c16316c605d47befd6975\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
-181                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
-181-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\155a17e6430c16316c605d47befd6975\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
+180-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\5707ed9aef403e112087d70fe4d9c342\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:33:13-35:85
+181                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+181-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\5707ed9aef403e112087d70fe4d9c342\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:34:17-107
 182                android:value="com.google.firebase.components.ComponentRegistrar" />
-182-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\155a17e6430c16316c605d47befd6975\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
+182-->[com.google.firebase:firebase-storage:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\5707ed9aef403e112087d70fe4d9c342\transformed\jetified-firebase-storage-21.0.0\AndroidManifest.xml:35:17-82
 183            <meta-data
-183-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\2d0f8cf6022e33e19e47c24eea42d2c9\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:17:13-19:85
-184                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
-184-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\2d0f8cf6022e33e19e47c24eea42d2c9\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:18:17-122
+183-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\8a1a95202a7a5fdb92575eca4ba3ee80\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+184                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+184-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\8a1a95202a7a5fdb92575eca4ba3ee80\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
 185                android:value="com.google.firebase.components.ComponentRegistrar" />
-185-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\2d0f8cf6022e33e19e47c24eea42d2c9\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:19:17-82
+185-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\8a1a95202a7a5fdb92575eca4ba3ee80\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
 186            <meta-data
-186-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\2d0f8cf6022e33e19e47c24eea42d2c9\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:20:13-22:85
-187                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-187-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\2d0f8cf6022e33e19e47c24eea42d2c9\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:21:17-111
+186-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\8a1a95202a7a5fdb92575eca4ba3ee80\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+187                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+187-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\8a1a95202a7a5fdb92575eca4ba3ee80\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
 188                android:value="com.google.firebase.components.ComponentRegistrar" />
-188-->[com.google.firebase:firebase-firestore:25.0.0] C:\Users\hungn\.gradle\caches\transforms-4\2d0f8cf6022e33e19e47c24eea42d2c9\transformed\jetified-firebase-firestore-25.0.0\AndroidManifest.xml:22:17-82
+188-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\8a1a95202a7a5fdb92575eca4ba3ee80\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
 189            <meta-data
-189-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\8a1a95202a7a5fdb92575eca4ba3ee80\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
-190                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-190-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\8a1a95202a7a5fdb92575eca4ba3ee80\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+189-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\155a17e6430c16316c605d47befd6975\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
+190                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+190-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\155a17e6430c16316c605d47befd6975\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
 191                android:value="com.google.firebase.components.ComponentRegistrar" />
-191-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\8a1a95202a7a5fdb92575eca4ba3ee80\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+191-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\155a17e6430c16316c605d47befd6975\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
 192            <meta-data
-192-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\8a1a95202a7a5fdb92575eca4ba3ee80\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
-193                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-193-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\8a1a95202a7a5fdb92575eca4ba3ee80\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+192-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\155a17e6430c16316c605d47befd6975\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
+193                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+193-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\155a17e6430c16316c605d47befd6975\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
 194                android:value="com.google.firebase.components.ComponentRegistrar" />
-194-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\8a1a95202a7a5fdb92575eca4ba3ee80\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+194-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\hungn\.gradle\caches\transforms-4\155a17e6430c16316c605d47befd6975\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
 195            <meta-data
 195-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\hungn\.gradle\caches\transforms-4\b75d85218d732a3a7fa172e46cb5e00a\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
 196                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
