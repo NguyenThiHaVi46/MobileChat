@@ -28,6 +28,7 @@ public class FirebaseUtil {
             return true;
         }
         return false;
+
     }
 
     public static DocumentReference currentUserDetails(){

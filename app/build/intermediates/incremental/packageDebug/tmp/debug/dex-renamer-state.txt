@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 #Fri Jun 14 23:48:26 ICT 2024
+=======
+<<<<<<< HEAD
+#Wed Jun 12 21:39:24 ICT 2024
+=======
+<<<<<<< HEAD
+#Wed Jun 12 21:22:23 ICT 2024
+>>>>>>> 718a89d35c267e3a31ef77761d4007b06df0a7ca
+>>>>>>> main
 base.0=D\:\\HTTT1\\Nam3\\HK2\\Android\\BaiTapLon2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\HTTT1\\Nam3\\HK2\\Android\\BaiTapLon2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=D\:\\HTTT1\\Nam3\\HK2\\Android\\BaiTapLon2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
@@ -9,6 +18,25 @@ base.6=D\:\\HTTT1\\Nam3\\HK2\\Android\\BaiTapLon2\\app\\build\\intermediates\\de
 base.7=D\:\\HTTT1\\Nam3\\HK2\\Android\\BaiTapLon2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
 base.8=D\:\\HTTT1\\Nam3\\HK2\\Android\\BaiTapLon2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 base.9=D\:\\HTTT1\\Nam3\\HK2\\Android\\BaiTapLon2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+#Wed Jun 12 17:57:53 ICT 2024
+base.0=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.4=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.5=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.6=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.7=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.8=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.9=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+>>>>>>> main
+>>>>>>> 718a89d35c267e3a31ef77761d4007b06df0a7ca
+>>>>>>> main
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=10/classes.dex
