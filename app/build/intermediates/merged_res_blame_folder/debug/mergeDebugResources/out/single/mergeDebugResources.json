@@ -1,10 +1,13 @@
 [
     {
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
         "merged": "com.example.mychat.app-debug-46:/layout_activity_main.xml.flat",
         "source": "com.example.mychat.app-main-48:/layout/activity_main.xml"
 =======
 <<<<<<< HEAD
+>>>>>>> main
         "merged": "com.example.mychat.app-debug-49:/layout_activity_splash.xml.flat",
         "source": "com.example.mychat.app-main-51:/layout/activity_splash.xml"
     },
@@ -197,6 +200,10 @@
         "source": "com.example.mychat.app-main-51:/drawable/password_icon.xml"
     },
     {
+        "merged": "com.example.mychat.app-debug-49:/drawable_icon_person_add.xml.flat",
+        "source": "com.example.mychat.app-main-51:/drawable/icon_person_add.xml"
+    },
+    {
         "merged": "com.example.mychat.app-debug-49:/layout_activity_login_phone_number.xml.flat",
         "source": "com.example.mychat.app-main-51:/layout/activity_login_phone_number.xml"
     },
@@ -229,6 +236,10 @@
         "source": "com.example.mychat.app-main-51:/drawable/person_icon.xml"
     },
     {
+        "merged": "com.example.mychat.app-debug-49:/layout_activity_account_conversion.xml.flat",
+        "source": "com.example.mychat.app-main-51:/layout/activity_account_conversion.xml"
+    },
+    {
         "merged": "com.example.mychat.app-debug-49:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.mychat.app-main-51:/mipmap-xhdpi/ic_launcher_round.webp"
     },
@@ -247,6 +258,8 @@
     {
         "merged": "com.example.mychat.app-debug-49:/drawable_circular_bg.xml.flat",
         "source": "com.example.mychat.app-main-51:/drawable/circular_bg.xml"
+<<<<<<< HEAD
+=======
 =======
         "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\menu_bottom_navigation_menu.xml.flat",
         "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\menu\\bottom_navigation_menu.xml"
@@ -557,5 +570,6 @@
         "source": "com.example.mychat.app-main-7:/mipmap-xhdpi/ic_launcher_round.webp"
 >>>>>>> main
 >>>>>>> 718a89d35c267e3a31ef77761d4007b06df0a7ca
+>>>>>>> main
     }
 ]

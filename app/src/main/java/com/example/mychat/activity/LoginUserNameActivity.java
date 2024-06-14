@@ -16,21 +16,29 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.mychat.R;
+import com.example.mychat.data.RoomData.Data;
 import com.example.mychat.data.repository.UserRepository;
 import com.example.mychat.models.User;
+import com.example.mychat.utils.AndroidUtil;
 import com.example.mychat.utils.FirebaseUtil;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.Timestamp;
+import com.google.firebase.auth.AuthCredential;
+import com.google.firebase.auth.EmailAuthProvider;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentSnapshot;
+
+import org.mindrot.jbcrypt.BCrypt;
 
 public class LoginUserNameActivity extends AppCompatActivity {
 
-    EditText userNameInput,password,confirmPassword;
+    EditText userNameInput,password,confirmPassword,emailInput;
     Button letMeInBtn;
     ProgressBar progressBar;
     User user;
-//    UserRepository userRepository;
+
     String phoneNumber;
 
     @Override
@@ -50,34 +58,38 @@ public class LoginUserNameActivity extends AppCompatActivity {
         phoneNumber = getIntent().getExtras().getString("phone");
         password = findViewById(R.id.signup_password);
         confirmPassword = findViewById(R.id.signup_confirm_password);
+        emailInput = findViewById(R.id.signup_email);
+        String userId = getIntent().getExtras().getString("userId");
 
-        getUserName();
-
+        getUserName(userId);
 
         letMeInBtn.setOnClickListener((v -> {
-            setUserName();
+            setUserName(userId);
         }));
     }
 
-    void setUserName(){
+    void setUserName(String userId){
+        UserRepository userRepository = new UserRepository(getApplication());
 
         String userName = userNameInput.getText().toString();
         String passWord = password.getText().toString();
         String confirmPassWord = confirmPassword.getText().toString();
+        String email = emailInput.getText().toString();
         if(userName.isEmpty()||userName.length()<3){
             userNameInput.setError("Username length should be at least 3 chars");
             return;
         }
         if (passWord.equals(confirmPassWord)) {
+            String hashedPassword = BCrypt.hashpw(passWord, BCrypt.gensalt());
 
             if (user != null) {
-                user.setPhoneNumber(userName);
                 user.setPhoneNumber(phoneNumber);
-                user.setPassword(passWord);
-//                userRepository.updateUser(user);
+                user.setPassword(hashedPassword);
+                userRepository.updateUser(user);
             } else {
-                user = new User(phoneNumber, userName,Timestamp.now(), FirebaseUtil.currentUserId(), passWord);
-//                userRepository.saveUser(user);
+                user = new User(phoneNumber, userName, Timestamp.now(), userId, hashedPassword,email);
+                userRepository.saveUser(user);
+                linkEmailAndPassword(email,hashedPassword);
             }
         } else {
             Toast.makeText(LoginUserNameActivity.this, "Passwords do not match", Toast.LENGTH_SHORT).show();
@@ -85,14 +97,14 @@ public class LoginUserNameActivity extends AppCompatActivity {
         }
         setInProgress(true);
 
-
         FirebaseUtil.currentUserDetails().set(user).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 setInProgress(false);
 
                 if(task.isSuccessful()){
-                    Intent intent  = new Intent(LoginUserNameActivity.this,MainActivity.class);
+                    FirebaseUtil.logout();
+                    Intent intent  = new Intent(LoginUserNameActivity.this, LoginActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);
                 }
@@ -100,22 +112,18 @@ public class LoginUserNameActivity extends AppCompatActivity {
         });
     }
 
-
-    void getUserName(){
+    void getUserName(String userId){
         setInProgress(true);
         FirebaseUtil.currentUserDetails().get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
                 setInProgress(false);
                 if(task.isSuccessful()){
-                    user =  task.getResult().toObject(User.class);
-                   if(user!=null){
-                       userNameInput.setText(user.getUsername());
-                   }
-                }else {
-
+                    user = task.getResult().toObject(User.class);
+                    if(user != null){
+                        userNameInput.setText(user.getUsername());
+                    }
                 }
-
             }
         });
     }
@@ -129,4 +137,32 @@ public class LoginUserNameActivity extends AppCompatActivity {
             letMeInBtn.setVisibility(View.VISIBLE);
         }
     }
+
+    public void linkEmailAndPassword(String email, String password) {
+        FirebaseAuth mAuth = FirebaseAuth.getInstance();
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+
+        if (currentUser != null) {
+            AuthCredential credential = EmailAuthProvider.getCredential(email, password);
+
+            currentUser.linkWithCredential(credential)
+                    .addOnCompleteListener(this, task -> {
+                        if (task.isSuccessful()) {
+                            // Liên kết thành công
+                            FirebaseUser user = task.getResult().getUser();
+                            String uid = user.getUid();
+                            // UID của user vẫn là UID ban đầu
+                            Toast.makeText(this, "Email linked successfully", Toast.LENGTH_SHORT).show();
+                        } else {
+                            // Liên kết thất bại
+                            Toast.makeText(this, "Failed to link email", Toast.LENGTH_SHORT).show();
+                        }
+                    });
+        } else {
+            Toast.makeText(this, "No user is currently signed in", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+
+
 }

@@ -30,4 +30,7 @@ public interface UserDAO {
 
     @Update
     void updateUser(User user);
+
+    @Query("SELECT * FROM user WHERE email = :email")
+    User getUserByEmail(String email);
 }

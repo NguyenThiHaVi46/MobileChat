@@ -49,7 +49,7 @@ public class LoginPhoneNumberActivity extends AppCompatActivity {
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+                finish();
             }
         });
         sendOtpBtn.setOnClickListener((v) ->{

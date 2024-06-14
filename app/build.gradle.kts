@@ -49,16 +49,22 @@ dependencies {
     implementation(libs.libphonenumber)
     implementation(libs.glide)
     implementation(libs.firebase.messaging)
-
     implementation(libs.firebase.storage)
     implementation("com.hbb20:ccp:2.5.0")
 
-    implementation(platform("com.google.firebase:firebase-bom:33.0.0"))
-    implementation("com.google.firebase:firebase-auth")
+//    implementation(libs.firebase.bom)
+
     implementation ("androidx.room:room-runtime:2.6.1")
     annotationProcessor ("androidx.room:room-compiler:2.6.1")
 
     implementation ("com.github.dhaval2404:imagepicker:2.1")
     implementation ("com.github.bumptech.glide:glide:4.16.0")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("org.mindrot:jbcrypt:0.4")
+
+    implementation (platform("com.google.firebase:firebase-bom:33.1.0"))
+    //noinspection UseTomlInstead
+    implementation ("com.google.firebase:firebase-auth")
+
+
 }
