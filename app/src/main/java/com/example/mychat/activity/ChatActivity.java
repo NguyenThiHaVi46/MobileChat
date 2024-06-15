@@ -264,7 +264,7 @@ public class ChatActivity extends AppCompatActivity {
         Request request = new Request.Builder()
                 .url(url)
                 .post(body)
-                .header("Authorization", "key=6a7b8254f9f13d8ccc35bd25e71874e35f81a610")
+                .header("Authorization", "key=750008544469")
                 .build();
 
         client.newCall(request).enqueue(new Callback() {
