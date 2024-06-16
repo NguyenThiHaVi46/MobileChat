@@ -71,7 +71,7 @@ public class ChatActivity extends AppCompatActivity {
     String chatRoomId;
     ChatRecyclerAdapter adapter;
     EditText messageInput;
-    ImageButton sendMessageBtn, backBtn,showImageBtn,buttonCamera,buttonFile;
+    ImageButton sendMessageBtn, backBtn,showImageBtn,buttonCamera,buttonFile,groupAddBtn;
     TextView otherUserName;
     RecyclerView recyclerView;
     ImageView imageView;
@@ -100,7 +100,7 @@ public class ChatActivity extends AppCompatActivity {
         otherUserName = findViewById(R.id.other_username);
         recyclerView = findViewById(R.id.chat_RecyclerView);
         imageView = findViewById(R.id.profile_pic_image_view);
-
+        groupAddBtn = findViewById(R.id.chat_group_add);
         showImageBtn = findViewById(R.id.show_image);
         hiddenButtons = findViewById(R.id.hidden_buttons);
         buttonCamera = findViewById(R.id.button_camera);

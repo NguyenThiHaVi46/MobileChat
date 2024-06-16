@@ -22,6 +22,7 @@ import android.widget.TextView;
 import com.example.mychat.R;
 import com.example.mychat.activity.AccountConversionActivity;
 import com.example.mychat.activity.SplashActivity;
+import com.example.mychat.data.repository.UserRepository;
 import com.example.mychat.models.User;
 import com.example.mychat.utils.AndroidUtil;
 import com.example.mychat.utils.FirebaseUtil;
@@ -44,7 +45,7 @@ public class ProfileFragment extends Fragment {
     User currentUserModel;
     ActivityResultLauncher<Intent> imagePickLauncher;
     Uri selectedImageUri;
-
+    UserRepository userData;
     public ProfileFragment() {
         // Required empty public constructor
     }
@@ -91,6 +92,9 @@ public class ProfileFragment extends Fragment {
             });
         });
 
+        userData  = new UserRepository(getContext());
+        currentUserModel = userData.getUserById(FirebaseUtil.currentUserId());
+
         profilePic.setOnClickListener(v -> {
             ImagePicker.with(this).cropSquare().compress(512).maxResultSize(512, 512)
                     .createIntent(new Function1<Intent, Unit>() {
@@ -136,6 +140,7 @@ public class ProfileFragment extends Fragment {
                 .addOnCompleteListener(task -> {
                     setInProgress(false);
                     if (task.isSuccessful()) {
+                        userData.updateUser(currentUserModel);
                         AndroidUtil.showToast(getContext(), "Updated successfully");
                     } else {
                         AndroidUtil.showToast(getContext(), "Update failed");
