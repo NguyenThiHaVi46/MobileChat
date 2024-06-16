@@ -2,6 +2,7 @@ package com.example.mychat.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -28,6 +29,7 @@ import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.EmailAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.auth.UserInfo;
 import com.google.firebase.firestore.DocumentSnapshot;
 
 import org.mindrot.jbcrypt.BCrypt;
@@ -86,10 +88,11 @@ public class LoginUserNameActivity extends AppCompatActivity {
                 user.setPhoneNumber(phoneNumber);
                 user.setPassword(hashedPassword);
                 userRepository.updateUser(user);
+                linkOrUpdateEmailAndPassword(email,hashedPassword);
             } else {
                 user = new User(phoneNumber, userName, Timestamp.now(), userId, hashedPassword,email);
                 userRepository.saveUser(user);
-                linkEmailAndPassword(email,hashedPassword);
+                linkOrUpdateEmailAndPassword(email,hashedPassword);
             }
         } else {
             Toast.makeText(LoginUserNameActivity.this, "Passwords do not match", Toast.LENGTH_SHORT).show();
@@ -122,6 +125,9 @@ public class LoginUserNameActivity extends AppCompatActivity {
                     user = task.getResult().toObject(User.class);
                     if(user != null){
                         userNameInput.setText(user.getUsername());
+                        emailInput.setText(user.getEmail());
+                        userNameInput.setEnabled(false);
+                        emailInput.setEnabled(false);
                     }
                 }
             }
@@ -138,30 +144,51 @@ public class LoginUserNameActivity extends AppCompatActivity {
         }
     }
 
-    public void linkEmailAndPassword(String email, String password) {
+    public void linkOrUpdateEmailAndPassword(String email, String password) {
         FirebaseAuth mAuth = FirebaseAuth.getInstance();
         FirebaseUser currentUser = mAuth.getCurrentUser();
+        Log.d("TAG", "linkOrUpdateEmailAndPassword: ");
 
         if (currentUser != null) {
-            AuthCredential credential = EmailAuthProvider.getCredential(email, password);
+            boolean emailLinked = false;
+            Log.d("TAG", "linkOrUpdateEmailAndPassword1: ");
+            // Check if the user already has an email linked
+            for (UserInfo userInfo : currentUser.getProviderData()) {
+                if (userInfo.getProviderId().equals(EmailAuthProvider.PROVIDER_ID)) {
+                    emailLinked = true;
+                    break;
+                }
+            }
 
-            currentUser.linkWithCredential(credential)
-                    .addOnCompleteListener(this, task -> {
-                        if (task.isSuccessful()) {
-                            // Liên kết thành công
-                            FirebaseUser user = task.getResult().getUser();
-                            String uid = user.getUid();
-                            // UID của user vẫn là UID ban đầu
-                            Toast.makeText(this, "Email linked successfully", Toast.LENGTH_SHORT).show();
-                        } else {
-                            // Liên kết thất bại
-                            Toast.makeText(this, "Failed to link email", Toast.LENGTH_SHORT).show();
-                        }
-                    });
+            if (emailLinked) {
+                // Email is already linked, update the password
+                Log.d("TAG", "linkOrUpdateEmailAndPassword:2 ");
+                currentUser.updatePassword(password)
+                        .addOnCompleteListener(this, task -> {
+                            if (task.isSuccessful()) {
+                                Toast.makeText(this, "Password updated successfully", Toast.LENGTH_SHORT).show();
+                            } else {
+                                Toast.makeText(this, "Failed to update password", Toast.LENGTH_SHORT).show();
+                            }
+                        });
+            } else {
+                // Email is not linked, link the email and password
+                AuthCredential credential = EmailAuthProvider.getCredential(email, password);
+                Log.d("TAG", "linkOrUpdateEmailAndPassword3: ");
+                currentUser.linkWithCredential(credential)
+                        .addOnCompleteListener(this, task -> {
+                            if (task.isSuccessful()) {
+                                Toast.makeText(this, "Email linked successfully", Toast.LENGTH_SHORT).show();
+                            } else {
+                                Toast.makeText(this, "Failed to link email", Toast.LENGTH_SHORT).show();
+                            }
+                        });
+            }
         } else {
             Toast.makeText(this, "No user is currently signed in", Toast.LENGTH_SHORT).show();
         }
     }
+
 
 
 
