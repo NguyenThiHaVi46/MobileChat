@@ -57,7 +57,7 @@ public class SplashActivity extends AppCompatActivity {
                     if (FirebaseUtil.isLoggedIn()) {
                         startActivity(new Intent(SplashActivity.this, MainActivity.class));
                     } else {
-                        startActivity(new Intent(SplashActivity.this, LoginPhoneNumberActivity.class));
+                        startActivity(new Intent(SplashActivity.this, LoginActivity.class));
                     }
                     finish();
                 }, 1000);
@@ -67,7 +67,7 @@ public class SplashActivity extends AppCompatActivity {
                 if (FirebaseUtil.isLoggedIn()) {
                     startActivity(new Intent(SplashActivity.this, MainActivity.class));
                 } else {
-                    startActivity(new Intent(SplashActivity.this, LoginPhoneNumberActivity.class));
+                    startActivity(new Intent(SplashActivity.this, LoginActivity.class));
                 }
                 finish();
             }, 1000);

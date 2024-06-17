@@ -10,26 +10,30 @@ import java.util.List;
 
 public class UserRepository {
 //
-//    private Data database;
-//    private String userId;
-//
-//    public UserRepository(Data database, String userId) {
-//        this.database = database;
-//        this.userId = userId;
-//    }
-//
-//    public void saveUser(User user) {
-//        database.userDAO().insertUser(user);
-//    }
-//
-//    public void updateUser(User user) {
-//        database.userDAO().updateUser(user);
-//    }
-//    public List<User> getAllUser() {
-//        return database.userDAO().getListUser();
-//    }
-//
-//    public User getUserById(String userId) {
-//        return database.userDAO().getUserById(userId);
-//    }
+
+    Context context;
+
+    public UserRepository(Context context) {
+        this.context = context;
+    }
+
+    public void saveUser(User user) {
+        Data.getInstance(context).userDAO().insertUser(user);
+    }
+
+    public void updateUser(User user) {
+        Data.getInstance(context).userDAO().updateUser(user);
+    }
+    public List<User> getAllUser() {
+        return Data.getInstance(context).userDAO().getListUser();
+    }
+
+    public User getUserById(String userId) {
+        return Data.getInstance(context).userDAO().getUserById(userId);
+    }
+
+
+    public User getUserByEmail(String email) {
+        return Data.getInstance(context).userDAO().getUserByEmail(email);
+    }
 }

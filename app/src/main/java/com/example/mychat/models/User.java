@@ -1,6 +1,8 @@
 package com.example.mychat.models;
 
+import androidx.annotation.NonNull;
 import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
 import com.google.firebase.Timestamp;
 
@@ -10,20 +12,34 @@ public class User {
     private String username;
     private Timestamp timestamp;
 
+    @PrimaryKey()
+    @NonNull
     private String userId;
     private String fcmToken;
     private String password;
 
+    private  String email;
+
     public User() {
 
     }
-    public User(String phone, String userName, Timestamp createdTimestamp, String userId, String password) {
+    public User(String phone, String userName, Timestamp createdTimestamp, String userId, String password,String email) {
         this.phoneNumber = phone;
         this.username = userName;
         this.timestamp = createdTimestamp;
         this.userId = userId;
         this.password = password;
+        this.email = email;
     }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public String getUserId() {
         return userId;
     }

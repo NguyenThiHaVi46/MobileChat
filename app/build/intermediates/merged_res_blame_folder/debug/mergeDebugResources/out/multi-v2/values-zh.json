@@ -1,24 +1,10 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "com.example.mychat.app-mergeDebugResources-44:/values-zh/values-zh.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\4393d4c3677380fc0ee42a1ef51f6c5c\\transformed\\jetified-ucrop-2.2.6\\res\\values-zh\\values-zh.xml",
-=======
-<<<<<<< HEAD
             "outputFile": "com.example.mychat.app-mergeDebugResources-47:/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\4393d4c3677380fc0ee42a1ef51f6c5c\\transformed\\jetified-ucrop-2.2.6\\res\\values-zh\\values-zh.xml",
-=======
-            "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-zh/values-zh.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\4393d4c3677380fc0ee42a1ef51f6c5c\\transformed\\jetified-ucrop-2.2.6\\res\\values-zh\\values-zh.xml",
->>>>>>> main
->>>>>>> 718a89d35c267e3a31ef77761d4007b06df0a7ca
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\d80ec594418aea4828fcd79c87f03cd4\\transformed\\jetified-ucrop-2.2.6\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

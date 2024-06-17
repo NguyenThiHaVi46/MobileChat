@@ -15,7 +15,7 @@ import com.example.mychat.models.MessageAi;
 import com.example.mychat.models.User;
 import com.example.mychat.utils.Converters;
 
-@Database(entities = {MessageAi.class, ChatRoomGemini.class}, version = 1)
+@Database(entities = {MessageAi.class, ChatRoomGemini.class, User.class}, version = 2)
 @TypeConverters({Converters.class})
 public abstract class Data extends RoomDatabase {
     private static final String DATABASE_NAME = "mychat";
@@ -24,14 +24,15 @@ public abstract class Data extends RoomDatabase {
 
     public abstract MessageAIDAO messageAIDAO();
     public abstract ChatRoomGeminiDAO chatRoomGeminiDAO();
+    public abstract UserDAO userDAO();
 
     public static synchronized Data getInstance(Context context) {
         if (instance == null) {
             instance = Room.databaseBuilder(context, Data.class, DATABASE_NAME)
+                    .fallbackToDestructiveMigration()
                     .allowMainThreadQueries()
                     .build();
         }
         return instance;
     }
-
 }

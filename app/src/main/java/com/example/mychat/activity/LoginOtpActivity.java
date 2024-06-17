@@ -21,6 +21,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthOptions;
 import com.google.firebase.auth.PhoneAuthProvider;
@@ -124,24 +125,28 @@ public class LoginOtpActivity extends AppCompatActivity {
     }
 
     void signIn(PhoneAuthCredential phoneAuthCredential) {
-        //login and go to next activity
         setInProgress(true);
         mAuth.signInWithCredential(phoneAuthCredential).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 setInProgress(false);
                 if (task.isSuccessful()) {
-                    Intent intent = new Intent(LoginOtpActivity.this, LoginUserNameActivity.class);
-                    String cleanedPhoneNumber = AndroidUtil.formatPhoneNumber(phoneNumber, "VN");
-                    intent.putExtra("phone", cleanedPhoneNumber);
-                    startActivity(intent);
+                    FirebaseUser firebaseUser = mAuth.getCurrentUser();
+                    if (firebaseUser != null) {
+                        String userId = firebaseUser.getUid();
+                        Intent intent = new Intent(LoginOtpActivity.this, LoginUserNameActivity.class);
+                        String cleanedPhoneNumber = AndroidUtil.formatPhoneNumber(phoneNumber, "VN");
+                        intent.putExtra("phone", cleanedPhoneNumber);
+                        intent.putExtra("userId", userId);
+                        startActivity(intent);
+                    }
                 } else {
                     AndroidUtil.showToast(getApplicationContext(), "OTP verification failed");
                 }
             }
         });
-
     }
+
 
     void startResendTimer() {
         resendOtpTextView.setEnabled(false);
