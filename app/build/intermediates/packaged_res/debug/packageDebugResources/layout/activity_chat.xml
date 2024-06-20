@@ -42,6 +42,31 @@
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@drawable/icon_back"
             app:tint="@color/white" />
+
+        <ImageButton
+            android:id="@+id/chat_group_add"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_group_add"
+            android:background="@null"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            app:tint="@color/white"
+            android:visibility="visible"/>
+
+        <ImageButton
+            android:id="@+id/chat_menu"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_menu"
+            android:background="@null"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            app:tint="@color/white"
+            android:visibility="gone"/>
+
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView

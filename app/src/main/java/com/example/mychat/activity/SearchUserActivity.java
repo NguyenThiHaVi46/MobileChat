@@ -2,9 +2,11 @@ package com.example.mychat.activity;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.text.TextUtils;
-import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
+import android.widget.EditText;
 import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
@@ -28,18 +30,20 @@ import java.util.Arrays;
 import java.util.List;
 
 public class SearchUserActivity extends AppCompatActivity {
-    AutoCompleteTextView searchInput;
-    ImageButton searchButton;
+    EditText searchInput;
     ImageButton backButton;
     RecyclerView recyclerView;
 
     SearchUserRecyclerAdapter adapter;
     SharedPreferences sharedPreferences;
-    ArrayAdapter<String> searchAdapter;
 
     private static final String PREFS_NAME = "SearchPreferences";
     private static final String SEARCH_HISTORY_KEY = "SearchHistory";
     private static final int MAX_HISTORY_SIZE = 5;
+    private static final long DEBOUNCE_DELAY = 300; // thời gian chờ debounce (300ms)
+    private Handler handler = new Handler();
+    private Runnable searchRunnable;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,35 +56,35 @@ public class SearchUserActivity extends AppCompatActivity {
         });
 
         searchInput = findViewById(R.id.search_username_input);
-        searchButton = findViewById(R.id.search_user_btn);
         backButton = findViewById(R.id.back_btn);
         recyclerView = findViewById(R.id.search_user_recycler_view);
 
         sharedPreferences = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
-        setupSearchHistory();
-
-        searchInput.requestFocus();
 
         backButton.setOnClickListener(v -> {
-            onBackPressed();
+            finish();
         });
 
-        searchButton.setOnClickListener(v -> {
-            String searchTerm = searchInput.getText().toString();
-            if (searchTerm.isEmpty() || searchTerm.length() < 3) {
-                searchInput.setError("Invalid Username");
-                return;
+        searchInput.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                handler.removeCallbacks(searchRunnable);
             }
-            saveSearchTerm(searchTerm);
-            setupSearchRecyclerView(searchTerm);
-        });
-    }
 
-    private void setupSearchHistory() {
-        String[] searchHistory = getSearchHistory();
-        searchAdapter = new ArrayAdapter<>(this, android.R.layout.simple_dropdown_item_1line, searchHistory);
-        searchInput.setAdapter(searchAdapter);
-        searchInput.setThreshold(1);
+            @Override
+            public void afterTextChanged(Editable s) {
+                String searchTerm = s.toString();
+                searchRunnable = () -> {
+                    saveSearchTerm(searchTerm);
+                    setupSearchRecyclerView(searchTerm);
+                };
+
+                handler.postDelayed(searchRunnable, DEBOUNCE_DELAY);
+            }
+        });
     }
 
     private void saveSearchTerm(String term) {
@@ -91,20 +95,13 @@ public class SearchUserActivity extends AppCompatActivity {
 
         searchHistoryList.add(0, term);
 
-
         if (searchHistoryList.size() > MAX_HISTORY_SIZE) {
             searchHistoryList = searchHistoryList.subList(0, MAX_HISTORY_SIZE);
         }
 
-        // Save the updated search history
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString(SEARCH_HISTORY_KEY, TextUtils.join(",", searchHistoryList));
         editor.apply();
-
-        // Update the adapter
-        searchAdapter.clear();
-        searchAdapter.addAll(searchHistoryList);
-        searchAdapter.notifyDataSetChanged();
     }
 
     private String[] getSearchHistory() {
@@ -126,36 +123,33 @@ public class SearchUserActivity extends AppCompatActivity {
             query = FirebaseUtil.allUserCollectionReference()
                     .whereGreaterThanOrEqualTo("username", searchTerm)
                     .whereLessThanOrEqualTo("username", searchTerm + '\uf8ff');
-
         }
 
         FirestoreRecyclerOptions<User> options = new FirestoreRecyclerOptions.Builder<User>()
                 .setQuery(query, User.class).build();
 
-        adapter = new SearchUserRecyclerAdapter(options, getApplicationContext());
+        adapter = new SearchUserRecyclerAdapter(options,getApplication());
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);
         adapter.startListening();
-
-
     }
 
     @Override
-    protected void onStart () {
+    protected void onStart() {
         super.onStart();
         if (adapter != null)
             adapter.startListening();
     }
 
     @Override
-    protected void onStop () {
+    protected void onStop() {
         super.onStop();
         if (adapter != null)
             adapter.stopListening();
     }
 
     @Override
-    protected void onResume () {
+    protected void onResume() {
         super.onResume();
         if (adapter != null)
             adapter.startListening();

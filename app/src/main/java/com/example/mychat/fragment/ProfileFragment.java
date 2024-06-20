@@ -126,7 +126,7 @@ public class ProfileFragment extends Fragment {
         setInProgress(true);
 
         if (selectedImageUri != null) {
-            FirebaseUtil.getCurrentProfilePicStorageRef().putFile(selectedImageUri)
+            FirebaseUtil.getCurrentProfilePicStorageRef("").putFile(selectedImageUri)
                     .addOnCompleteListener(task -> {
                         updateToFirestore();
                     });
@@ -151,7 +151,7 @@ public class ProfileFragment extends Fragment {
     void getUserData() {
         setInProgress(true);
 
-        FirebaseUtil.getCurrentProfilePicStorageRef().getDownloadUrl()
+        FirebaseUtil.getCurrentProfilePicStorageRef("").getDownloadUrl()
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
                         Uri uri = task.getResult();

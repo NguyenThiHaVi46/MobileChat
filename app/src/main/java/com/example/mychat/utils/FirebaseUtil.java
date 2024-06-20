@@ -12,6 +12,7 @@ import com.google.firebase.storage.StorageReference;
 
 import java.lang.annotation.Documented;
 import java.text.SimpleDateFormat;
+import java.util.Collections;
 import java.util.List;
 
 public class FirebaseUtil {
@@ -47,12 +48,18 @@ public class FirebaseUtil {
     public static CollectionReference getChatRoomMessageReference(String chatRoomId){
         return getChatroomReference(chatRoomId).collection("chats");
     }
-    public  static String getChatRoomId(String userId1,String userId2){
-        if(userId1.hashCode()<userId2.hashCode()){
-            return userId1 +"_"+userId2;
-        }else {
-            return  userId2 +"_"+userId1;
+    public static String getChatRoomId(List<String> userIds) {
+        Collections.sort(userIds);
+
+        StringBuilder chatRoomId = new StringBuilder();
+        for (int i = 0; i < userIds.size(); i++) {
+            chatRoomId.append(userIds.get(i));
+            if (i < userIds.size() - 1) {
+                chatRoomId.append("_");
+            }
         }
+
+        return chatRoomId.toString();
     }
     public static CollectionReference allChatroomCollectionReference(){
         return FirebaseFirestore.getInstance().collection("chatRooms");
@@ -70,9 +77,14 @@ public class FirebaseUtil {
         return new SimpleDateFormat("HH:mm").format(timestamp.toDate());
     }
 
-    public static StorageReference getCurrentProfilePicStorageRef() {
-        return FirebaseStorage.getInstance().getReference().child("profile_pic")
-                .child(FirebaseUtil.currentUserId());
+    public static StorageReference getCurrentProfilePicStorageRef(String roomId) {
+        if(roomId.equals("")){
+            return FirebaseStorage.getInstance().getReference().child("profile_pic")
+                    .child(FirebaseUtil.currentUserId());
+        }else {
+            return FirebaseStorage.getInstance().getReference().child("profile_pic")
+                    .child(roomId);
+        }
     }
     public static StorageReference getOtherProfilePicStorageRef(String otherUserId) {
         return FirebaseStorage.getInstance().getReference().child("profile_pic")
