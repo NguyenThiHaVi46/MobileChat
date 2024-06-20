@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-69:12
-INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-69:12
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:1-72:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\hungn\.gradle\caches\transforms-4\9205805470d02cd3566e3a190a4d6860\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hungn\.gradle\caches\transforms-4\a91c8701648930367f1caba6787f351e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.hbb20:ccp:2.5.0] C:\Users\hungn\.gradle\caches\transforms-4\ce06c6e4ed7dbd93811bc71eaee77756\transformed\jetified-ccp-2.5.0\AndroidManifest.xml:2:1-9:12
@@ -114,8 +114,8 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\hun
 	xmlns:android
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:5:5-67:19
-INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:5:5-67:19
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:5:5-70:19
+INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:5:5-70:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\hungn\.gradle\caches\transforms-4\9205805470d02cd3566e3a190a4d6860\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\hungn\.gradle\caches\transforms-4\9205805470d02cd3566e3a190a4d6860\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\hungn\.gradle\caches\transforms-4\a91c8701648930367f1caba6787f351e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -204,100 +204,106 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\hu
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:13:9-44
 	android:dataExtractionRules
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.mychat.activity.AccountConversionActivity
+activity#com.example.mychat.activity.GroupAddUserActivity
 ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:16:13-63
-meta-data#com.google.firebase.messaging.default_notification_icon
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:19:9-21:58
-	android:resource
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:21:13-55
-	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:20:13-83
-meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:22:9-24:52
-	android:resource
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:24:13-49
-	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:23:13-84
-activity#com.example.mychat.activity.ChatActivity
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:26:9-28:40
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:16:13-58
+activity#com.example.mychat.activity.AccountConversionActivity
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:28:13-37
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:27:13-50
-activity#com.example.mychat.activity.ChatGeminiAiActivity
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:19:13-63
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:22:9-24:58
+	android:resource
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:24:13-55
+	android:name
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:23:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:25:9-27:52
+	android:resource
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:27:13-49
+	android:name
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:26:13-84
+activity#com.example.mychat.activity.ChatActivity
 ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:30:13-58
-activity#com.example.mychat.activity.LoginActivity
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:30:13-50
+activity#com.example.mychat.activity.ChatGeminiAiActivity
 ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:33:13-51
-activity#com.example.mychat.activity.SearchUserActivity
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:33:13-58
+activity#com.example.mychat.activity.LoginActivity
 ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:36:13-56
-activity#com.example.mychat.activity.LoginUserNameActivity
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:36:13-51
+activity#com.example.mychat.activity.SearchUserActivity
 ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:39:13-59
-activity#com.example.mychat.activity.LoginOtpActivity
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:39:13-56
+activity#com.example.mychat.activity.LoginUserNameActivity
 ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:42:13-54
-activity#com.example.mychat.activity.LoginPhoneNumberActivity
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:42:13-59
+activity#com.example.mychat.activity.LoginOtpActivity
 ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
 		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:45:13-62
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:45:13-54
+activity#com.example.mychat.activity.LoginPhoneNumberActivity
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:47:9-49:40
+	android:exported
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:48:13-62
 activity#com.example.mychat.activity.SplashActivity
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:47:9-55:20
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:50:9-58:20
 	android:exported
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:49:13-36
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:48:13-52
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:51:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:50:13-54:29
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:53:13-57:29
 action#android.intent.action.MAIN
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:51:17-69
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:54:17-69
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:51:25-66
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:54:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:53:17-77
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:56:17-77
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:53:27-74
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:56:27-74
 activity#com.example.mychat.activity.MainActivity
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:56:9-58:40
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:59:9-61:40
 	android:exported
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:58:13-37
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:57:13-50
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:60:13-50
 service#com.example.mychat.activity.FCMNotificationService
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:60:9-66:19
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:63:9-69:19
 	android:exported
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:62:13-37
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:65:13-37
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:61:13-60
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:64:13-60
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:63:13-65:29
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:66:13-68:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:64:17-78
+ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:67:17-78
 	android:name
-		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:64:25-75
+		ADDED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml:67:25-75
 uses-sdk
 INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\AndroidManifest.xml

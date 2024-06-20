@@ -6,6 +6,8 @@ import androidx.room.PrimaryKey;
 
 import com.google.firebase.Timestamp;
 
+import java.util.Objects;
+
 @Entity(tableName = "user")
 public class User {
     private String phoneNumber;
@@ -100,5 +102,18 @@ public class User {
     }
 
 
+    // Thêm vào lớp User của bạn
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return Objects.equals(userId, user.userId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(userId);
+    }
 
 }

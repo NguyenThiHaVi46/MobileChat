@@ -2,10 +2,14 @@ package com.example.mychat.activity;
 
 
 
+import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.InputType;
+import android.util.Log;
 import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.EditText;
@@ -15,6 +19,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -32,6 +38,7 @@ import com.example.mychat.models.User;
 import com.example.mychat.utils.AndroidUtil;
 import com.example.mychat.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
+import com.github.dhaval2404.imagepicker.ImagePicker;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 //import com.google.common.net.MediaType;
@@ -44,8 +51,12 @@ import com.google.firebase.storage.StorageReference;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.OkHttpClient;
@@ -64,14 +75,15 @@ import okhttp3.Response;
 public class ChatActivity extends AppCompatActivity {
     private static final int PICK_IMAGE_VIDEO_REQUEST = 1;
     private static final int PICK_FILE_REQUEST = 2;
-
+    private Uri selectedImageUri;
+    ActivityResultLauncher<Intent> imagePickLauncher;
 
     User otherUser;
     ChatRoom chatRoom;
     String chatRoomId;
     ChatRecyclerAdapter adapter;
     EditText messageInput;
-    ImageButton sendMessageBtn, backBtn,showImageBtn,buttonCamera,buttonFile,groupAddBtn;
+    ImageButton sendMessageBtn, backBtn,showImageBtn,buttonCamera,buttonFile,groupAddBtn,menuBtn;
     TextView otherUserName;
     RecyclerView recyclerView;
     ImageView imageView;
@@ -83,16 +95,12 @@ public class ChatActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
-
-        otherUser = AndroidUtil.getUserModelFromIntent(getIntent());
-        chatRoomId = FirebaseUtil.getChatRoomId(FirebaseUtil.currentUserId(), otherUser.getUserId());
-
 
         messageInput = findViewById(R.id.chat_message_input);
         sendMessageBtn = findViewById(R.id.message_send_btn);
@@ -105,13 +113,35 @@ public class ChatActivity extends AppCompatActivity {
         hiddenButtons = findViewById(R.id.hidden_buttons);
         buttonCamera = findViewById(R.id.button_camera);
         buttonFile = findViewById(R.id.button_file);
-        FirebaseUtil.getOtherProfilePicStorageRef(otherUser.getUserId()).getDownloadUrl()
-                .addOnCompleteListener(t -> {
-                    if (t.isSuccessful()) {
-                        Uri uri = t.getResult();
-                        AndroidUtil.setProfilePic(this, uri, imageView);
-                    }
-                });
+        menuBtn = findViewById(R.id.chat_menu);
+
+
+
+
+        otherUser = AndroidUtil.getUserModelFromIntent(getIntent());
+        if(getIntent().getStringExtra("listIdUser") != null){
+            chatRoomId = getIntent().getStringExtra("listIdUser");
+            menuBtn.setVisibility(View.VISIBLE);
+            groupAddBtn.setVisibility(View.GONE);
+
+        }else {
+            menuBtn.setVisibility(View.GONE);
+            groupAddBtn.setVisibility(View.VISIBLE);
+            imageView.setEnabled(false);
+            otherUserName.setEnabled(false);
+            List<String> users = new ArrayList<>(List.of(FirebaseUtil.currentUserId(), otherUser.getUserId()));
+            chatRoomId = FirebaseUtil.getChatRoomId(users);
+            FirebaseUtil.getOtherProfilePicStorageRef(otherUser.getUserId()).getDownloadUrl()
+                    .addOnCompleteListener(t -> {
+                        if (t.isSuccessful()) {
+                            Uri uri = t.getResult();
+                            AndroidUtil.setProfilePic(this, uri, imageView);
+                        }
+                    });
+            otherUserName.setText(otherUser.getUsername());
+        }
+
+
         showImageBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -145,7 +175,6 @@ public class ChatActivity extends AppCompatActivity {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
         });
 
-        otherUserName.setText(otherUser.getUsername());
 
         sendMessageBtn.setOnClickListener(v -> {
             String message = messageInput.getText().toString().trim();
@@ -155,6 +184,47 @@ public class ChatActivity extends AppCompatActivity {
             }
         });
 
+        groupAddBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),GroupAddUserActivity.class));
+            }
+        });
+        otherUserName.setOnClickListener(v -> showEditChatRoomNameDialog());
+
+        imagePickLauncher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(),
+                result -> {
+                    if (result.getResultCode() == Activity.RESULT_OK) {
+                        Intent data = result.getData();
+                        if (data != null && data.getData() != null) {
+                            selectedImageUri = data.getData();
+                            AndroidUtil.setProfilePic(this, selectedImageUri, imageView);
+
+                            if (selectedImageUri != null) {
+                                FirebaseUtil.getCurrentProfilePicStorageRef(chatRoomId).putFile(selectedImageUri)
+                                        .addOnCompleteListener(task -> {
+                                            if (task.isSuccessful()) {
+                                                AndroidUtil.showToast(this, "Updated successfully");
+                                            } else {
+                                                AndroidUtil.showToast(this, "Update failed");
+
+                                            }
+                                        });
+                            }
+                        }
+                    }
+                });
+
+        imageView.setOnClickListener(v -> {
+            ImagePicker.with(this).cropSquare().compress(512).maxResultSize(512, 512)
+                    .createIntent(new Function1<Intent, Unit>() {
+                        @Override
+                        public Unit invoke(Intent intent) {
+                            imagePickLauncher.launch(intent);
+                            return null;
+                        }
+                    });
+        });
         getOnCreateChatRoomModel();
         setUpChatRecyclerView();
     }
@@ -217,13 +287,21 @@ public class ChatActivity extends AppCompatActivity {
                 chatRoom = task.getResult().toObject(ChatRoom.class);
                 if (chatRoom == null) {
                     chatRoom = new ChatRoom(
-                            chatRoomId,
-                            Arrays.asList(FirebaseUtil.currentUserId(), otherUser.getUserId()),
-                            Timestamp.now(),
-                            ""
+                            chatRoomId,"New group",Timestamp.now(),FirebaseUtil.currentUserId(),
+                            "",AndroidUtil.splitStringToList(chatRoomId)
                     );
                     FirebaseUtil.getChatroomReference(chatRoomId).set(chatRoom);
+                }else{
+                    otherUserName.setText(chatRoom.getChatRoomName());
+                    FirebaseUtil.getOtherProfilePicStorageRef(chatRoom.getChatRoomId()).getDownloadUrl()
+                            .addOnCompleteListener(t -> {
+                                if (t.isSuccessful()) {
+                                    Uri uri = t.getResult();
+                                    AndroidUtil.setProfilePic(this,uri,imageView);
+                                }
+                            });
                 }
+
             }
         });
     }
@@ -348,5 +426,41 @@ public class ChatActivity extends AppCompatActivity {
         }
 
     }
+
+    private void showEditChatRoomNameDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Edit Chat Room Name");
+
+        final EditText input = new EditText(this);
+        input.setInputType(InputType.TYPE_CLASS_TEXT);
+        builder.setView(input);
+
+        builder.setPositiveButton("OK", (dialog, which) -> {
+            String newChatRoomName = input.getText().toString();
+            if (!newChatRoomName.isEmpty()) {
+                updateChatRoomName(newChatRoomName);
+            }
+        });
+
+        builder.setNegativeButton("Cancel", (dialog, which) -> dialog.cancel());
+
+        builder.show();
+    }
+
+    private void updateChatRoomName(String newChatRoomName) {
+        chatRoom.setChatRoomName(newChatRoomName);
+        FirebaseUtil.getChatroomReference(chatRoomId).set(chatRoom)
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful()) {
+                        otherUserName.setText(newChatRoomName);
+                        Toast.makeText(ChatActivity.this, "Chat room name updated", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(ChatActivity.this, "Failed to update chat room name", Toast.LENGTH_SHORT).show();
+                    }
+                });
+    }
+
+
+
 
 }

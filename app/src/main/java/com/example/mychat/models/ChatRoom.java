@@ -6,24 +6,27 @@ import com.google.firebase.Timestamp;
 import java.util.List;
 
 public class ChatRoom {
-    String chatRoomId;
-    List<String> userIds;
-    com.google.firebase.Timestamp lastMessageTimestamp;
-    String lastMessageSenderId;
-    String lastMessage;
-
-
+    private String chatRoomId;
+    private String chatRoomName;
+    private com.google.firebase.Timestamp lastMessageTimestamp;
+    private String lastMessageSenderId;
+    private String lastMessage;
+    private List<String> userIds;
 
     public ChatRoom() {
     }
 
-    public ChatRoom(String chatRoomId, List<String> userIds, Timestamp lastMessageTimestamp, String lastMessageSenderId) {
+    // Constructor có tham số
+    public ChatRoom(String chatRoomId, String chatRoomName, com.google.firebase.Timestamp lastMessageTimestamp, String lastMessageSenderId, String lastMessage, List<String> userIds) {
         this.chatRoomId = chatRoomId;
-        this.userIds = userIds;
+        this.chatRoomName = chatRoomName;
         this.lastMessageTimestamp = lastMessageTimestamp;
         this.lastMessageSenderId = lastMessageSenderId;
+        this.lastMessage = lastMessage;
+        this.userIds = userIds;
     }
 
+    // Getter và Setter cho tất cả các trường
     public String getChatRoomId() {
         return chatRoomId;
     }
@@ -32,19 +35,19 @@ public class ChatRoom {
         this.chatRoomId = chatRoomId;
     }
 
-    public List<String> getUserIds() {
-        return userIds;
+    public String getChatRoomName() {
+        return chatRoomName;
     }
 
-    public void setUserIds(List<String> userIds) {
-        this.userIds = userIds;
+    public void setChatRoomName(String chatRoomName) {
+        this.chatRoomName = chatRoomName;
     }
 
-    public Timestamp getLastMessageTimestamp() {
+    public com.google.firebase.Timestamp getLastMessageTimestamp() {
         return lastMessageTimestamp;
     }
 
-    public void setLastMessageTimestamp(Timestamp lastMessageTimestamp) {
+    public void setLastMessageTimestamp(com.google.firebase.Timestamp lastMessageTimestamp) {
         this.lastMessageTimestamp = lastMessageTimestamp;
     }
 
@@ -63,5 +66,12 @@ public class ChatRoom {
     public void setLastMessage(String lastMessage) {
         this.lastMessage = lastMessage;
     }
-}
 
+    public List<String> getUserIds() {
+        return userIds;
+    }
+
+    public void setUserIds(List<String> userIds) {
+        this.userIds = userIds;
+    }
+}

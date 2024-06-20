@@ -13,6 +13,10 @@ import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 import java.util.regex.Pattern;
 
 public class AndroidUtil {
@@ -75,4 +79,16 @@ public class AndroidUtil {
         return pattern.matcher(email).matches();
     }
 
+    public static List<String> splitStringToList(String input) {
+        String[] parts = input.split("_");
+        return Arrays.asList(parts);
+    }
+
+    public static List<String> getUserIdsFromMap(Map<User, Boolean> addedUsersMap) {
+        List<String> userIds = new ArrayList<>();
+        for (User user : addedUsersMap.keySet()) {
+            userIds.add(user.getUserId());
+        }
+        return userIds;
+    }
 }

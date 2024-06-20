@@ -44,30 +44,18 @@
         android:layout_below="@+id/toolbar"
         android:layout_margin="10dp">
 
-        <AutoCompleteTextView
+        <EditText
             android:id="@+id/search_username_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/edit_text_rounded_corner"
             android:layout_margin="10dp"
-            android:hint="Username"
+            android:hint="Username or phone"
             android:padding="10dp"
             android:elevation="4dp"
-            android:dropDownVerticalOffset="-10dp"
-            android:layout_toLeftOf="@+id/search_user_btn"/>
+            android:dropDownVerticalOffset="-10dp" />
 
 
-        <ImageButton
-            android:id="@+id/search_user_btn"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:src="@drawable/icon_search"
-            android:layout_centerVertical="true"
-            android:layout_alignParentEnd="true"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:padding="4dp"
-            android:layout_margin="10dp"
-            app:tint="@color/my_primary" />
 
     </RelativeLayout>
     <androidx.recyclerview.widget.RecyclerView
