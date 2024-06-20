@@ -226,6 +226,7 @@ public class ChatActivity extends AppCompatActivity {
                     });
         });
         getOnCreateChatRoomModel();
+
         setUpChatRecyclerView();
     }
 
@@ -292,7 +293,6 @@ public class ChatActivity extends AppCompatActivity {
                     );
                     FirebaseUtil.getChatroomReference(chatRoomId).set(chatRoom);
                 }else{
-                    otherUserName.setText(chatRoom.getChatRoomName());
                     FirebaseUtil.getOtherProfilePicStorageRef(chatRoom.getChatRoomId()).getDownloadUrl()
                             .addOnCompleteListener(t -> {
                                 if (t.isSuccessful()) {
@@ -300,6 +300,10 @@ public class ChatActivity extends AppCompatActivity {
                                     AndroidUtil.setProfilePic(this,uri,imageView);
                                 }
                             });
+
+                    if(chatRoom.getUserIds().size()>=3){
+                        otherUserName.setText(chatRoom.getChatRoomName());
+                    }
                 }
 
             }

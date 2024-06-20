@@ -42,6 +42,7 @@ public class LoginUserNameActivity extends AppCompatActivity {
     User user;
 
     String phoneNumber;
+    UserRepository userRepository;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,7 +72,6 @@ public class LoginUserNameActivity extends AppCompatActivity {
     }
 
     void setUserName(String userId){
-        UserRepository userRepository = new UserRepository(getApplication());
 
         String userName = userNameInput.getText().toString();
         String passWord = password.getText().toString();
@@ -115,23 +115,34 @@ public class LoginUserNameActivity extends AppCompatActivity {
         });
     }
 
+//    void getUserName(String userId){
+//        setInProgress(true);
+//        FirebaseUtil.currentUserDetails().get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+//            @Override
+//            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+//                setInProgress(false);
+//                if(task.isSuccessful()){
+//                    user = task.getResult().toObject(User.class);
+//                    if(user != null){
+//                        userNameInput.setText(user.getUsername());
+//                        emailInput.setText(user.getEmail());
+//                        userNameInput.setEnabled(false);
+//                        emailInput.setEnabled(false);
+//                    }
+//                }
+//            }
+//        });
+//    }
+
     void getUserName(String userId){
-        setInProgress(true);
-        FirebaseUtil.currentUserDetails().get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-                setInProgress(false);
-                if(task.isSuccessful()){
-                    user = task.getResult().toObject(User.class);
-                    if(user != null){
-                        userNameInput.setText(user.getUsername());
-                        emailInput.setText(user.getEmail());
-                        userNameInput.setEnabled(false);
-                        emailInput.setEnabled(false);
-                    }
-                }
-            }
-        });
+        userRepository = new UserRepository(getApplication());
+        user = userRepository.getUserById(userId);
+        if(user != null){
+            userNameInput.setText(user.getUsername());
+            emailInput.setText(user.getEmail());
+            userNameInput.setEnabled(false);
+            emailInput.setEnabled(false);
+        }
     }
 
     void setInProgress(boolean inProgress) {
@@ -147,12 +158,9 @@ public class LoginUserNameActivity extends AppCompatActivity {
     public void linkOrUpdateEmailAndPassword(String email, String password) {
         FirebaseAuth mAuth = FirebaseAuth.getInstance();
         FirebaseUser currentUser = mAuth.getCurrentUser();
-        Log.d("TAG", "linkOrUpdateEmailAndPassword: ");
 
         if (currentUser != null) {
             boolean emailLinked = false;
-            Log.d("TAG", "linkOrUpdateEmailAndPassword1: ");
-            // Check if the user already has an email linked
             for (UserInfo userInfo : currentUser.getProviderData()) {
                 if (userInfo.getProviderId().equals(EmailAuthProvider.PROVIDER_ID)) {
                     emailLinked = true;
@@ -161,8 +169,6 @@ public class LoginUserNameActivity extends AppCompatActivity {
             }
 
             if (emailLinked) {
-                // Email is already linked, update the password
-                Log.d("TAG", "linkOrUpdateEmailAndPassword:2 ");
                 currentUser.updatePassword(password)
                         .addOnCompleteListener(this, task -> {
                             if (task.isSuccessful()) {

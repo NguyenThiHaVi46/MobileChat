@@ -4130,6 +4130,9 @@ int id profile_account_conversion 0x7f080211
 int id profile_image_view 0x7f080212
 int id profile_phone 0x7f080213
 int id profile_pic_image_view 0x7f080214
+int id profile_pic_image_view_file 0x7f0802e5
+int id profile_pic_image_view_image 0x7f0802e6
+int id profile_pic_image_view_video 0x7f0802e7
 int id profile_pic_layout 0x7f080215
 int id profile_progress_bar 0x7f080216
 int id profile_update_btn 0x7f080217

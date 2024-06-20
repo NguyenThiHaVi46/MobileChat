@@ -4131,6 +4131,9 @@ id profile_account_conversion
 id profile_image_view
 id profile_phone
 id profile_pic_image_view
+id profile_pic_image_view_file
+id profile_pic_image_view_image
+id profile_pic_image_view_video
 id profile_pic_layout
 id profile_progress_bar
 id profile_update_btn

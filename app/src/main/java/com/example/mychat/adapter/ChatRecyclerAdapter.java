@@ -19,6 +19,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.mychat.R;
 import com.example.mychat.models.ChatMessage;
+import com.example.mychat.utils.AndroidUtil;
 import com.example.mychat.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
@@ -34,55 +35,23 @@ public class ChatRecyclerAdapter extends FirestoreRecyclerAdapter<ChatMessage, C
 
     @Override
     protected void onBindViewHolder(@NonNull ChatModelViewHolder holder, int position, @NonNull ChatMessage model) {
-
         holder.allVideoLayout.setVisibility(View.GONE);
         holder.allChatLayout.setVisibility(View.GONE);
         holder.allImageLayout.setVisibility(View.GONE);
         holder.allFileLayout.setVisibility(View.GONE);
 
         if (model.getSenderId().equals(FirebaseUtil.currentUserId())) {
-            if (model.getType().equals("text")) {
-                holder.rightChatTextView.setText(model.getMessage());
-                holder.allChatLayout.setVisibility(View.VISIBLE);
-                holder.leftChatLayout.setVisibility(View.GONE);
-            } else if (model.getType().equals("image")) {
-                Glide.with(holder.rightChatImageView.getContext()).load(model.getMessage()).into(holder.rightChatImageView);
-                holder.allImageLayout.setVisibility(View.VISIBLE);
-                holder.leftImageLayout.setVisibility(View.GONE);
-            } else if (model.getType().equals("video")) {
-                handleVideo(holder.rightChatVideoView, holder.rigthThumbnail, model.getMessage(),holder.rigthThumbnailRela);
-                holder.leftVideoLayout.setVisibility(View.GONE);
-                holder.allVideoLayout.setVisibility(View.VISIBLE);
-
-            }else if (model.getType().equals("file")) {
-                handleFile(holder.rightChatFileView, holder.rightFileLayout, model.getMessage());
-                holder.allFileLayout.setVisibility(View.VISIBLE);
-                holder.leftFileLayout.setVisibility(View.GONE);
-
-
-            }
+            setUpCurrentUserMessage(holder, model);
         } else {
-            if (model.getType().equals("text")) {
-                holder.leftChatTextView.setText(model.getMessage());
-                holder.rightChatLayout.setVisibility(View.GONE);
-                holder.allChatLayout.setVisibility(View.VISIBLE);
-            } else if (model.getType().equals("image")) {
-                Glide.with(holder.leftChatImageView.getContext()).load(model.getMessage()).into(holder.leftChatImageView);
-                holder.rightImageLayout.setVisibility(View.GONE);
-                holder.allImageLayout.setVisibility(View.VISIBLE);
-            } else if (model.getType().equals("video")) {
-                handleVideo(holder.leftChatVideoView, holder.leftThumbnail, model.getMessage(),holder.leftThumbnailRela);
-                holder.rightVideoLayout.setVisibility(View.GONE);
-                holder.allVideoLayout.setVisibility(View.VISIBLE);
-            }else if (model.getType().equals("file")) {
-                handleFile(holder.leftChatFileView, holder.leftFileLayout, model.getMessage());
-                holder.allFileLayout.setVisibility(View.VISIBLE);
-                holder.rightFileLayout.setVisibility(View.GONE);
-            }
+            loadProfilePic(model.getSenderId(), holder.profilePicText);
+            loadProfilePic(model.getSenderId(), holder.profilePicImage);
+            loadProfilePic(model.getSenderId(), holder.profilePicVideo);
+            loadProfilePic(model.getSenderId(), holder.profilePicFile);
+
+
+            setUpOtherUserMessage(holder, model);
         }
     }
-
-
 
 
     @NonNull
@@ -102,6 +71,7 @@ public class ChatRecyclerAdapter extends FirestoreRecyclerAdapter<ChatMessage, C
         VideoView leftChatVideoView, rightChatVideoView;
 
         RelativeLayout leftThumbnailRela,rigthThumbnailRela;
+        ImageView profilePicText,profilePicImage,profilePicVideo,profilePicFile;
 
         public ChatModelViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -134,6 +104,12 @@ public class ChatRecyclerAdapter extends FirestoreRecyclerAdapter<ChatMessage, C
             leftThumbnail = itemView.findViewById(R.id.left_chat_video_thumbnail);
             leftThumbnailRela = itemView.findViewById(R.id.left_chat_video_thumbnail_Rela);
             rigthThumbnailRela = itemView.findViewById(R.id.right_chat_video_thumbnail_Rela);
+
+            profilePicText = itemView.findViewById(R.id.profile_pic_image_view);
+            profilePicImage = itemView.findViewById(R.id.profile_pic_image_view_image);
+            profilePicVideo = itemView.findViewById(R.id.profile_pic_image_view_video);
+            profilePicFile = itemView.findViewById(R.id.profile_pic_image_view_file);
+
         }
 
 
@@ -176,6 +152,55 @@ public class ChatRecyclerAdapter extends FirestoreRecyclerAdapter<ChatMessage, C
             context.startActivity(intent);
         });
     }
+    private void setUpCurrentUserMessage(ChatModelViewHolder holder, ChatMessage model) {
+        if (model.getType().equals("text")) {
+            holder.rightChatTextView.setText(model.getMessage());
+            holder.allChatLayout.setVisibility(View.VISIBLE);
+            holder.leftChatLayout.setVisibility(View.GONE);
+        } else if (model.getType().equals("image")) {
+            Glide.with(holder.rightChatImageView.getContext()).load(model.getMessage()).into(holder.rightChatImageView);
+            holder.allImageLayout.setVisibility(View.VISIBLE);
+            holder.leftImageLayout.setVisibility(View.GONE);
+        } else if (model.getType().equals("video")) {
+            handleVideo(holder.rightChatVideoView, holder.rigthThumbnail, model.getMessage(), holder.rigthThumbnailRela);
+            holder.leftVideoLayout.setVisibility(View.GONE);
+            holder.allVideoLayout.setVisibility(View.VISIBLE);
+        } else if (model.getType().equals("file")) {
+            handleFile(holder.rightChatFileView, holder.rightFileLayout, model.getMessage());
+            holder.allFileLayout.setVisibility(View.VISIBLE);
+            holder.leftFileLayout.setVisibility(View.GONE);
+        }
+    }
 
+    private void setUpOtherUserMessage(ChatModelViewHolder holder, ChatMessage model) {
+        if (model.getType().equals("text")) {
+            holder.leftChatTextView.setText(model.getMessage());
+            holder.rightChatLayout.setVisibility(View.GONE);
+            holder.allChatLayout.setVisibility(View.VISIBLE);
+        } else if (model.getType().equals("image")) {
+            Glide.with(holder.leftChatImageView.getContext()).load(model.getMessage()).into(holder.leftChatImageView);
+            holder.rightImageLayout.setVisibility(View.GONE);
+            holder.allImageLayout.setVisibility(View.VISIBLE);
+        } else if (model.getType().equals("video")) {
+            handleVideo(holder.leftChatVideoView, holder.leftThumbnail, model.getMessage(), holder.leftThumbnailRela);
+            holder.rightVideoLayout.setVisibility(View.GONE);
+            holder.allVideoLayout.setVisibility(View.VISIBLE);
+        } else if (model.getType().equals("file")) {
+            handleFile(holder.leftChatFileView, holder.leftFileLayout, model.getMessage());
+            holder.allFileLayout.setVisibility(View.VISIBLE);
+            holder.rightFileLayout.setVisibility(View.GONE);
+        }
+    }
+
+    private void loadProfilePic(String senderId, ImageView imageView) {
+        FirebaseUtil.getOtherProfilePicStorageRef(senderId).getDownloadUrl()
+                .addOnCompleteListener(t -> {
+                    if (t.isSuccessful()) {
+                        Uri uri = t.getResult();
+                        AndroidUtil.setProfilePic(context, uri, imageView);
+                    } else {
+                    }
+                });
+    }
 
 }
