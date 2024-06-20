@@ -3,6 +3,7 @@ package com.example.mychat.activity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -73,6 +74,12 @@ public class LoginActivity extends AppCompatActivity {
 
             new Thread(() -> {
                 User user = userRepository.getUserByEmail(emailInput);
+
+                Log.d("PASS LOGIN: ", password);
+                Log.d("HASH PASS LOGIN: ", BCrypt.hashpw(password, BCrypt.gensalt()));
+
+                Log.d("HASH PASS LOGIN data: ", user.getPassword());
+
                 if (user != null && BCrypt.checkpw(password, user.getPassword())) {
                     runOnUiThread(() -> signInWithEmail(emailInput, user.getPassword()));
                 } else {
@@ -93,12 +100,10 @@ public class LoginActivity extends AppCompatActivity {
             mAuth.signInWithEmailAndPassword(email, password)
                     .addOnCompleteListener(this, task -> {
                         if (task.isSuccessful()) {
-                            // Đăng nhập thành công
                             FirebaseUser user = mAuth.getCurrentUser();
                             String uid = user.getUid();
                             startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         } else {
-                            // Đăng nhập thất bại
                         }
                     });
 
