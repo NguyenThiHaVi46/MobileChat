@@ -64,6 +64,10 @@
         "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\layout\\activity_account_conversion.xml"
     },
     {
+        "merged": "com.example.mychat.app-debug-49:/layout_activity_chat.xml.flat",
+        "source": "com.example.mychat.app-main-51:/layout/activity_chat.xml"
+    },
+    {
         "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\layout_activity_login_otp.xml.flat",
         "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\layout\\activity_login_otp.xml"
     },
@@ -174,10 +178,6 @@
     {
         "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\layout_chat_room_gemini_recycler.xml.flat",
         "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\layout\\chat_room_gemini_recycler.xml"
-    },
-    {
-        "merged": "com.example.mychat.app-debug-49:/layout_chat_message_recycler_row.xml.flat",
-        "source": "com.example.mychat.app-main-51:/layout/chat_message_recycler_row.xml"
     },
     {
         "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\layout_activity_main.xml.flat",

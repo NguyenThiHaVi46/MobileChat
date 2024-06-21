@@ -77,6 +77,7 @@ public class LoginActivity extends AppCompatActivity {
                 return;
             }
 
+
             if(!AndroidUtil.isValidEmail(emailInput)){
                 lgEmail.setError("Email format is incorrect");
                 return;
@@ -108,6 +109,7 @@ public class LoginActivity extends AppCompatActivity {
                 runOnUiThread(() -> Toast.makeText(LoginActivity.this, "Go to signup", Toast.LENGTH_SHORT).show());
 
             }
+
 
         });
     }

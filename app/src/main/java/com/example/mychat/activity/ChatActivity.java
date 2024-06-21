@@ -135,6 +135,7 @@ public class ChatActivity extends AppCompatActivity {
         membersRecyclerview = findViewById(R.id.members_recyclerview);
 
 
+
         if(getIntent().getStringExtra("listIdUser") != null){
             chatRoomId = getIntent().getStringExtra("listIdUser");
             menuBtn.setVisibility(View.VISIBLE);
