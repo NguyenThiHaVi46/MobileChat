@@ -76,6 +76,7 @@ id chat_group_add
 id chat_menu
 id chat_message_input
 id divider
+id drawer_layout
 id group_add_textView
 id hidden_buttons
 id icon_add_circle_outline
@@ -109,8 +110,10 @@ id main
 id main_frameLayout
 id main_search_btn
 id main_toolbar
+id members_recyclerview
 id menu_chat
 id menu_geminiAi
+id menu_layout
 id menu_profile
 id message_send_btn
 id other_username
@@ -121,6 +124,7 @@ id profile_phone
 id profile_pic_image_view
 id profile_pic_image_view_file
 id profile_pic_image_view_image
+id profile_pic_image_view_text
 id profile_pic_image_view_video
 id profile_pic_layout
 id profile_progress_bar
@@ -145,6 +149,7 @@ id send_otp_btn
 id show_image
 id signup_confirm_password
 id signup_email
+id signup_icon_red_eye
 id signup_letMeIn_btn
 id signup_password
 id signup_progress_bar
@@ -180,6 +185,7 @@ mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
+string fcm_server_key
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id

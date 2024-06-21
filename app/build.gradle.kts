@@ -1,3 +1,5 @@
+import com.android.build.api.dsl.Packaging
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.google.gms.google.services)
@@ -26,6 +28,11 @@ android {
             )
         }
     }
+
+    packagingOptions {
+        pickFirst ("META-INF/*")
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
@@ -65,6 +72,9 @@ dependencies {
     implementation (platform("com.google.firebase:firebase-bom:33.1.0"))
     //noinspection UseTomlInstead
     implementation ("com.google.firebase:firebase-auth")
+
+    implementation ("com.google.auth:google-auth-library-oauth2-http:1.9.0")
+    implementation ("com.google.api-client:google-api-client:1.32.1")
 
 
 }

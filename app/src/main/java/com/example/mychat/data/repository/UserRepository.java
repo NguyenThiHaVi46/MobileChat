@@ -32,8 +32,15 @@ public class UserRepository {
         return Data.getInstance(context).userDAO().getUserById(userId);
     }
 
-
     public User getUserByEmail(String email) {
         return Data.getInstance(context).userDAO().getUserByEmail(email);
+    }
+
+    public boolean userExistsById(String id) {
+        return Data.getInstance(context).userDAO().userExistsById(id) > 0;
+    }
+
+    public boolean userExistsByEmail(String email) {
+        return Data.getInstance(context).userDAO().userExistsByEmail(email) > 0;
     }
 }

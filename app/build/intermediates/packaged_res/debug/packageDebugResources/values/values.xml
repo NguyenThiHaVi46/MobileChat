@@ -16,6 +16,7 @@
     <color name="purple">#8C9DE0</color>
     <color name="white">#FFFFFF</color>
     <string name="app_name">My Chat</string>
+    <string name="fcm_server_key">BO-6zjEU4Dn51sIMG1YvCzM-Ye0LyFiRQ_sguZqjmmF_RfhuoKQsp1ytiigzXJXXQKTWwBUVv_3k8Wqx10rzGgQ</string>
     <string name="gcm_defaultSenderId" translatable="false">750008544469</string>
     <string name="google_api_key" translatable="false">AIzaSyB6g-Sk_u9Qjl53jea3einAmP0yCSsOwSI</string>
     <string name="google_app_id" translatable="false">1:750008544469:android:b5cf1da8a30d4021bd065c</string>

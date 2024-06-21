@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -19,10 +20,14 @@ import com.example.mychat.data.repository.UserRepository;
 import com.example.mychat.models.User;
 
 import com.example.mychat.utils.AndroidUtil;
+import com.example.mychat.utils.FirebaseUtil;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseAuthInvalidUserException;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.DocumentSnapshot;
 
 import org.mindrot.jbcrypt.BCrypt;
 
@@ -35,7 +40,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText lgEmail,lgPassword;
     Button login,signup;
     UserRepository userRepository;
-
+    User user;
     FirebaseAuth mAuth = FirebaseAuth.getInstance();
     @SuppressLint("MissingInflatedId")
     @Override
@@ -72,20 +77,38 @@ public class LoginActivity extends AppCompatActivity {
                 return;
             }
 
-            new Thread(() -> {
-                User user = userRepository.getUserByEmail(emailInput);
+            if(!AndroidUtil.isValidEmail(emailInput)){
+                lgEmail.setError("Email format is incorrect");
+                return;
+            }
 
-                Log.d("PASS LOGIN: ", password);
-                Log.d("HASH PASS LOGIN: ", BCrypt.hashpw(password, BCrypt.gensalt()));
+            try {
+                user = userRepository.getUserByEmail(emailInput);
+                FirebaseUtil.currentUserDetails(user.getUserId()).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                        if(task.isSuccessful()){
+                             user = task.getResult().toObject(User.class);
+                            if(user != null){
+                                new Thread(() -> {
 
-                Log.d("HASH PASS LOGIN data: ", user.getPassword());
+                                    if (user != null && BCrypt.checkpw(password, user.getPassword())) {
+                                        runOnUiThread(() -> signInWithEmail(emailInput, user.getPassword()));
+                                    } else {
+                                        runOnUiThread(() -> Toast.makeText(LoginActivity.this, "Invalid email or password", Toast.LENGTH_SHORT).show());
+                                    }
+                                }).start();
+                            }
+                        }
+                    }
+                });
 
-                if (user != null && BCrypt.checkpw(password, user.getPassword())) {
-                    runOnUiThread(() -> signInWithEmail(emailInput, user.getPassword()));
-                } else {
-                    runOnUiThread(() -> Toast.makeText(LoginActivity.this, "Invalid email or password", Toast.LENGTH_SHORT).show());
-                }
-            }).start();
+
+            }catch (Exception e){
+                runOnUiThread(() -> Toast.makeText(LoginActivity.this, "Go to signup", Toast.LENGTH_SHORT).show());
+
+            }
+
         });
     }
 

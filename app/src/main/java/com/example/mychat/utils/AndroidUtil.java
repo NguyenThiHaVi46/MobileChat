@@ -79,9 +79,20 @@ public class AndroidUtil {
         return pattern.matcher(email).matches();
     }
 
+//    public static List<String> splitStringToList(String input) {
+//        String[] parts = input.split("_");
+////        return Arrays.asList(parts);
+//    }
+
     public static List<String> splitStringToList(String input) {
         String[] parts = input.split("_");
-        return Arrays.asList(parts);
+        List<String> resultList = new ArrayList<>();
+
+        for (String part : parts) {
+            resultList.add(part);
+        }
+
+        return resultList;
     }
 
     public static List<String> getUserIdsFromMap(Map<User, Boolean> addedUsersMap) {

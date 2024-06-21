@@ -33,4 +33,10 @@ public interface UserDAO {
 
     @Query("SELECT * FROM user WHERE email = :email")
     User getUserByEmail(String email);
+
+    @Query("SELECT COUNT(*) FROM user WHERE userId = :id")
+    int userExistsById(String id);
+
+    @Query("SELECT COUNT(*) FROM user WHERE email = :email")
+    int userExistsByEmail(String email);
 }
