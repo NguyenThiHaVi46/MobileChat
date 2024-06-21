@@ -3872,6 +3872,7 @@ int id dragLeft 0x7f080110
 int id dragRight 0x7f080111
 int id dragStart 0x7f080112
 int id dragUp 0x7f080113
+int id drawer_layout 0x7f0802e8
 int id dropdown_menu 0x7f080114
 int id easeIn 0x7f080115
 int id easeInOut 0x7f080116
@@ -4030,9 +4031,11 @@ int id material_timepicker_view 0x7f0801ad
 int id material_value_index 0x7f0801ae
 int id matrix 0x7f0801af
 int id media_actions 0x7f0801b0
+int id members_recyclerview 0x7f0802e9
 int id menu_chat 0x7f0801b1
 int id menu_crop 0x7f0801b2
 int id menu_geminiAi 0x7f0801b3
+int id menu_layout 0x7f0802ea
 int id menu_loader 0x7f0801b4
 int id menu_profile 0x7f0801b5
 int id message 0x7f0801b6

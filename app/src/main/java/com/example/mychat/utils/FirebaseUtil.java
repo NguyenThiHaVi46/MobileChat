@@ -2,16 +2,24 @@ package com.example.mychat.utils;
 
 import android.net.wifi.hotspot2.pps.Credential;
 
+import androidx.annotation.NonNull;
+
+import com.example.mychat.models.User;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.android.gms.tasks.Tasks;
 import com.google.firebase.Timestamp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
 import java.lang.annotation.Documented;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -36,7 +44,9 @@ public class FirebaseUtil {
         return FirebaseFirestore.getInstance().collection("users").document(currentUserId());
     }
 
-
+    public static DocumentReference currentUserDetails(String userId){
+        return FirebaseFirestore.getInstance().collection("users").document(userId);
+    }
     public static CollectionReference allUserCollectionReference(){
         return  FirebaseFirestore.getInstance().collection("users");
     }
@@ -89,5 +99,39 @@ public class FirebaseUtil {
     public static StorageReference getOtherProfilePicStorageRef(String otherUserId) {
         return FirebaseStorage.getInstance().getReference().child("profile_pic")
                 .child(otherUserId);
+    }
+
+
+    public static void getChatRoomMembers(List<String> userIds, final OnChatRoomMembersListener listener) {
+        List<Task<DocumentSnapshot>> tasks = new ArrayList<>();
+
+        for (String userId : userIds) {
+            tasks.add(FirebaseFirestore.getInstance().collection("users").document(userId).get());
+        }
+
+        Task<List<DocumentSnapshot>> allTasks = Tasks.whenAllSuccess(tasks);
+        allTasks.addOnCompleteListener(new OnCompleteListener<List<DocumentSnapshot>>() {
+            @Override
+            public void onComplete(@NonNull Task<List<DocumentSnapshot>> task) {
+                if (task.isSuccessful()) {
+                    List<User> members = new ArrayList<>();
+                    for (DocumentSnapshot snapshot : task.getResult()) {
+                        User user = snapshot.toObject(User.class);
+                        if (user != null) {
+                            members.add(user);
+                        }
+                    }
+                    listener.onSuccess(members);
+                } else {
+                    listener.onFailure(task.getException());
+                }
+            }
+        });
+    }
+
+    // Interface để xử lý kết quả trả về danh sách thành viên
+    public interface OnChatRoomMembersListener {
+        void onSuccess(List<User> members);
+        void onFailure(Exception e);
     }
 }
