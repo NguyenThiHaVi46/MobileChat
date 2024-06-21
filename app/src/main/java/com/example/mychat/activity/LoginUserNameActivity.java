@@ -2,10 +2,12 @@ package com.example.mychat.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.InputType;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -40,9 +42,10 @@ public class LoginUserNameActivity extends AppCompatActivity {
     Button letMeInBtn;
     ProgressBar progressBar;
     User user;
-
+    ImageView IconRedEyeBtn;
     String phoneNumber;
     UserRepository userRepository;
+    boolean check ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,7 +65,23 @@ public class LoginUserNameActivity extends AppCompatActivity {
         password = findViewById(R.id.signup_password);
         confirmPassword = findViewById(R.id.signup_confirm_password);
         emailInput = findViewById(R.id.signup_email);
+        IconRedEyeBtn = findViewById(R.id.signup_icon_red_eye);
         String userId = getIntent().getExtras().getString("userId");
+
+        IconRedEyeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (check) {
+                    password.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD);
+                    confirmPassword.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD);
+                    check = false;
+                } else {
+                    password.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+                    confirmPassword.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+                    check = true;
+                }
+            }
+        });
 
         getUserName(userId);
 
@@ -81,6 +100,12 @@ public class LoginUserNameActivity extends AppCompatActivity {
             userNameInput.setError("Username length should be at least 3 chars");
             return;
         }
+
+        if(!AndroidUtil.isValidEmail(email)){
+            emailInput.setError("Email format is incorrect");
+            return;
+        }
+
         if (passWord.equals(confirmPassWord)) {
             String hashedPassword = BCrypt.hashpw(passWord, BCrypt.gensalt());
 

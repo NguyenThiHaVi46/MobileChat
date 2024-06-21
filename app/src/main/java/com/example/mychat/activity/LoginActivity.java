@@ -77,6 +77,12 @@ public class LoginActivity extends AppCompatActivity {
                 return;
             }
 
+
+            if(!AndroidUtil.isValidEmail(emailInput)){
+                lgEmail.setError("Email format is incorrect");
+                return;
+            }
+
             try {
                 user = userRepository.getUserByEmail(emailInput);
                 FirebaseUtil.currentUserDetails(user.getUserId()).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
@@ -100,9 +106,10 @@ public class LoginActivity extends AppCompatActivity {
 
 
             }catch (Exception e){
-                runOnUiThread(() -> Toast.makeText(LoginActivity.this, "Go to sinup", Toast.LENGTH_SHORT).show());
+                runOnUiThread(() -> Toast.makeText(LoginActivity.this, "Go to signup", Toast.LENGTH_SHORT).show());
 
             }
+
 
         });
     }
