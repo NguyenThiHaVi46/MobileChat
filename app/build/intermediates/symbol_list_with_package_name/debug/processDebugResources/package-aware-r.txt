@@ -3873,6 +3873,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drawer_layout
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -4031,9 +4032,11 @@ id material_timepicker_view
 id material_value_index
 id matrix
 id media_actions
+id members_recyclerview
 id menu_chat
 id menu_crop
 id menu_geminiAi
+id menu_layout
 id menu_loader
 id menu_profile
 id message

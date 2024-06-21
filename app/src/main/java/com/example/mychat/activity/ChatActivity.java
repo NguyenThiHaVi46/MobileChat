@@ -25,13 +25,18 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
+import androidx.core.view.GravityCompat;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.mychat.R;
+import com.example.mychat.adapter.AccountConversionAdapter;
 import com.example.mychat.adapter.ChatRecyclerAdapter;
+import com.example.mychat.adapter.SearchUserRecyclerAdapter;
 import com.example.mychat.models.ChatMessage;
 import com.example.mychat.models.ChatRoom;
 import com.example.mychat.models.User;
@@ -44,6 +49,7 @@ import com.google.android.gms.tasks.Task;
 //import com.google.common.net.MediaType;
 import com.google.firebase.Timestamp;
 import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.Query;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
@@ -78,6 +84,7 @@ public class ChatActivity extends AppCompatActivity {
     private Uri selectedImageUri;
     ActivityResultLauncher<Intent> imagePickLauncher;
 
+    AccountConversionAdapter accountConversionAdapter;
     User otherUser;
     ChatRoom chatRoom;
     String chatRoomId;
@@ -85,12 +92,13 @@ public class ChatActivity extends AppCompatActivity {
     EditText messageInput;
     ImageButton sendMessageBtn, backBtn,showImageBtn,buttonCamera,buttonFile,groupAddBtn,menuBtn;
     TextView otherUserName;
-    RecyclerView recyclerView;
+    RecyclerView recyclerView ,membersRecyclerview;
     ImageView imageView;
+    private List<User> groupMembers;
 
     LinearLayout hiddenButtons;
 
-
+    DrawerLayout drawerLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -114,8 +122,8 @@ public class ChatActivity extends AppCompatActivity {
         buttonCamera = findViewById(R.id.button_camera);
         buttonFile = findViewById(R.id.button_file);
         menuBtn = findViewById(R.id.chat_menu);
-
-
+        drawerLayout = findViewById(R.id.drawer_layout);
+        membersRecyclerview = findViewById(R.id.members_recyclerview);
 
 
         otherUser = AndroidUtil.getUserModelFromIntent(getIntent());
@@ -225,9 +233,27 @@ public class ChatActivity extends AppCompatActivity {
                         }
                     });
         });
-        getOnCreateChatRoomModel();
 
+        menuBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                drawerLayout.openDrawer(GravityCompat.END);
+            }
+        });
+
+
+
+        groupMembers = new ArrayList<>();
+
+
+
+        getOnCreateChatRoomModel();
         setUpChatRecyclerView();
+        fetchGroupMembers();
+        membersRecyclerview.setLayoutManager(new GridLayoutManager(this,1));
+        accountConversionAdapter = new AccountConversionAdapter(groupMembers,this);
+        membersRecyclerview.setAdapter(accountConversionAdapter);
+
     }
 
 
@@ -464,7 +490,24 @@ public class ChatActivity extends AppCompatActivity {
                 });
     }
 
+    private void fetchGroupMembers() {
+        List<String> userIds = AndroidUtil.splitStringToList(chatRoomId);
 
+        FirebaseUtil.getChatRoomMembers(userIds, new FirebaseUtil.OnChatRoomMembersListener() {
+            @Override
+            public void onSuccess(List<User> members) {
+                groupMembers.clear();
+                groupMembers.addAll(members);
+                accountConversionAdapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onFailure(Exception e) {
+                // Xử lý lỗi khi không thể lấy danh sách thành viên
+                Toast.makeText(ChatActivity.this, "Failed to fetch members: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
 
 
 }

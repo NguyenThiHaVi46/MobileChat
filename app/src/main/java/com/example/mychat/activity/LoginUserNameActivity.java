@@ -84,15 +84,23 @@ public class LoginUserNameActivity extends AppCompatActivity {
         if (passWord.equals(confirmPassWord)) {
             String hashedPassword = BCrypt.hashpw(passWord, BCrypt.gensalt());
 
-            if (user != null) {
-                user.setPhoneNumber(phoneNumber);
-                user.setPassword(hashedPassword);
-                userRepository.updateUser(user);
-                linkOrUpdateEmailAndPassword(email,hashedPassword);
-            } else {
-                user = new User(phoneNumber, userName, Timestamp.now(), userId, hashedPassword,email);
+            try {
+                if(userRepository.userExistsById(FirebaseUtil.currentUserId())){
+                    user.setPhoneNumber(phoneNumber);
+                    user.setPassword(hashedPassword);
+                    userRepository.updateUser(user);
+                }else {
+                    user = new User(phoneNumber, userName, Timestamp.now(), userId, hashedPassword, email);
+                    userRepository.saveUser(user);
+                }
+                linkOrUpdateEmailAndPassword(email, hashedPassword);
+            } catch (Exception e) {
+                e.printStackTrace();
+                Log.d("Error setUserName", "setUserName: " + e.getMessage());
+                user = new User(phoneNumber, userName, Timestamp.now(), userId, hashedPassword, email);
                 userRepository.saveUser(user);
-                linkOrUpdateEmailAndPassword(email,hashedPassword);
+                linkOrUpdateEmailAndPassword(email, hashedPassword);
+
             }
         } else {
             Toast.makeText(LoginUserNameActivity.this, "Passwords do not match", Toast.LENGTH_SHORT).show();
@@ -134,16 +142,37 @@ public class LoginUserNameActivity extends AppCompatActivity {
 //        });
 //    }
 
-    void getUserName(String userId){
+    void getUserName(String userId) {
+        setInProgress(true);
+
         userRepository = new UserRepository(getApplication());
         user = userRepository.getUserById(userId);
-        if(user != null){
+        if (user != null) {
+            setInProgress(false);
             userNameInput.setText(user.getUsername());
             emailInput.setText(user.getEmail());
             userNameInput.setEnabled(false);
             emailInput.setEnabled(false);
+        } else {
+            setInProgress(true);
+            FirebaseUtil.currentUserDetails().get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                @Override
+                public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                    setInProgress(false);
+                    if (task.isSuccessful()) {
+                        user = task.getResult().toObject(User.class);
+                        if (user != null) {
+                            userNameInput.setText(user.getUsername());
+                            emailInput.setText(user.getEmail());
+                            userNameInput.setEnabled(false);
+                            emailInput.setEnabled(false);
+                        }
+                    }
+                }
+            });
         }
     }
+
 
     void setInProgress(boolean inProgress) {
         if (inProgress) {
@@ -158,7 +187,6 @@ public class LoginUserNameActivity extends AppCompatActivity {
     public void linkOrUpdateEmailAndPassword(String email, String password) {
         FirebaseAuth mAuth = FirebaseAuth.getInstance();
         FirebaseUser currentUser = mAuth.getCurrentUser();
-
         if (currentUser != null) {
             boolean emailLinked = false;
             for (UserInfo userInfo : currentUser.getProviderData()) {
@@ -172,28 +200,27 @@ public class LoginUserNameActivity extends AppCompatActivity {
                 currentUser.updatePassword(password)
                         .addOnCompleteListener(this, task -> {
                             if (task.isSuccessful()) {
-                                Toast.makeText(this, "Password updated successfully", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Password updated successfully", Toast.LENGTH_SHORT).show();
                             } else {
-                                Toast.makeText(this, "Failed to update password", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Failed to update password", Toast.LENGTH_SHORT).show();
                             }
                         });
             } else {
-                // Email is not linked, link the email and password
                 AuthCredential credential = EmailAuthProvider.getCredential(email, password);
-                Log.d("TAG", "linkOrUpdateEmailAndPassword3: ");
                 currentUser.linkWithCredential(credential)
                         .addOnCompleteListener(this, task -> {
                             if (task.isSuccessful()) {
-                                Toast.makeText(this, "Email linked successfully", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Email linked successfully", Toast.LENGTH_SHORT).show();
                             } else {
-                                Toast.makeText(this, "Failed to link email", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Failed to link email", Toast.LENGTH_SHORT).show();
                             }
                         });
             }
         } else {
-            Toast.makeText(this, "No user is currently signed in", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "No user is currently signed in", Toast.LENGTH_SHORT).show();
         }
     }
+
 
 
 

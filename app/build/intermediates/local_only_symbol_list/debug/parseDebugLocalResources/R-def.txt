@@ -76,6 +76,7 @@ id chat_group_add
 id chat_menu
 id chat_message_input
 id divider
+id drawer_layout
 id group_add_textView
 id hidden_buttons
 id icon_add_circle_outline
@@ -109,8 +110,10 @@ id main
 id main_frameLayout
 id main_search_btn
 id main_toolbar
+id members_recyclerview
 id menu_chat
 id menu_geminiAi
+id menu_layout
 id menu_profile
 id message_send_btn
 id other_username
