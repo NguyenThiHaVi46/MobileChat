@@ -1,246 +1,266 @@
 [
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_icon_addbox.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/icon_addbox.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\menu_bottom_navigation_menu.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\menu\\bottom_navigation_menu.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_circular_bg.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/circular_bg.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_icon_file.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/icon_file.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_icon_send.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\icon_send.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_recent_chat_recycler_row.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/recent_chat_recycler_row.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_btn_rounded_corner.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\btn_rounded_corner.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_activity_main.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/activity_main.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_activity_login_user_name.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\activity_login_user_name.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_profile_pic_view.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/profile_pic_view.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_fragment_chat.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\fragment_chat.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_icon_search.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/icon_search.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-hdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_header.png.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\header.png"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_chat_room_gemini_recycler.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/chat_room_gemini_recycler.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_activity_search_user.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\activity_search_user.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_fragment_profile.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/fragment_profile.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\activity_chat.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_fragment_chat_gemini.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\fragment_chat_gemini.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_icon_red_eye.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/icon_red_eye.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_recent_chat_recycler_row.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\recent_chat_recycler_row.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-xhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_chat_message_recycler_row.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/chat_message_recycler_row.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_phone_icon.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\phone_icon.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_activity_login_otp.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\activity_login_otp.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_edit_text_rounded_corner.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/edit_text_rounded_corner.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_icon_file_present.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/icon_file_present.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_profile_pic_view.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\profile_pic_view.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.mychat.app-main-7:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-mdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_icon_play_circle.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/icon_play_circle.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_icon_camera.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/icon_camera.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_icon_addbox.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\icon_addbox.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_launcher_icon.jpg.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\launcher_icon.jpg"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_search_user_recycler_row.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/search_user_recycler_row.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_icon_red_eye.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\icon_red_eye.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_activity_login_otp.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/activity_login_otp.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_activity_chat_gemini_ai.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\activity_chat_gemini_ai.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_launcher_icon.jpg.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/launcher_icon.jpg"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_test_image.jpg.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\test_image.jpg"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_icon_edit.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/icon_edit.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_icon_delete.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\icon_delete.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_icon_back.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\icon_back.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_person_icon.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/person_icon.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_search_user_recycler_row.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\search_user_recycler_row.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_btn_rounded_corner.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/btn_rounded_corner.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_google_gemini_icon.png.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/google_gemini_icon.png"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_phone_icon.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/phone_icon.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_chat_room_gemini_recycler.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\chat_room_gemini_recycler.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/xml_backup_rules.xml.flat",
-        "source": "com.example.mychat.app-main-7:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_edit_text_rounded_corner.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\edit_text_rounded_corner.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_fragment_chat_gemini.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/fragment_chat_gemini.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_icon_edit.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\icon_edit.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/menu_bottom_navigation_menu.xml.flat",
-        "source": "com.example.mychat.app-main-7:/menu/bottom_navigation_menu.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_chat_message_recycler_row.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\chat_message_recycler_row.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_activity_chat_gemini_ai.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/activity_chat_gemini_ai.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_google_gemini_icon.png.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\google_gemini_icon.png"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_activity_search_user.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/activity_search_user.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_icon_play_circle.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\icon_play_circle.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_activity_splash.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/activity_splash.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_activity_account_conversion.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\activity_account_conversion.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_icon_file.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\icon_file.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_activity_login_phone_number.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/activity_login_phone_number.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_fragment_chat.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/fragment_chat.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_icon_delete.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/icon_delete.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_password_icon.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\password_icon.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_icon_send.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/icon_send.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_test_image.jpg.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/test_image.jpg"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_icon_file_present.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\icon_file_present.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_chat_icon.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/chat_icon.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_activity_login_phone_number.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\activity_login_phone_number.xml"
     },
     {
         "merged": "com.example.mychat.app-debug-5:/layout_activity_chat.xml.flat",
         "source": "com.example.mychat.app-main-7:/layout/activity_chat.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_activity_login.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/activity_login.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_icon_back.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/icon_back.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_password_icon.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/password_icon.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_circular_bg.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\circular_bg.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_header.png.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/header.png"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\layout_activity_icon.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\layout\\activity_icon.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/layout_activity_login_user_name.xml.flat",
-        "source": "com.example.mychat.app-main-7:/layout/activity_login_user_name.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.mychat.app-main-7:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_icon_camera.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\icon_camera.xml"
     },
     {
-        "merged": "com.example.mychat.app-debug-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.mychat.app-main-7:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_icon_search.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\icon_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_icon_person_add.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\icon_person_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_ic_emoji.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\ic_emoji.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_person_icon.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\person_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-5:\\drawable_chat_icon.xml.flat",
+        "source": "C:\\Users\\ACER NITRO5\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-7:\\drawable\\chat_icon.xml"
     }
 ]

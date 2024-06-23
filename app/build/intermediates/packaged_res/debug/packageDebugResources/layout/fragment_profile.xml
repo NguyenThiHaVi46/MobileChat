@@ -48,22 +48,39 @@
         android:orientation="vertical"
         android:layout_marginTop="20dp">
 
-    <Button
-        android:id="@+id/profile_update_btn"
+      <Button
+            android:id="@+id/profile_update_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update profile" />
+
+        <ProgressBar
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/profile_progress_bar"/>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Update profile" />
-
-    <ProgressBar
-        android:layout_width="32dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:id="@+id/profile_progress_bar"/>
-</LinearLayout>
-
+        android:orientation="horizontal"
+        android:gravity="center">
         <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Logout"
-        android:id="@+id/logout_btn"/>
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Logout"
+            android:id="@+id/logout_btn"/>
+        <TextView
+            android:id="@+id/profile_account_conversion"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="account conversion"
+            />
     </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,5 +1,9 @@
 [versions]
 agp = "8.3.2"
+
+firebaseAdmin = "9.1.1"
+firebaseBom = "33.1.0"
+googleAuthLibraryOauth2Http = "1.12.1"
 junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
@@ -12,10 +16,15 @@ googleServices = "4.4.2"
 firebaseMessaging = "24.0.0"
 
 firebaseStorage = "21.0.0"
+firebaseAuth = "23.0.0"
+emoji2Views = "1.4.0"
 
 
 
 [libraries]
+firebase-admin = { group = "com.google.firebase", name = "firebase-admin"  }
+firebase-bom = { group = "com.google.firebase",name = "firebase-bom",version.ref = "firebaseBom" }
+google-auth-library-oauth2-http = { module = "com.google.auth:google-auth-library-oauth2-http", version.ref = "googleAuthLibraryOauth2Http" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -34,6 +43,8 @@ reactive-streams = { group = "org.reactivestreams", name = "reactive-streams", v
 
 
 firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth" }
+emoji2-views = { group = "androidx.emoji2", name = "emoji2-views", version.ref = "emoji2Views" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

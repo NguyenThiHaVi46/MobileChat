@@ -9,11 +9,11 @@
     android:orientation="vertical"
     android:gravity="center">
     <EditText
-        android:id="@+id/login_phone"
+        android:id="@+id/login_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Phone"
-        android:inputType="number"/>
+        android:hint="Email"
+        android:inputType="text"/>
 
     <EditText
         android:id="@+id/login_password"

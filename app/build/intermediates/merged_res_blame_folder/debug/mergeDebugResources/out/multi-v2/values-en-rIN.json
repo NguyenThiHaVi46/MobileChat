@@ -4,7 +4,7 @@
             "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\f86fe748db0f79cf279e281f78a703b3\\transformed\\browser-1.4.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\8b7a3e16631945d405c8ff146f83a023\\transformed\\browser-1.4.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\25c2175da41a10f07777aade5285ead7\\transformed\\core-1.13.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\145c3bfdf68f75c580d1ba380f549158\\transformed\\core-1.13.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\122af31f9e255d8d1d18854f754405b7\\transformed\\appcompat-1.7.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\b545cb32eb1ea26228a64178aacb0e4b\\transformed\\appcompat-1.7.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\1acbbf21262871bc8adecb293e24fb0a\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\871495b91ed8f38e8418365905808169\\transformed\\jetified-credentials-1.2.0-rc01\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

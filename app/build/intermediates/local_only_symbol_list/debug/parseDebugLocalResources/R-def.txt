@@ -21,6 +21,7 @@ drawable circular_bg
 drawable edit_text_rounded_corner
 drawable google_gemini_icon
 drawable header
+drawable ic_emoji
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable icon_addbox
@@ -30,6 +31,7 @@ drawable icon_delete
 drawable icon_edit
 drawable icon_file
 drawable icon_file_present
+drawable icon_person_add
 drawable icon_play_circle
 drawable icon_red_eye
 drawable icon_search
@@ -52,6 +54,9 @@ id Ai_toolbar
 id Gemini_delete_room
 id Gemini_edit_name_room
 id Gemini_name_room
+id ac_add_user
+id ac_back_btn
+id ac_recycler_view
 id all_chat_layout
 id all_file_layout
 id all_image_layout
@@ -81,13 +86,13 @@ id left_image_layout
 id left_video_layout
 id login_back_phone_number
 id login_countryCode
+id login_email
 id login_goto_signupBtn
 id login_loginBtn
 id login_mobile_number
 id login_next_btn
 id login_otp
 id login_password
-id login_phone
 id login_progress_bar
 id logout_btn
 id main
@@ -100,6 +105,7 @@ id menu_profile
 id message_send_btn
 id other_username
 id phone_text
+id profile_account_conversion
 id profile_image_view
 id profile_phone
 id profile_pic_image_view
@@ -126,6 +132,7 @@ id search_username_input
 id send_otp_btn
 id show_image
 id signup_confirm_password
+id signup_email
 id signup_letMeIn_btn
 id signup_password
 id signup_progress_bar
@@ -133,6 +140,7 @@ id signup_userName
 id textView
 id toolbar
 id user_name_text
+layout activity_account_conversion
 layout activity_chat
 layout activity_chat_gemini_ai
 layout activity_login

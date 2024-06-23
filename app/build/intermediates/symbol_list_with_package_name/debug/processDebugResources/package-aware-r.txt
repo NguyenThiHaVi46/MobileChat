@@ -549,6 +549,7 @@ attr elevationOverlayAccentColor
 attr elevationOverlayColor
 attr elevationOverlayEnabled
 attr emojiCompatEnabled
+attr emojiReplaceStrategy
 attr enableEdgeToEdge
 attr endIconCheckable
 attr endIconContentDescription
@@ -911,6 +912,7 @@ attr maxAcceleration
 attr maxActionInlineWidth
 attr maxButtonHeight
 attr maxCharacterCount
+attr maxEmojiCount
 attr maxHeight
 attr maxImageSize
 attr maxLines
@@ -3464,6 +3466,7 @@ drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clear_black_24dp
 drawable ic_clock_black_24dp
+drawable ic_emoji
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -3487,6 +3490,7 @@ drawable icon_delete
 drawable icon_edit
 drawable icon_file
 drawable icon_file_present
+drawable icon_person_add
 drawable icon_play_circle
 drawable icon_red_eye
 drawable icon_search
@@ -3684,6 +3688,9 @@ id UZBEK
 id VIETNAMESE
 id VOICEMAIL
 id VOIP
+id ac_add_user
+id ac_back_btn
+id ac_recycler_view
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -3837,6 +3844,7 @@ id date_picker_actions
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
+id defaultStrategy
 id default_activity_button
 id deltaRelative
 id dependency_ordering
@@ -3938,6 +3946,8 @@ id immediateStop
 id included
 id indeterminate
 id info
+id inputExtractAccessories
+id inputExtractAction
 id invisible
 id inward
 id italic
@@ -3974,13 +3984,13 @@ id listMode
 id list_item
 id login_back_phone_number
 id login_countryCode
+id login_email
 id login_goto_signupBtn
 id login_loginBtn
 id login_mobile_number
 id login_next_btn
 id login_otp
 id login_password
-id login_phone
 id login_progress_bar
 id logout_btn
 id lytCameraPick
@@ -4068,6 +4078,7 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
+id nonExistent
 id none
 id normal
 id north
@@ -4112,6 +4123,7 @@ id position
 id postLayout
 id preferenceDivider
 id pressed
+id profile_account_conversion
 id profile_image_view
 id profile_phone
 id profile_pic_image_view
@@ -4186,6 +4198,7 @@ id showHome
 id showTitle
 id show_image
 id signup_confirm_password
+id signup_email
 id signup_letMeIn_btn
 id signup_password
 id signup_progress_bar
@@ -4435,6 +4448,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_account_conversion
 layout activity_chat
 layout activity_chat_gemini_ai
 layout activity_login
@@ -4471,6 +4485,7 @@ layout fragment_chat_gemini
 layout fragment_profile
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout input_method_extract_view
 layout layout_code_picker
 layout layout_full_width_code_picker
 layout layout_picker_dialog
@@ -6015,6 +6030,8 @@ styleable CountryCodePicker ccpDialog_allowSearch ccpDialog_background ccpDialog
 styleable CustomAttribute attributeName customBoolean customColorDrawableValue customColorValue customDimension customFloatValue customIntegerValue customPixelDimension customReference customStringValue methodName
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable DrawerLayout elevation
+styleable EmojiEditText maxEmojiCount
+styleable EmojiExtractTextLayout emojiReplaceStrategy
 styleable ExtendedFloatingActionButton collapsedSize elevation extendMotionSpec extendStrategy hideMotionSpec showMotionSpec shrinkMotionSpec
 styleable ExtendedFloatingActionButton_Behavior_Layout behavior_autoHide behavior_autoShrink
 styleable FloatingActionButton android_enabled backgroundTint backgroundTintMode borderWidth elevation ensureMinTouchTargetSize fabCustomSize fabSize hideMotionSpec hoveredFocusedTranslationZ maxImageSize pressedTranslationZ rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec useCompatPadding

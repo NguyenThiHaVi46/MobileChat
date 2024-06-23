@@ -238,10 +238,10 @@ public class ChatActivity extends AppCompatActivity {
                     dataObj.put("userId",currentUser.getUserId());
 
                     jsonObject.put("notification",notificationObj);
-                 jsonObject.put("data",dataObj);
-                   jsonObject.put("to",otherUser.getFcmToken());
+                    jsonObject.put("data",dataObj);
+                    jsonObject.put("to",otherUser.getFcmToken());
 
-                   callApi(jsonObject);
+                    callApi(jsonObject);
 
 
                 }catch (Exception e){
@@ -249,9 +249,9 @@ public class ChatActivity extends AppCompatActivity {
                 }
 
             }
-       });
+        });
 
-   }
+    }
 
 
     void callApi(JSONObject jsonObject) {

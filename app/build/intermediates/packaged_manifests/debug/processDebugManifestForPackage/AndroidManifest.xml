@@ -46,6 +46,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyChat" >
+        <activity
+            android:name="com.example.mychat.activity.AccountConversionActivity"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@drawable/launcher_icon" />
@@ -273,9 +277,6 @@
             android:authorities="com.example.mychat.androidx-startup"
             android:exported="false" >
             <meta-data
-                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-                android:value="androidx.startup" />
-            <meta-data
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
             <meta-data
@@ -307,6 +308,10 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
         <service
             android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
             android:exported="false" >

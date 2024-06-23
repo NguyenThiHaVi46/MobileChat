@@ -2,6 +2,9 @@ package com.example.mychat.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,6 +21,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthOptions;
 import com.google.firebase.auth.PhoneAuthProvider;
@@ -43,6 +47,12 @@ public class LoginOtpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_otp);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
+
 
         otpInput = findViewById(R.id.login_otp);
         nextBtn = findViewById(R.id.login_next_btn);
@@ -115,24 +125,28 @@ public class LoginOtpActivity extends AppCompatActivity {
     }
 
     void signIn(PhoneAuthCredential phoneAuthCredential) {
-        //login and go to next activity
         setInProgress(true);
         mAuth.signInWithCredential(phoneAuthCredential).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 setInProgress(false);
                 if (task.isSuccessful()) {
-                    Intent intent = new Intent(LoginOtpActivity.this, LoginUserNameActivity.class);
-                    String cleanedPhoneNumber = AndroidUtil.formatPhoneNumber(phoneNumber, "VN");
-                    intent.putExtra("phone", cleanedPhoneNumber);
-                    startActivity(intent);
+                    FirebaseUser firebaseUser = mAuth.getCurrentUser();
+                    if (firebaseUser != null) {
+                        String userId = firebaseUser.getUid();
+                        Intent intent = new Intent(LoginOtpActivity.this, LoginUserNameActivity.class);
+                        String cleanedPhoneNumber = AndroidUtil.formatPhoneNumber(phoneNumber, "VN");
+                        intent.putExtra("phone", cleanedPhoneNumber);
+                        intent.putExtra("userId", userId);
+                        startActivity(intent);
+                    }
                 } else {
                     AndroidUtil.showToast(getApplicationContext(), "OTP verification failed");
                 }
             }
         });
-
     }
+
 
     void startResendTimer() {
         resendOtpTextView.setEnabled(false);

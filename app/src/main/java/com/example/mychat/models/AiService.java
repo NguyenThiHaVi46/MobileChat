@@ -1,10 +1,10 @@
 package com.example.mychat.models;
 
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Build;
 
+import com.example.mychat.data.repository.MessageGeminiRepository;
 import com.google.ai.client.generativeai.GenerativeModel;
 import com.google.ai.client.generativeai.java.GenerativeModelFutures;
 import com.google.ai.client.generativeai.type.Content;
@@ -24,8 +24,12 @@ public class AiService {
 
     private static Map<Long, List<Content>> chatHistories = new HashMap<>();
 
+    public static void setChatHistory(long chatRoomId, List<Content> chatHistory) {
+        chatHistories.put(chatRoomId, chatHistory);
+    }
+
     public static CompletableFuture<String> sendMessageAi(Context context, String message, Bitmap image, long chatRoomId) {
-        GenerativeModel gm = new GenerativeModel("gemini-1.5-flash", "AIzaSyCNaCOVQFhuPFCGOuM9lLevLJ-ZRm_kSm0");
+        GenerativeModel gm = new GenerativeModel("gemini-1.5-flash", "AIzaSyDxT1xOsl_kBJEYWOXxdairtpTL-T35zjg");
 
         GenerativeModelFutures model = GenerativeModelFutures.from(gm);
 
@@ -74,6 +78,7 @@ public class AiService {
         } else {
             Futures.addCallback(response, callback, MoreExecutors.directExecutor());
         }
+
 
         return completableFuture;
     }
