@@ -3,11 +3,13 @@ package com.example.mychat.activity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -18,10 +20,14 @@ import com.example.mychat.data.repository.UserRepository;
 import com.example.mychat.models.User;
 
 import com.example.mychat.utils.AndroidUtil;
+import com.example.mychat.utils.FirebaseUtil;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseAuthInvalidUserException;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.DocumentSnapshot;
 
 import org.mindrot.jbcrypt.BCrypt;
 
@@ -34,7 +40,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText lgEmail,lgPassword;
     Button login,signup;
     UserRepository userRepository;
-
+    User user;
     FirebaseAuth mAuth = FirebaseAuth.getInstance();
     @SuppressLint("MissingInflatedId")
     @Override
@@ -71,14 +77,40 @@ public class LoginActivity extends AppCompatActivity {
                 return;
             }
 
-            new Thread(() -> {
-                User user = userRepository.getUserByEmail(emailInput);
-                if (user != null && BCrypt.checkpw(password, user.getPassword())) {
-                    runOnUiThread(() -> signInWithEmail(emailInput, user.getPassword()));
-                } else {
-                    runOnUiThread(() -> Toast.makeText(LoginActivity.this, "Invalid email or password", Toast.LENGTH_SHORT).show());
-                }
-            }).start();
+
+            if(!AndroidUtil.isValidEmail(emailInput)){
+                lgEmail.setError("Email format is incorrect");
+                return;
+            }
+
+            try {
+                user = userRepository.getUserByEmail(emailInput);
+                FirebaseUtil.currentUserDetails(user.getUserId()).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                        if(task.isSuccessful()){
+                             user = task.getResult().toObject(User.class);
+                            if(user != null){
+                                new Thread(() -> {
+
+                                    if (user != null && BCrypt.checkpw(password, user.getPassword())) {
+                                        runOnUiThread(() -> signInWithEmail(emailInput, user.getPassword()));
+                                    } else {
+                                        runOnUiThread(() -> Toast.makeText(LoginActivity.this, "Invalid email or password", Toast.LENGTH_SHORT).show());
+                                    }
+                                }).start();
+                            }
+                        }
+                    }
+                });
+
+
+            }catch (Exception e){
+                runOnUiThread(() -> Toast.makeText(LoginActivity.this, "Go to signup", Toast.LENGTH_SHORT).show());
+
+            }
+
+
         });
     }
 
@@ -93,12 +125,10 @@ public class LoginActivity extends AppCompatActivity {
             mAuth.signInWithEmailAndPassword(email, password)
                     .addOnCompleteListener(this, task -> {
                         if (task.isSuccessful()) {
-                            // Đăng nhập thành công
                             FirebaseUser user = mAuth.getCurrentUser();
                             String uid = user.getUid();
                             startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         } else {
-                            // Đăng nhập thất bại
                         }
                     });
 

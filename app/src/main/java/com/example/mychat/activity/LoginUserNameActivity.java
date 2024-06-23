@@ -2,10 +2,13 @@ package com.example.mychat.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+
+import android.text.InputType;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -40,8 +43,10 @@ public class LoginUserNameActivity extends AppCompatActivity {
     Button letMeInBtn;
     ProgressBar progressBar;
     User user;
-
+    ImageView IconRedEyeBtn;
     String phoneNumber;
+    UserRepository userRepository;
+    boolean check ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +66,23 @@ public class LoginUserNameActivity extends AppCompatActivity {
         password = findViewById(R.id.signup_password);
         confirmPassword = findViewById(R.id.signup_confirm_password);
         emailInput = findViewById(R.id.signup_email);
+        IconRedEyeBtn = findViewById(R.id.signup_icon_red_eye);
         String userId = getIntent().getExtras().getString("userId");
+
+        IconRedEyeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (check) {
+                    password.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD);
+                    confirmPassword.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD);
+                    check = false;
+                } else {
+                    password.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+                    confirmPassword.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+                    check = true;
+                }
+            }
+        });
 
         getUserName(userId);
 
@@ -71,7 +92,6 @@ public class LoginUserNameActivity extends AppCompatActivity {
     }
 
     void setUserName(String userId){
-        UserRepository userRepository = new UserRepository(getApplication());
 
         String userName = userNameInput.getText().toString();
         String passWord = password.getText().toString();
@@ -81,18 +101,32 @@ public class LoginUserNameActivity extends AppCompatActivity {
             userNameInput.setError("Username length should be at least 3 chars");
             return;
         }
+
+        if(!AndroidUtil.isValidEmail(email)){
+            emailInput.setError("Email format is incorrect");
+            return;
+        }
+
         if (passWord.equals(confirmPassWord)) {
             String hashedPassword = BCrypt.hashpw(passWord, BCrypt.gensalt());
 
-            if (user != null) {
-                user.setPhoneNumber(phoneNumber);
-                user.setPassword(hashedPassword);
-                userRepository.updateUser(user);
-                linkOrUpdateEmailAndPassword(email,hashedPassword);
-            } else {
-                user = new User(phoneNumber, userName, Timestamp.now(), userId, hashedPassword,email);
+            try {
+                if(userRepository.userExistsById(FirebaseUtil.currentUserId())){
+                    user.setPhoneNumber(phoneNumber);
+                    user.setPassword(hashedPassword);
+                    userRepository.updateUser(user);
+                }else {
+                    user = new User(phoneNumber, userName, Timestamp.now(), userId, hashedPassword, email);
+                    userRepository.saveUser(user);
+                }
+                linkOrUpdateEmailAndPassword(email, hashedPassword);
+            } catch (Exception e) {
+                e.printStackTrace();
+                Log.d("Error setUserName", "setUserName: " + e.getMessage());
+                user = new User(phoneNumber, userName, Timestamp.now(), userId, hashedPassword, email);
                 userRepository.saveUser(user);
-                linkOrUpdateEmailAndPassword(email,hashedPassword);
+                linkOrUpdateEmailAndPassword(email, hashedPassword);
+
             }
         } else {
             Toast.makeText(LoginUserNameActivity.this, "Passwords do not match", Toast.LENGTH_SHORT).show();
@@ -115,24 +149,55 @@ public class LoginUserNameActivity extends AppCompatActivity {
         });
     }
 
-    void getUserName(String userId){
+//    void getUserName(String userId){
+//        setInProgress(true);
+//        FirebaseUtil.currentUserDetails().get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+//            @Override
+//            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+//                setInProgress(false);
+//                if(task.isSuccessful()){
+//                    user = task.getResult().toObject(User.class);
+//                    if(user != null){
+//                        userNameInput.setText(user.getUsername());
+//                        emailInput.setText(user.getEmail());
+//                        userNameInput.setEnabled(false);
+//                        emailInput.setEnabled(false);
+//                    }
+//                }
+//            }
+//        });
+//    }
+
+    void getUserName(String userId) {
         setInProgress(true);
-        FirebaseUtil.currentUserDetails().get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-                setInProgress(false);
-                if(task.isSuccessful()){
-                    user = task.getResult().toObject(User.class);
-                    if(user != null){
-                        userNameInput.setText(user.getUsername());
-                        emailInput.setText(user.getEmail());
-                        userNameInput.setEnabled(false);
-                        emailInput.setEnabled(false);
+        userRepository = new UserRepository(getApplication());
+        user = userRepository.getUserById(userId);
+        if (user != null) {
+            setInProgress(false);
+            userNameInput.setText(user.getUsername());
+            emailInput.setText(user.getEmail());
+            userNameInput.setEnabled(false);
+            emailInput.setEnabled(false);
+        } else {
+            setInProgress(true);
+            FirebaseUtil.currentUserDetails().get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                @Override
+                public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                    setInProgress(false);
+                    if (task.isSuccessful()) {
+                        user = task.getResult().toObject(User.class);
+                        if (user != null) {
+                            userNameInput.setText(user.getUsername());
+                            emailInput.setText(user.getEmail());
+                            userNameInput.setEnabled(false);
+                            emailInput.setEnabled(false);
+                        }
                     }
                 }
-            }
-        });
+            });
+        }
     }
+
 
     void setInProgress(boolean inProgress) {
         if (inProgress) {
@@ -147,12 +212,9 @@ public class LoginUserNameActivity extends AppCompatActivity {
     public void linkOrUpdateEmailAndPassword(String email, String password) {
         FirebaseAuth mAuth = FirebaseAuth.getInstance();
         FirebaseUser currentUser = mAuth.getCurrentUser();
-        Log.d("TAG", "linkOrUpdateEmailAndPassword: ");
 
         if (currentUser != null) {
             boolean emailLinked = false;
-            Log.d("TAG", "linkOrUpdateEmailAndPassword1: ");
-            // Check if the user already has an email linked
             for (UserInfo userInfo : currentUser.getProviderData()) {
                 if (userInfo.getProviderId().equals(EmailAuthProvider.PROVIDER_ID)) {
                     emailLinked = true;
@@ -161,35 +223,29 @@ public class LoginUserNameActivity extends AppCompatActivity {
             }
 
             if (emailLinked) {
-                // Email is already linked, update the password
-                Log.d("TAG", "linkOrUpdateEmailAndPassword:2 ");
+
                 currentUser.updatePassword(password)
                         .addOnCompleteListener(this, task -> {
                             if (task.isSuccessful()) {
-                                Toast.makeText(this, "Password updated successfully", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Password updated successfully", Toast.LENGTH_SHORT).show();
                             } else {
-                                Toast.makeText(this, "Failed to update password", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Failed to update password", Toast.LENGTH_SHORT).show();
                             }
                         });
             } else {
-                // Email is not linked, link the email and password
                 AuthCredential credential = EmailAuthProvider.getCredential(email, password);
-                Log.d("TAG", "linkOrUpdateEmailAndPassword3: ");
                 currentUser.linkWithCredential(credential)
                         .addOnCompleteListener(this, task -> {
                             if (task.isSuccessful()) {
-                                Toast.makeText(this, "Email linked successfully", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Email linked successfully", Toast.LENGTH_SHORT).show();
                             } else {
-                                Toast.makeText(this, "Failed to link email", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Failed to link email", Toast.LENGTH_SHORT).show();
                             }
                         });
             }
         } else {
-            Toast.makeText(this, "No user is currently signed in", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "No user is currently signed in", Toast.LENGTH_SHORT).show();
         }
     }
-
-
-
 
 }

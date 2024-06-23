@@ -22,6 +22,8 @@ import com.example.mychat.utils.FirebaseUtil;
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 
+import java.util.List;
+
 public class RecentChatRecyclerAdapter extends FirestoreRecyclerAdapter<ChatRoom, RecentChatRecyclerAdapter.ChatroomModelViewHolder> {
 
     Context context;
@@ -33,39 +35,66 @@ public class RecentChatRecyclerAdapter extends FirestoreRecyclerAdapter<ChatRoom
 
     @Override
     protected void onBindViewHolder(@NonNull ChatroomModelViewHolder holder, int position, @NonNull ChatRoom model) {
-        FirebaseUtil.getOtherUserFromChatroom(model.getUserIds())
-                .get().addOnCompleteListener(task -> {
-                    if(task.isSuccessful()){
-                        boolean lastMessageSentByMe = model.getLastMessageSenderId().equals(FirebaseUtil.currentUserId());
+        List<String> listUserId = AndroidUtil.splitStringToList(model.getChatRoomId());
+        if(listUserId.size() <=2){
+            FirebaseUtil.getOtherUserFromChatroom(listUserId)
+                    .get().addOnCompleteListener(task -> {
+                        if(task.isSuccessful()){
+                            boolean lastMessageSentByMe = model.getLastMessageSenderId().equals(FirebaseUtil.currentUserId());
+                            User otherUserModel = task.getResult().toObject(User.class);
 
 
-                        User otherUserModel = task.getResult().toObject(User.class);
+                            FirebaseUtil.getOtherProfilePicStorageRef(otherUserModel.getUserId()).getDownloadUrl()
+                                    .addOnCompleteListener(t -> {
+                                        if (t.isSuccessful()) {
+                                            Uri uri = t.getResult();
+                                            AndroidUtil.setProfilePic(context,uri,holder.profilePic);
+                                        }
+                                    });
+                            holder.usernameText.setText(otherUserModel.getUsername());
+                            if(lastMessageSentByMe)
+                                holder.lastMessageText.setText("You : "+model.getLastMessage());
+                            else
+                                holder.lastMessageText.setText(model.getLastMessage());
+                            holder.lastMessageTime.setText(FirebaseUtil.timestampToString(model.getLastMessageTimestamp()));
+
+                            holder.itemView.setOnClickListener(v -> {
+                                //navigate to chat activity
+                                Intent intent = new Intent(context, ChatActivity.class);
+                                AndroidUtil.passUserModelAsIntent(intent,otherUserModel);
+                                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                context.startActivity(intent);
+                            });
+
+                        }
+                    });
+        }else{
+            boolean lastMessageSentByMe = model.getLastMessageSenderId().equals(FirebaseUtil.currentUserId());
+
+            FirebaseUtil.getOtherProfilePicStorageRef(model.getChatRoomId()).getDownloadUrl()
+                    .addOnCompleteListener(t -> {
+                        if (t.isSuccessful()) {
+                            Uri uri = t.getResult();
+                            AndroidUtil.setProfilePic(context,uri,holder.profilePic);
+                        }
+                    });
+            holder.usernameText.setText(model.getChatRoomName());
+            if(lastMessageSentByMe)
+                holder.lastMessageText.setText("You : "+model.getLastMessage());
+            else
+                holder.lastMessageText.setText(model.getLastMessage());
+            holder.lastMessageTime.setText(FirebaseUtil.timestampToString(model.getLastMessageTimestamp()));
+
+            holder.itemView.setOnClickListener(v -> {
+                //navigate to chat activity
+                Intent intent = new Intent(context, ChatActivity.class);
+                intent.putExtra("listIdUser",FirebaseUtil.getChatRoomId(listUserId));
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                context.startActivity(intent);
+            });
+        }
 
 
-                        FirebaseUtil.getOtherProfilePicStorageRef(otherUserModel.getUserId()).getDownloadUrl()
-                                .addOnCompleteListener(t -> {
-                                    if (t.isSuccessful()) {
-                                        Uri uri = t.getResult();
-                                        AndroidUtil.setProfilePic(context,uri,holder.profilePic);
-                                    }
-                                });
-                        holder.usernameText.setText(otherUserModel.getUsername());
-                        if(lastMessageSentByMe)
-                            holder.lastMessageText.setText("You : "+model.getLastMessage());
-                        else
-                            holder.lastMessageText.setText(model.getLastMessage());
-                        holder.lastMessageTime.setText(FirebaseUtil.timestampToString(model.getLastMessageTimestamp()));
-
-                        holder.itemView.setOnClickListener(v -> {
-                            //navigate to chat activity
-                            Intent intent = new Intent(context, ChatActivity.class);
-                            AndroidUtil.passUserModelAsIntent(intent,otherUserModel);
-                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                            context.startActivity(intent);
-                        });
-
-                    }
-                });
     }
 
     @NonNull

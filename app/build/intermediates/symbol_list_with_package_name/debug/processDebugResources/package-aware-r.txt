@@ -3483,13 +3483,17 @@ drawable ic_password
 drawable ic_photo_black_48dp
 drawable ic_photo_camera_black_48dp
 drawable ic_search_black_24
+drawable icon_add_circle_outline
 drawable icon_addbox
 drawable icon_back
 drawable icon_camera
+drawable icon_check_circle
 drawable icon_delete
 drawable icon_edit
 drawable icon_file
 drawable icon_file_present
+drawable icon_group_add
+drawable icon_menu
 drawable icon_person_add
 drawable icon_play_circle
 drawable icon_red_eye
@@ -3749,6 +3753,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id add_user_recycler_view
 id adjust_height
 id adjust_width
 id alertTitle
@@ -3809,6 +3814,8 @@ id chain
 id chain2
 id chains
 id chat_RecyclerView
+id chat_group_add
+id chat_menu
 id chat_message_input
 id checkbox
 id checked
@@ -3870,6 +3877,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drawer_layout
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -3914,6 +3922,7 @@ id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
+id group_add_textView
 id group_divider
 id grouping
 id groups
@@ -3926,7 +3935,10 @@ id homeAsUp
 id honorRequest
 id horizontal_only
 id icon
+id icon_add_circle_outline
+id icon_check_circle
 id icon_group
+id icon_group_add
 id icon_only
 id ifRoom
 id ignore
@@ -4026,9 +4038,11 @@ id material_timepicker_view
 id material_value_index
 id matrix
 id media_actions
+id members_recyclerview
 id menu_chat
 id menu_crop
 id menu_geminiAi
+id menu_layout
 id menu_loader
 id menu_profile
 id message
@@ -4127,6 +4141,10 @@ id profile_account_conversion
 id profile_image_view
 id profile_phone
 id profile_pic_image_view
+id profile_pic_image_view_file
+id profile_pic_image_view_image
+id profile_pic_image_view_text
+id profile_pic_image_view_video
 id profile_pic_layout
 id profile_progress_bar
 id profile_update_btn
@@ -4181,7 +4199,6 @@ id search_go_btn
 id search_mag_icon
 id search_plate
 id search_src_text
-id search_user_btn
 id search_user_layout
 id search_user_recycler_view
 id search_username_input
@@ -4199,6 +4216,7 @@ id showTitle
 id show_image
 id signup_confirm_password
 id signup_email
+id signup_icon_red_eye
 id signup_letMeIn_btn
 id signup_password
 id signup_progress_bar
@@ -4269,6 +4287,8 @@ id textView_title
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_name_user
+id text_view
 id text_view_crop
 id text_view_rotate
 id text_view_scale
@@ -4451,6 +4471,7 @@ layout abc_tooltip
 layout activity_account_conversion
 layout activity_chat
 layout activity_chat_gemini_ai
+layout activity_group_add_user
 layout activity_login
 layout activity_login_otp
 layout activity_login_phone_number
@@ -4458,6 +4479,7 @@ layout activity_login_user_name
 layout activity_main
 layout activity_search_user
 layout activity_splash
+layout add_user_recycler_row
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout chat_message_recycler_row
@@ -4558,6 +4580,7 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 layout profile_pic_view
 layout recent_chat_recycler_row
+layout search_user_add_group_row
 layout search_user_recycler_row
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -4701,6 +4724,7 @@ string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
 string fcm_fallback_notification_channel_label
+string fcm_server_key
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
