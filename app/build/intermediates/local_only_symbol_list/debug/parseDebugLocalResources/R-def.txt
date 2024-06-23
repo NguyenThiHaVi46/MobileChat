@@ -21,6 +21,7 @@ drawable circular_bg
 drawable edit_text_rounded_corner
 drawable google_gemini_icon
 drawable header
+drawable ic_emoji
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable icon_add_circle_outline

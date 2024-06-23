@@ -1,4 +1,17 @@
 <<<<<<< HEAD
+#Sun Jun 23 12:09:05 ICT 2024
+base.0=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.4=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.5=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.6=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.7=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.8=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.9=C\:\\My chat\\MobileChat\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+=======
+<<<<<<< HEAD
 #Sat Jun 22 02:00:10 ICT 2024
 =======
 #Fri Jun 21 10:14:49 ICT 2024
@@ -14,6 +27,7 @@ base.6=D\:\\HTTT1\\Nam3\\HK2\\Android\\BaiTapLon2\\app\\build\\intermediates\\de
 base.7=D\:\\HTTT1\\Nam3\\HK2\\Android\\BaiTapLon2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
 base.8=D\:\\HTTT1\\Nam3\\HK2\\Android\\BaiTapLon2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 base.9=D\:\\HTTT1\\Nam3\\HK2\\Android\\BaiTapLon2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+>>>>>>> dbe18f9a4f120243acaba172d7e453e06a954680
 path.0=classes.dex
 path.1=0/classes.dex
 path.10=classes4.dex

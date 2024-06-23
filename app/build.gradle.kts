@@ -45,6 +45,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.emoji2.views)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
@@ -72,8 +73,11 @@ dependencies {
     implementation (platform("com.google.firebase:firebase-bom:33.1.0"))
     //noinspection UseTomlInstead
     implementation ("com.google.firebase:firebase-auth")
+    implementation ("androidx.emoji2:emoji2:1.3.0")
+    implementation ("androidx.emoji2:emoji2-bundled:1.2.0")
 
-    implementation ("com.google.auth:google-auth-library-oauth2-http:1.9.0")
+
+    implementation (libs.google.auth.library.oauth2.http.v190)
     implementation ("com.google.api-client:google-api-client:1.32.1")
 
 
