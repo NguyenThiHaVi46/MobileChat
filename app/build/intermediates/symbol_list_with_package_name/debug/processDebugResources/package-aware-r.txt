@@ -3492,10 +3492,14 @@ drawable icon_file_present
 drawable icon_group_add
 drawable icon_menu
 drawable icon_person_add
+drawable icon_phone
 drawable icon_play_circle
 drawable icon_red_eye
+drawable icon_robo1
+drawable icon_robot2
 drawable icon_search
 drawable icon_send
+drawable icon_tree
 drawable indeterminate_static
 drawable launcher_icon
 drawable m3_avd_hide_password

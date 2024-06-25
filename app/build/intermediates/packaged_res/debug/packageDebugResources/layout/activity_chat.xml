@@ -10,7 +10,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/my_primary"
+        android:background="@color/my_secondary"
         android:padding="10dp">
 
         <TextView
@@ -82,7 +82,8 @@
             android:layout_height="match_parent"
             android:layout_marginTop="-4dp"
             android:layout_marginBottom="3dp"
-            tools:ignore="DuplicateIds" />
+            tools:ignore="DuplicateIds"
+            />
 
         <LinearLayout
             android:id="@+id/menu_layout"
@@ -113,7 +114,8 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_alignParentBottom="true"
-        android:padding="8dp">
+        android:padding="8dp"
+        android:background="@color/my_secondary">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -126,8 +128,8 @@
                 android:layout_height="40dp"
                 android:src="@drawable/icon_addbox"
                 android:layout_centerInParent="true"
-                app:tint="@color/my_primary"
-                android:backgroundTint="@color/white"
+                app:tint="@color/black"
+                android:backgroundTint="@color/my_secondary"
                 />
             <LinearLayout
                 android:id="@+id/hidden_buttons"
@@ -142,18 +144,19 @@
                 <ImageButton
                     android:id="@+id/button_camera"
                     android:layout_width="25dp"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/my_secondary"
                     android:layout_height="25dp"
                     android:src="@drawable/icon_camera"
-                    app:tint="@color/my_primary"/>
+                    app:tint="@color/black"
+                    />
 
                 <ImageButton
                     android:id="@+id/button_file"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/my_secondary"
                     android:src="@drawable/icon_file"
-                    app:tint="@color/my_primary"/>
+                    app:tint="@color/black"/>
             </LinearLayout>
             <EditText
 
@@ -178,7 +181,7 @@
             android:layout_centerInParent="true"
             android:layout_alignParentEnd="true"
             android:background="?attr/selectableItemBackgroundBorderless"
-            app:tint="@color/my_primary"
+            app:tint="@color/black"
             android:padding="8dp"
             android:layout_marginStart="10dp"/>
     </RelativeLayout>
