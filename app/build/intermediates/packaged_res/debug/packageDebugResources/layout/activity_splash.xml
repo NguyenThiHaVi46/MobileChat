@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/my_primary"
+    android:background="@color/my_secondary"
     tools:context=".activity.SplashActivity">
 
     <LinearLayout
@@ -14,22 +14,56 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/chat_icon"
-            app:tint="@color/my_secondary"
-            tools:visibility="visible" />
+            android:text="My Chat"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:textColor="@color/white" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"
+            android:text="WELCOME BACK"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="180dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/icon_robo1"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/icon_tree"
+                tools:visibility="visible"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
             android:layout_marginTop="20dp"
             android:fontFamily="monospace"
-            android:text="@string/app_name"
-            android:textColor="@color/off_white"
-            android:textSize="40sp"
+            android:text="Let's get started and chat together"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="23sp"
             android:textStyle="bold" />
 
         <ProgressBar
@@ -52,7 +86,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="Developed by group 11"
-        android:textColor="@color/off_white"
+        android:textColor="@color/cardview_dark_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

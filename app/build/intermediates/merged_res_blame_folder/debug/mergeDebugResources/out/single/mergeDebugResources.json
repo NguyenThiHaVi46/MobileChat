@@ -28,8 +28,17 @@
         "source": "com.example.mychat.app-main-7:/layout/activity_main.xml"
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\drawable_icon_tree.png.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\drawable\\icon_tree.png"
+    },
+    {
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\drawable_header.png.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\drawable\\header.png"
+=======
         "merged": "com.example.mychat.app-debug-5:/layout_profile_pic_view.xml.flat",
         "source": "com.example.mychat.app-main-7:/layout/profile_pic_view.xml"
+>>>>>>> main
     },
     {
         "merged": "com.example.mychat.app-debug-5:/drawable_icon_add_circle_outline.xml.flat",
@@ -64,18 +73,35 @@
         "source": "com.example.mychat.app-main-7:/layout/chat_room_gemini_recycler.xml"
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\layout_activity_login_otp.xml.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\layout\\activity_login_otp.xml"
+=======
         "merged": "com.example.mychat.app-debug-5:/layout_fragment_profile.xml.flat",
         "source": "com.example.mychat.app-main-7:/layout/fragment_profile.xml"
     },
     {
         "merged": "com.example.mychat.app-debug-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "com.example.mychat.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
+>>>>>>> main
     },
     {
         "merged": "com.example.mychat.app-debug-5:/drawable_icon_red_eye.xml.flat",
         "source": "com.example.mychat.app-main-7:/drawable/icon_red_eye.xml"
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\drawable_icon_check_circle.xml.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\drawable\\icon_check_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\drawable_icon_search.xml.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\drawable\\icon_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+=======
         "merged": "com.example.mychat.app-debug-5:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
         "source": "com.example.mychat.app-main-7:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
@@ -86,6 +112,7 @@
     {
         "merged": "com.example.mychat.app-debug-5:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.example.mychat.app-main-7:/mipmap-mdpi/ic_launcher.webp"
+>>>>>>> main
     },
     {
         "merged": "com.example.mychat.app-debug-5:/mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -180,8 +207,17 @@
         "source": "com.example.mychat.app-main-7:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\drawable_icon_phone.png.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\drawable\\icon_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\layout\\activity_main.xml"
+=======
         "merged": "com.example.mychat.app-debug-5:/layout_fragment_chat_gemini.xml.flat",
         "source": "com.example.mychat.app-main-7:/layout/fragment_chat_gemini.xml"
+>>>>>>> main
     },
     {
         "merged": "com.example.mychat.app-debug-5:/menu_bottom_navigation_menu.xml.flat",
@@ -212,16 +248,34 @@
         "source": "com.example.mychat.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\drawable_icon_robot2.png.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\drawable\\icon_robot2.png"
+    },
+    {
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\mipmap-xxxhdpi\\ic_launcher.webp"
+=======
         "merged": "com.example.mychat.app-debug-5:/layout_activity_login_phone_number.xml.flat",
         "source": "com.example.mychat.app-main-7:/layout/activity_login_phone_number.xml"
+>>>>>>> main
     },
     {
         "merged": "com.example.mychat.app-debug-5:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "com.example.mychat.app-main-7:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\drawable_icon_robo1.png.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\drawable\\icon_robo1.png"
+    },
+    {
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\layout_search_user_add_group_row.xml.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\layout\\search_user_add_group_row.xml"
+=======
         "merged": "com.example.mychat.app-debug-5:/layout_add_user_recycler_row.xml.flat",
         "source": "com.example.mychat.app-main-7:/layout/add_user_recycler_row.xml"
+>>>>>>> main
     },
     {
         "merged": "com.example.mychat.app-debug-5:/layout_fragment_chat.xml.flat",
@@ -240,8 +294,17 @@
         "source": "com.example.mychat.app-main-7:/drawable/test_image.jpg"
     },
     {
+<<<<<<< HEAD
+        "merged": "com.example.mychat.app-debug-49:/layout_fragment_chat.xml.flat",
+        "source": "com.example.mychat.app-main-51:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\drawable_icon_back.xml.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\drawable\\icon_back.xml"
+=======
         "merged": "com.example.mychat.app-debug-5:/drawable_chat_icon.xml.flat",
         "source": "com.example.mychat.app-main-7:/drawable/chat_icon.xml"
+>>>>>>> main
     },
     {
         "merged": "com.example.mychat.app-debug-5:/layout_activity_chat.xml.flat",
@@ -268,6 +331,18 @@
         "source": "com.example.mychat.app-main-7:/drawable/header.png"
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\drawable_icon_group_add.xml.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\drawable\\icon_group_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\drawable_icon_add_circle_outline.xml.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\drawable\\icon_add_circle_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-debug-49:\\drawable_chat_icon.xml.flat",
+        "source": "C:\\Users\\hungn\\.gradle\\daemon\\8.6\\com.example.mychat.app-main-51:\\drawable\\chat_icon.xml"
+=======
         "merged": "com.example.mychat.app-debug-5:/layout_activity_login_user_name.xml.flat",
         "source": "com.example.mychat.app-main-7:/layout/activity_login_user_name.xml"
     },
@@ -278,6 +353,7 @@
     {
         "merged": "com.example.mychat.app-debug-5:/layout_activity_group_add_user.xml.flat",
         "source": "com.example.mychat.app-main-7:/layout/activity_group_add_user.xml"
+>>>>>>> main
     },
     {
         "merged": "com.example.mychat.app-debug-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
