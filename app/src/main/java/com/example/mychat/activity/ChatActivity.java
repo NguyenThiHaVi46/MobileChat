@@ -1,7 +1,5 @@
 package com.example.mychat.activity;
 
-
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ContentResolver;
@@ -24,12 +22,14 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.core.graphics.Insets;
 import androidx.core.view.GravityCompat;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.GridLayoutManager;
+
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -48,6 +48,7 @@ import com.github.dhaval2404.imagepicker.ImagePicker;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 //import com.google.common.net.MediaType;
+
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.common.collect.Lists;
 import com.google.firebase.Timestamp;
@@ -113,11 +114,13 @@ public class ChatActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
 
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
 
         messageInput = findViewById(R.id.chat_message_input);
         sendMessageBtn = findViewById(R.id.message_send_btn);
@@ -304,6 +307,7 @@ public class ChatActivity extends AppCompatActivity {
 
 
     }
+
     void sendMessageToUser(String message, String type) {
         chatRoom.setLastMessageSenderId(FirebaseUtil.currentUserId());
         chatRoom.setLastMessageTimestamp(Timestamp.now());
@@ -387,7 +391,10 @@ public class ChatActivity extends AppCompatActivity {
         Request request = new Request.Builder()
                 .url(url)
                 .post(body)
+
+
                 .header("Authorization", "Bearer " + token)
+
                 .build();
 
         client.newCall(request).enqueue(new Callback() {
@@ -497,6 +504,9 @@ public class ChatActivity extends AppCompatActivity {
 
     }
 
+
+
+
     private void showEditChatRoomNameDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Edit Chat Room Name");
@@ -551,3 +561,4 @@ public class ChatActivity extends AppCompatActivity {
 
 
 }
+

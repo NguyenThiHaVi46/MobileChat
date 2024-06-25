@@ -2,6 +2,7 @@ package com.example.mychat.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+
 import android.text.InputType;
 import android.util.Log;
 import android.view.View;
@@ -169,7 +170,6 @@ public class LoginUserNameActivity extends AppCompatActivity {
 
     void getUserName(String userId) {
         setInProgress(true);
-
         userRepository = new UserRepository(getApplication());
         user = userRepository.getUserById(userId);
         if (user != null) {
@@ -212,6 +212,7 @@ public class LoginUserNameActivity extends AppCompatActivity {
     public void linkOrUpdateEmailAndPassword(String email, String password) {
         FirebaseAuth mAuth = FirebaseAuth.getInstance();
         FirebaseUser currentUser = mAuth.getCurrentUser();
+
         if (currentUser != null) {
             boolean emailLinked = false;
             for (UserInfo userInfo : currentUser.getProviderData()) {
@@ -222,6 +223,7 @@ public class LoginUserNameActivity extends AppCompatActivity {
             }
 
             if (emailLinked) {
+
                 currentUser.updatePassword(password)
                         .addOnCompleteListener(this, task -> {
                             if (task.isSuccessful()) {
@@ -245,9 +247,5 @@ public class LoginUserNameActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "No user is currently signed in", Toast.LENGTH_SHORT).show();
         }
     }
-
-
-
-
 
 }
