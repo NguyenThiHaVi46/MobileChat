@@ -59,18 +59,18 @@ public class LoginOtpActivity extends AppCompatActivity {
         progressBar = findViewById(R.id.login_progress_bar);
         resendOtpTextView = findViewById(R.id.resend_otp_textview);
 
-        phoneNumber = getIntent().getExtras().getString("phone");
+        phoneNumber = getIntent().getExtras().getString("phone"); // lay ra sdt tu LoginPhoneNumber
 
-        sendOtp(phoneNumber, false);
+        sendOtp(phoneNumber, false); // Lay OTP tu sdt
 
-        nextBtn.setOnClickListener(v -> {
+        nextBtn.setOnClickListener(v -> {  // kiem tra OTP cung Sdt
             String enteredOtp = otpInput.getText().toString();
             PhoneAuthCredential credential = PhoneAuthProvider.getCredential(verificationCode, enteredOtp);
             signIn(credential);
 
         });
 
-        resendOtpTextView.setOnClickListener((v) -> {
+        resendOtpTextView.setOnClickListener((v) -> { // nếu ma het 60s thi cho click lay OTP
             sendOtp(phoneNumber, true);
         });
 
@@ -80,19 +80,19 @@ public class LoginOtpActivity extends AppCompatActivity {
         startResendTimer();
         setInProgress(true);
         PhoneAuthOptions.Builder builder =
-                PhoneAuthOptions.newBuilder(mAuth)
+                PhoneAuthOptions.newBuilder(mAuth) // tao 1 doi tuong = sdt
                         .setPhoneNumber(phoneNumber)
                         .setTimeout(timeoutSeconds, TimeUnit.SECONDS)
                         .setActivity(this)
                         .setCallbacks(new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
                             @Override
-                            public void onVerificationCompleted(@NonNull PhoneAuthCredential phoneAuthCredential) {
+                            public void onVerificationCompleted(@NonNull PhoneAuthCredential phoneAuthCredential) { // thanh cong
                                 signIn(phoneAuthCredential);
                                 setInProgress(false);
                             }
 
                             @Override
-                            public void onVerificationFailed(@NonNull FirebaseException e) {
+                            public void onVerificationFailed(@NonNull FirebaseException e) { // that bai
                                 AndroidUtil.showToast(getApplicationContext(), "OTP verification failed");
                                 setInProgress(false);
                             }
@@ -114,7 +114,7 @@ public class LoginOtpActivity extends AppCompatActivity {
 
     }
 
-    void setInProgress(boolean inProgress) {
+    void setInProgress(boolean inProgress) { // quay quay
         if (inProgress) {
             progressBar.setVisibility(View.VISIBLE);
             nextBtn.setVisibility(View.GONE);
@@ -124,13 +124,13 @@ public class LoginOtpActivity extends AppCompatActivity {
         }
     }
 
-    void signIn(PhoneAuthCredential phoneAuthCredential) {
+    void signIn(PhoneAuthCredential phoneAuthCredential) {// tao doi tuong
         setInProgress(true);
         mAuth.signInWithCredential(phoneAuthCredential).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 setInProgress(false);
-                if (task.isSuccessful()) {
+                if (task.isSuccessful()) { // thanh cong chuyen sang LoginUserNameActivity va gui phone va userId
                     FirebaseUser firebaseUser = mAuth.getCurrentUser();
                     if (firebaseUser != null) {
                         String userId = firebaseUser.getUid();
@@ -140,7 +140,7 @@ public class LoginOtpActivity extends AppCompatActivity {
                         intent.putExtra("userId", userId);
                         startActivity(intent);
                     }
-                } else {
+                } else { // that bai
                     AndroidUtil.showToast(getApplicationContext(), "OTP verification failed");
                 }
             }
@@ -148,7 +148,7 @@ public class LoginOtpActivity extends AppCompatActivity {
     }
 
 
-    void startResendTimer() {
+    void startResendTimer() { // cho gui lai OTP
         resendOtpTextView.setEnabled(false);
         Timer timer = new Timer();
 

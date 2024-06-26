@@ -46,13 +46,13 @@ public class LoginPhoneNumberActivity extends AppCompatActivity {
         progressBar.setVisibility(View.GONE);
         countryCodePicker.registerCarrierNumberEditText(phoneNumber);
 
-        backBtn.setOnClickListener(new View.OnClickListener() {
+        backBtn.setOnClickListener(new View.OnClickListener() {   // ham tro lai
             @Override
             public void onClick(View v) {
                 finish();
             }
         });
-        sendOtpBtn.setOnClickListener((v) ->{
+        sendOtpBtn.setOnClickListener((v) ->{  // check sdt , va gui sdt qua loginOTPActivity bang ma "phone"
             if(!countryCodePicker.isValidFullNumber()){
                 phoneNumber.setError("Phone number not valid");
                 return;

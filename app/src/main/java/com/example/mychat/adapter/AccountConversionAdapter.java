@@ -28,20 +28,20 @@ public class AccountConversionAdapter extends RecyclerView.Adapter<AccountConver
     private List<User> users;
     private Context context;
 
-    public AccountConversionAdapter(List<User> users, Context context) {
+    public AccountConversionAdapter(List<User> users, Context context) { // ham contructor
         this.users = users;
         this.context = context;
     }
 
     @NonNull
     @Override
-    public UserModelViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public UserModelViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {  // xet item layout cho adapter (search_user_recycler_row)
         View view = LayoutInflater.from(context).inflate(R.layout.search_user_recycler_row, parent, false);
         return new UserModelViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull UserModelViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull UserModelViewHolder holder, int position) { // hien thi tung item layout ra adpater
         User user = users.get(position);
         holder.usernameText.setText(user.getUsername());
         holder.phoneText.setText(user.getPhoneNumber());
@@ -57,7 +57,7 @@ public class AccountConversionAdapter extends RecyclerView.Adapter<AccountConver
                         AndroidUtil.setProfilePic(context, uri, holder.profilePic);
                     }
                 });
-        holder.itemView.setOnClickListener(v -> {
+        holder.itemView.setOnClickListener(v -> {  // khi ma click thi chuyen sang LoginActivity vaf logout user hien tai
             Intent intent = new Intent(context, LoginActivity.class);
             AndroidUtil.passUserModelAsIntent(intent,user);
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -74,9 +74,7 @@ public class AccountConversionAdapter extends RecyclerView.Adapter<AccountConver
     }
 
 
-    class UserModelViewHolder extends RecyclerView.ViewHolder {
-
-
+    class UserModelViewHolder extends RecyclerView.ViewHolder {  // set cac thuoc tinh trong item layout
         TextView usernameText, phoneText;
         ImageView profilePic;
 

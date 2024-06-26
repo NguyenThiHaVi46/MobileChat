@@ -38,9 +38,8 @@ public class SearchUserActivity extends AppCompatActivity {
     SharedPreferences sharedPreferences;
 
     private static final String PREFS_NAME = "SearchPreferences";
-    private static final String SEARCH_HISTORY_KEY = "SearchHistory";
-    private static final int MAX_HISTORY_SIZE = 5;
-    private static final long DEBOUNCE_DELAY = 300; // thời gian chờ debounce (300ms)
+
+    private static final long DEBOUNCE_DELAY = 300;
     private Handler handler = new Handler();
     private Runnable searchRunnable;
 
@@ -78,7 +77,9 @@ public class SearchUserActivity extends AppCompatActivity {
             public void afterTextChanged(Editable s) {
                 String searchTerm = s.toString();
                 searchRunnable = () -> {
-                    saveSearchTerm(searchTerm);
+                    if(searchTerm.equals("")){
+                        return;
+                    }
                     setupSearchRecyclerView(searchTerm);
                 };
 
@@ -87,31 +88,7 @@ public class SearchUserActivity extends AppCompatActivity {
         });
     }
 
-    private void saveSearchTerm(String term) {
-        String[] searchHistory = getSearchHistory();
-        List<String> searchHistoryList = new ArrayList<>(Arrays.asList(searchHistory));
 
-        searchHistoryList.remove(term);
-
-        searchHistoryList.add(0, term);
-
-        if (searchHistoryList.size() > MAX_HISTORY_SIZE) {
-            searchHistoryList = searchHistoryList.subList(0, MAX_HISTORY_SIZE);
-        }
-
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString(SEARCH_HISTORY_KEY, TextUtils.join(",", searchHistoryList));
-        editor.apply();
-    }
-
-    private String[] getSearchHistory() {
-        String history = sharedPreferences.getString(SEARCH_HISTORY_KEY, "");
-        if (history.isEmpty()) {
-            return new String[0];
-        } else {
-            return history.split(",");
-        }
-    }
 
     void setupSearchRecyclerView(String searchTerm) {
         Query query;

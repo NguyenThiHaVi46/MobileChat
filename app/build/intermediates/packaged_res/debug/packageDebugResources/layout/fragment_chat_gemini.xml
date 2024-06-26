@@ -7,7 +7,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/my_secondary">
+        >
 
 
         <androidx.recyclerview.widget.RecyclerView
@@ -21,10 +21,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="New chat"
-            android:textColor="@color/black"
+            android:layout_below="@+id/recycler_view"
             android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:backgroundTint="@color/white"/>
+            android:backgroundTint="@color/my_secondary"/>
 
     </RelativeLayout>
 

@@ -69,7 +69,7 @@ public class LoginUserNameActivity extends AppCompatActivity {
         IconRedEyeBtn = findViewById(R.id.signup_icon_red_eye);
         String userId = getIntent().getExtras().getString("userId");
 
-        IconRedEyeBtn.setOnClickListener(new View.OnClickListener() {
+        IconRedEyeBtn.setOnClickListener(new View.OnClickListener() { // mat an hien
             @Override
             public void onClick(View v) {
                 if (check) {
@@ -84,18 +84,18 @@ public class LoginUserNameActivity extends AppCompatActivity {
             }
         });
 
-        getUserName(userId);
+        getUserName(userId); // lay ra ten nguoi dung bang id
 
-        letMeInBtn.setOnClickListener((v -> {
+        letMeInBtn.setOnClickListener((v -> { // dang ky thanh cong
             setUserName(userId);
         }));
     }
 
     void setUserName(String userId){
 
-        String userName = userNameInput.getText().toString();
-        String passWord = password.getText().toString();
-        String confirmPassWord = confirmPassword.getText().toString();
+        String userName = userNameInput.getText().toString(); // lay username
+        String passWord = password.getText().toString(); // pass
+        String confirmPassWord = confirmPassword.getText().toString(); //pass
         String email = emailInput.getText().toString();
         if(userName.isEmpty()||userName.length()<3){
             userNameInput.setError("Username length should be at least 3 chars");
@@ -107,17 +107,17 @@ public class LoginUserNameActivity extends AppCompatActivity {
             return;
         }
 
-        if (passWord.equals(confirmPassWord)) {
-            String hashedPassword = BCrypt.hashpw(passWord, BCrypt.gensalt());
+        if (passWord.equals(confirmPassWord)) { // kiem tra pass co trung k
+            String hashedPassword = BCrypt.hashpw(passWord, BCrypt.gensalt()); // ma hoa pass
 
             try {
                 if(userRepository.userExistsById(FirebaseUtil.currentUserId())){
                     user.setPhoneNumber(phoneNumber);
                     user.setPassword(hashedPassword);
-                    userRepository.updateUser(user);
+                    userRepository.updateUser(user); // update user neu co trong sql
                 }else {
                     user = new User(phoneNumber, userName, Timestamp.now(), userId, hashedPassword, email);
-                    userRepository.saveUser(user);
+                    userRepository.saveUser(user); // neu ko co trong sql thi tao moi
                 }
                 linkOrUpdateEmailAndPassword(email, hashedPassword);
             } catch (Exception e) {
@@ -149,38 +149,20 @@ public class LoginUserNameActivity extends AppCompatActivity {
         });
     }
 
-//    void getUserName(String userId){
-//        setInProgress(true);
-//        FirebaseUtil.currentUserDetails().get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-//            @Override
-//            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-//                setInProgress(false);
-//                if(task.isSuccessful()){
-//                    user = task.getResult().toObject(User.class);
-//                    if(user != null){
-//                        userNameInput.setText(user.getUsername());
-//                        emailInput.setText(user.getEmail());
-//                        userNameInput.setEnabled(false);
-//                        emailInput.setEnabled(false);
-//                    }
-//                }
-//            }
-//        });
-//    }
 
-    void getUserName(String userId) {
+    void getUserName(String userId) { /// lay ra du tren may truoc neu ko thi len firesbase lay
         setInProgress(true);
         userRepository = new UserRepository(getApplication());
-        user = userRepository.getUserById(userId);
-        if (user != null) {
+        user = userRepository.getUserById(userId); // lay user tu sql
+        if (user != null) { // neu co user
             setInProgress(false);
             userNameInput.setText(user.getUsername());
             emailInput.setText(user.getEmail());
             userNameInput.setEnabled(false);
             emailInput.setEnabled(false);
-        } else {
+        } else { // neu ko co user trong sql
             setInProgress(true);
-            FirebaseUtil.currentUserDetails().get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+            FirebaseUtil.currentUserDetails().get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() { // lay user tu firebase
                 @Override
                 public void onComplete(@NonNull Task<DocumentSnapshot> task) {
                     setInProgress(false);

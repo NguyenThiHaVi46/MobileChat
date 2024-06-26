@@ -75,6 +75,8 @@ public class ProfileFragment extends Fragment {
         progressBar = view.findViewById(R.id.profile_progress_bar);
         logoutBtn = view.findViewById(R.id.logout_btn);
         accountConversionBtn = view.findViewById(R.id.profile_account_conversion);
+
+
         getUserData();
 
         updateProfileBtn.setOnClickListener(v -> {

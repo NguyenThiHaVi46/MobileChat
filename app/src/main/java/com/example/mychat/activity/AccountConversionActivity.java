@@ -45,14 +45,14 @@ public class AccountConversionActivity extends AppCompatActivity {
         addUserBtn = findViewById(R.id.ac_add_user);
         recyclerView = findViewById(R.id.ac_recycler_view);
 
-        backBtn.setOnClickListener(new View.OnClickListener() {
+        backBtn.setOnClickListener(new View.OnClickListener() { // quay lai
             @Override
             public void onClick(View v) {
                 finish();
             }
         });
 
-        addUserBtn.setOnClickListener(new View.OnClickListener() {
+        addUserBtn.setOnClickListener(new View.OnClickListener() { // them 1 user chuyen sang LoginPhoneNumberActivity
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),LoginPhoneNumberActivity.class));
@@ -61,10 +61,10 @@ public class AccountConversionActivity extends AppCompatActivity {
 
         UserRepository userRepository = new UserRepository(this);
 
-        List<User> users= userRepository.getAllUser();
-        recyclerView.setLayoutManager(new GridLayoutManager(this,1));
+        List<User> users= userRepository.getAllUser(); // lay list user trong sql hien thi trong adapter
+        recyclerView.setLayoutManager(new GridLayoutManager(this,1)); // xet layout trong adapter
         AccountConversionAdapter adapter = new AccountConversionAdapter(users,this);
-        recyclerView.setAdapter(adapter);
+        recyclerView.setAdapter(adapter);// chay adapter
 
     }
 }
