@@ -44,9 +44,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Add"
-            android:textColor="@color/chat_color_sender"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
+            android:layout_marginTop="3dp"
             android:layout_marginStart="10dp"
             android:layout_toRightOf="@+id/text_view"
             />

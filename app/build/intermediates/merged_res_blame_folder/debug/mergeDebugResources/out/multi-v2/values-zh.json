@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mychat.app-mergeDebugResources-3:/values-zh/values-zh.xml",
+            "outputFile": "com.example.mychat.app-mergeDebugResources-49:/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ACER NITRO5\\.gradle\\caches\\transforms-4\\19186f9cac7d36b69a848b35a7111dd4\\transformed\\jetified-ucrop-2.2.6\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\hungn\\.gradle\\caches\\transforms-4\\00098e7e79e3bb020c4acf23a2aede68\\transformed\\jetified-ucrop-2.2.6\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

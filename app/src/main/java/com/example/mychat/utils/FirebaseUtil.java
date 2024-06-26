@@ -87,7 +87,7 @@ public class FirebaseUtil {
         return new SimpleDateFormat("HH:mm").format(timestamp.toDate());
     }
 
-    public static StorageReference getCurrentProfilePicStorageRef(String roomId) {
+    public static StorageReference getCurrentProfilePicStorageRef(String roomId) { //
         if(roomId.equals("")){
             return FirebaseStorage.getInstance().getReference().child("profile_pic")
                     .child(FirebaseUtil.currentUserId());
@@ -96,7 +96,7 @@ public class FirebaseUtil {
                     .child(roomId);
         }
     }
-    public static StorageReference getOtherProfilePicStorageRef(String otherUserId) {
+    public static StorageReference getOtherProfilePicStorageRef(String otherUserId) { //
         return FirebaseStorage.getInstance().getReference().child("profile_pic")
                 .child(otherUserId);
     }

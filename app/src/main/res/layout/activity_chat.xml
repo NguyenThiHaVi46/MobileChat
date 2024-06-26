@@ -115,7 +115,7 @@
         android:layout_height="80dp"
         android:layout_alignParentBottom="true"
         android:padding="8dp"
-        android:background="@color/my_secondary">
+        >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -128,8 +128,8 @@
                 android:layout_height="40dp"
                 android:src="@drawable/icon_addbox"
                 android:layout_centerInParent="true"
-                app:tint="@color/black"
-                android:backgroundTint="@color/my_secondary"
+                app:tint="@color/my_secondary"
+                android:backgroundTint="@color/white"
                 />
             <LinearLayout
                 android:id="@+id/hidden_buttons"
@@ -144,19 +144,19 @@
                 <ImageButton
                     android:id="@+id/button_camera"
                     android:layout_width="25dp"
-                    android:backgroundTint="@color/my_secondary"
+                    android:backgroundTint="@color/white"
                     android:layout_height="25dp"
                     android:src="@drawable/icon_camera"
-                    app:tint="@color/black"
+                    app:tint="@color/my_secondary"
                     />
 
                 <ImageButton
                     android:id="@+id/button_file"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
-                    android:backgroundTint="@color/my_secondary"
+                    android:backgroundTint="@color/white"
                     android:src="@drawable/icon_file"
-                    app:tint="@color/black"/>
+                    app:tint="@color/my_secondary"/>
             </LinearLayout>
             <EditText
 
@@ -181,7 +181,7 @@
             android:layout_centerInParent="true"
             android:layout_alignParentEnd="true"
             android:background="?attr/selectableItemBackgroundBorderless"
-            app:tint="@color/black"
+            app:tint="@color/my_secondary"
             android:padding="8dp"
             android:layout_marginStart="10dp"/>
     </RelativeLayout>

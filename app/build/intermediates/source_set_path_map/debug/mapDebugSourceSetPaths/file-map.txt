@@ -1,54 +1,54 @@
-com.example.mychat.app-pngs-0 C:\My chat\MobileChat\app\build\generated\res\pngs\debug
-com.example.mychat.app-res-1 C:\My chat\MobileChat\app\build\generated\res\processDebugGoogleServices
-com.example.mychat.app-resValues-2 C:\My chat\MobileChat\app\build\generated\res\resValues\debug
-com.example.mychat.app-packageDebugResources-3 C:\My chat\MobileChat\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.mychat.app-packageDebugResources-4 C:\My chat\MobileChat\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.mychat.app-debug-5 C:\My chat\MobileChat\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.mychat.app-debug-6 C:\My chat\MobileChat\app\src\debug\res
-com.example.mychat.app-main-7 C:\My chat\MobileChat\app\src\main\res
-com.example.mychat.app-drawerlayout-1.1.1-8 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\061ae90e9a9729b412803b0bfff8d4f5\transformed\drawerlayout-1.1.1\res
-com.example.mychat.app-jetified-credentials-play-services-auth-1.2.0-rc01-9 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\0f44a5822da3b12ac0461bc6d67aa50f\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\res
-com.example.mychat.app-core-1.13.0-10 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\145c3bfdf68f75c580d1ba380f549158\transformed\core-1.13.0\res
-com.example.mychat.app-jetified-ucrop-2.2.6-11 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\19186f9cac7d36b69a848b35a7111dd4\transformed\jetified-ucrop-2.2.6\res
-com.example.mychat.app-jetified-play-services-auth-20.7.0-12 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\25d5de34a75677159a095c30a54b48a9\transformed\jetified-play-services-auth-20.7.0\res
-com.example.mychat.app-jetified-core-ktx-1.13.0-13 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\2924debcfd10859d03dff000eb4af72f\transformed\jetified-core-ktx-1.13.0\res
-com.example.mychat.app-jetified-viewpager2-1.0.0-14 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\345d2f0b54c9ebef71279385c5248e1a\transformed\jetified-viewpager2-1.0.0\res
-com.example.mychat.app-lifecycle-viewmodel-2.6.2-15 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\41bc3e172d2038564d446265c594390a\transformed\lifecycle-viewmodel-2.6.2\res
-com.example.mychat.app-jetified-startup-runtime-1.1.1-16 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\47f02c8bece7cb3863a13c644bb8cf03\transformed\jetified-startup-runtime-1.1.1\res
-com.example.mychat.app-core-runtime-2.2.0-17 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\4cbcd3118d869635201610c9bb812c6c\transformed\core-runtime-2.2.0\res
-com.example.mychat.app-jetified-activity-1.9.0-18 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\4efe5f3ad8ff893e3a4f9cfc9123dd03\transformed\jetified-activity-1.9.0\res
-com.example.mychat.app-jetified-appcompat-resources-1.7.0-19 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\50633c580a55553e2282d6348ceee08c\transformed\jetified-appcompat-resources-1.7.0\res
-com.example.mychat.app-jetified-firebase-common-21.0.0-20 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6714e0c953c064defc4800d2d78c7f80\transformed\jetified-firebase-common-21.0.0\res
-com.example.mychat.app-recyclerview-1.2.1-21 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6b7a506e1290884baa9f9a4242909cb2\transformed\recyclerview-1.2.1\res
-com.example.mychat.app-transition-1.5.0-22 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\6beb614a8b93ddfa7316ea878902468e\transformed\transition-1.5.0\res
-com.example.mychat.app-material-1.12.0-23 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\751b7bb4c91ebf1b7a527b01ec09c7b7\transformed\material-1.12.0\res
-com.example.mychat.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-24 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\7644f232bc6c07f3230b3f4362ad7533\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
-com.example.mychat.app-jetified-annotation-experimental-1.4.0-25 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\76e440a796b2cb451bd816ed4a8bdf87\transformed\jetified-annotation-experimental-1.4.0\res
-com.example.mychat.app-jetified-paging-rxjava3-3.0.0-26 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\770575b1133d87cae26b002dddbd80ad\transformed\jetified-paging-rxjava3-3.0.0\res
-com.example.mychat.app-jetified-play-services-base-18.1.0-27 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\7ab9c2ea0937c3256901751e303fd064\transformed\jetified-play-services-base-18.1.0\res
-com.example.mychat.app-lifecycle-livedata-core-2.6.2-28 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\84dbf19bf7aa572b871d24005e43b9bb\transformed\lifecycle-livedata-core-2.6.2\res
-com.example.mychat.app-jetified-credentials-1.2.0-rc01-29 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\871495b91ed8f38e8418365905808169\transformed\jetified-credentials-1.2.0-rc01\res
-com.example.mychat.app-browser-1.4.0-30 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\8b7a3e16631945d405c8ff146f83a023\transformed\browser-1.4.0\res
-com.example.mychat.app-lifecycle-runtime-2.6.2-31 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\987f527e1a22e76e111e6082f3346ac1\transformed\lifecycle-runtime-2.6.2\res
-com.example.mychat.app-fragment-1.5.4-32 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\9eb57b7b0e11a0b5dc63e65b69f65243\transformed\fragment-1.5.4\res
-com.example.mychat.app-jetified-ccp-2.5.0-33 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\9f6d1420f9d96043049c188851e62fc5\transformed\jetified-ccp-2.5.0\res
-com.example.mychat.app-media-1.0.0-34 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\a7d31a77fc878fbbc8f201b4bca479b2\transformed\media-1.0.0\res
-com.example.mychat.app-jetified-profileinstaller-1.3.1-35 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ab8e627f85a1c48c62523fac5030b921\transformed\jetified-profileinstaller-1.3.1\res
-com.example.mychat.app-appcompat-1.7.0-36 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\b545cb32eb1ea26228a64178aacb0e4b\transformed\appcompat-1.7.0\res
-com.example.mychat.app-sqlite-2.4.0-37 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c382062279f0c07d2bfcabe69287b987\transformed\sqlite-2.4.0\res
-com.example.mychat.app-jetified-emoji2-bundled-1.4.0-38 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\c42e4aa928d7f114dade5201f6d4454a\transformed\jetified-emoji2-bundled-1.4.0\res
-com.example.mychat.app-jetified-glide-4.16.0-39 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\cfb25ce739308fe92658d5fecfb20743\transformed\jetified-glide-4.16.0\res
-com.example.mychat.app-cardview-1.0.0-40 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\d31ba16717d560790823a433e1f9d288\transformed\cardview-1.0.0\res
-com.example.mychat.app-sqlite-framework-2.4.0-41 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\da1a71fa944ff85eaee508d01da901bb\transformed\sqlite-framework-2.4.0\res
-com.example.mychat.app-jetified-imagepicker-2.1-42 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\df7667eb7036aa5fdac41a66a4774095\transformed\jetified-imagepicker-2.1\res
-com.example.mychat.app-jetified-emoji2-1.4.0-43 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\eb62ed85d4ffd6ed234c3babdff7e703\transformed\jetified-emoji2-1.4.0\res
-com.example.mychat.app-constraintlayout-2.1.4-44 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ebc1dda7e889db64ec55a5cc5240cba5\transformed\constraintlayout-2.1.4\res
-com.example.mychat.app-coordinatorlayout-1.1.0-45 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f41ad6636dc116d50aef63bef4bd7260\transformed\coordinatorlayout-1.1.0\res
-com.example.mychat.app-jetified-emoji2-views-1.4.0-46 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f4bf22b63e10f8c88e93a3645aa546ca\transformed\jetified-emoji2-views-1.4.0\res
-com.example.mychat.app-jetified-firebase-messaging-24.0.0-47 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f86ccc20e913df74f1d9f71aa0fc9c01\transformed\jetified-firebase-messaging-24.0.0\res
-com.example.mychat.app-jetified-lifecycle-process-2.6.2-48 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\f93896c2ff458d2569b91855af02d9e1\transformed\jetified-lifecycle-process-2.6.2\res
-com.example.mychat.app-jetified-savedstate-1.2.1-49 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fc0d6ff5872bdc6ce0cde606b92a81c7\transformed\jetified-savedstate-1.2.1\res
-com.example.mychat.app-jetified-emoji2-views-helper-1.4.0-50 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fcbf2404509b6be62698c6c95a08662f\transformed\jetified-emoji2-views-helper-1.4.0\res
-com.example.mychat.app-jetified-play-services-basement-18.3.0-51 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fe3171cd7b7243391b5ff85758b53c81\transformed\jetified-play-services-basement-18.3.0\res
-com.example.mychat.app-room-runtime-2.6.1-52 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\fe82a0ff195637e40f5c91ccbd9cd0fa\transformed\room-runtime-2.6.1\res
-com.example.mychat.app-lifecycle-livedata-2.6.2-53 C:\Users\ACER NITRO5\.gradle\caches\transforms-4\ffc7e6d448d52dd2d76fb65956576a2c\transformed\lifecycle-livedata-2.6.2\res
+com.example.mychat.app-jetified-ucrop-2.2.6-0 C:\Users\hungn\.gradle\caches\transforms-4\00098e7e79e3bb020c4acf23a2aede68\transformed\jetified-ucrop-2.2.6\res
+com.example.mychat.app-constraintlayout-2.1.4-1 C:\Users\hungn\.gradle\caches\transforms-4\02fcccca9f2b0290fdca94fb4a8ae932\transformed\constraintlayout-2.1.4\res
+com.example.mychat.app-sqlite-framework-2.4.0-2 C:\Users\hungn\.gradle\caches\transforms-4\03b8f9f1a29f3f7de0e186751868d07a\transformed\sqlite-framework-2.4.0\res
+com.example.mychat.app-coordinatorlayout-1.1.0-3 C:\Users\hungn\.gradle\caches\transforms-4\07edc2bef5fb0dacde4d3c5d391fea30\transformed\coordinatorlayout-1.1.0\res
+com.example.mychat.app-recyclerview-1.2.1-4 C:\Users\hungn\.gradle\caches\transforms-4\0f9b436229ae0fe0e87c079cc295b669\transformed\recyclerview-1.2.1\res
+com.example.mychat.app-jetified-firebase-common-21.0.0-5 C:\Users\hungn\.gradle\caches\transforms-4\0fd91a2ecbafd917fa18f22b0f5547d2\transformed\jetified-firebase-common-21.0.0\res
+com.example.mychat.app-jetified-profileinstaller-1.3.1-6 C:\Users\hungn\.gradle\caches\transforms-4\145e2fedcd7497cbe0e1cf7282ebea04\transformed\jetified-profileinstaller-1.3.1\res
+com.example.mychat.app-jetified-emoji2-views-helper-1.4.0-7 C:\Users\hungn\.gradle\caches\transforms-4\1a5816bf31eed502583169428b7e738a\transformed\jetified-emoji2-views-helper-1.4.0\res
+com.example.mychat.app-lifecycle-viewmodel-2.6.2-8 C:\Users\hungn\.gradle\caches\transforms-4\1ea0d599ad711fd4fd8eb37f25bbfcfb\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.mychat.app-transition-1.5.0-9 C:\Users\hungn\.gradle\caches\transforms-4\202788a2936533646044eac3522a594f\transformed\transition-1.5.0\res
+com.example.mychat.app-lifecycle-runtime-2.6.2-10 C:\Users\hungn\.gradle\caches\transforms-4\22f580d9be33b083795565fa32cfd05c\transformed\lifecycle-runtime-2.6.2\res
+com.example.mychat.app-browser-1.4.0-11 C:\Users\hungn\.gradle\caches\transforms-4\33264a88b3290c1a1de056e69ec9e4e6\transformed\browser-1.4.0\res
+com.example.mychat.app-jetified-credentials-play-services-auth-1.2.0-rc01-12 C:\Users\hungn\.gradle\caches\transforms-4\3786de085be4a5fe238a43e4503b6c9a\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\res
+com.example.mychat.app-jetified-emoji2-bundled-1.4.0-13 C:\Users\hungn\.gradle\caches\transforms-4\3cda935ccf2d879bb97d1c26e135bb41\transformed\jetified-emoji2-bundled-1.4.0\res
+com.example.mychat.app-jetified-lifecycle-process-2.6.2-14 C:\Users\hungn\.gradle\caches\transforms-4\3dbfea90dde94abf338dde2105a02e5f\transformed\jetified-lifecycle-process-2.6.2\res
+com.example.mychat.app-jetified-appcompat-resources-1.7.0-15 C:\Users\hungn\.gradle\caches\transforms-4\53b73ef0bc02239dfab8cbf50c5ed4df\transformed\jetified-appcompat-resources-1.7.0\res
+com.example.mychat.app-jetified-annotation-experimental-1.4.0-16 C:\Users\hungn\.gradle\caches\transforms-4\5e26c31376e3d7cef3b53a4eb79cdcdb\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.mychat.app-jetified-paging-rxjava3-3.0.0-17 C:\Users\hungn\.gradle\caches\transforms-4\60264be81d36272db7f0668a6a3abb4e\transformed\jetified-paging-rxjava3-3.0.0\res
+com.example.mychat.app-media-1.0.0-18 C:\Users\hungn\.gradle\caches\transforms-4\620e832ddf1448af28e94a1f592fca6b\transformed\media-1.0.0\res
+com.example.mychat.app-core-1.13.0-19 C:\Users\hungn\.gradle\caches\transforms-4\68401cb874cda952d3d1538133c5944a\transformed\core-1.13.0\res
+com.example.mychat.app-appcompat-1.7.0-20 C:\Users\hungn\.gradle\caches\transforms-4\7587f93e4e37cffb42d21d3058e81d6b\transformed\appcompat-1.7.0\res
+com.example.mychat.app-drawerlayout-1.1.1-21 C:\Users\hungn\.gradle\caches\transforms-4\7c63c562a1a7900339e5c59b3cc900c4\transformed\drawerlayout-1.1.1\res
+com.example.mychat.app-fragment-1.5.4-22 C:\Users\hungn\.gradle\caches\transforms-4\89d01d470354c7cfac9ea3e6ebff1afe\transformed\fragment-1.5.4\res
+com.example.mychat.app-lifecycle-livedata-2.6.2-23 C:\Users\hungn\.gradle\caches\transforms-4\8a9a21a28f85153630b66c6ea8955017\transformed\lifecycle-livedata-2.6.2\res
+com.example.mychat.app-jetified-activity-1.9.0-24 C:\Users\hungn\.gradle\caches\transforms-4\91fa76c6493cacb134734da76cd33d5f\transformed\jetified-activity-1.9.0\res
+com.example.mychat.app-jetified-core-ktx-1.13.0-25 C:\Users\hungn\.gradle\caches\transforms-4\95cb8803da6316589eb30d9e606e648e\transformed\jetified-core-ktx-1.13.0\res
+com.example.mychat.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-26 C:\Users\hungn\.gradle\caches\transforms-4\981f0cd3e6cdb912fe54d82ab5eef67f\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.mychat.app-core-runtime-2.2.0-27 C:\Users\hungn\.gradle\caches\transforms-4\9c5df53bd0c78ae630262e5c3c096625\transformed\core-runtime-2.2.0\res
+com.example.mychat.app-jetified-play-services-basement-18.3.0-28 C:\Users\hungn\.gradle\caches\transforms-4\a50b0de67fcd2f7fcb895d4b443904f9\transformed\jetified-play-services-basement-18.3.0\res
+com.example.mychat.app-sqlite-2.4.0-29 C:\Users\hungn\.gradle\caches\transforms-4\a86373e19d120abe8e0dc0455749fe16\transformed\sqlite-2.4.0\res
+com.example.mychat.app-lifecycle-livedata-core-2.6.2-30 C:\Users\hungn\.gradle\caches\transforms-4\b00d37084194ce1b0a6de5b8963c8f39\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.mychat.app-jetified-credentials-1.2.0-rc01-31 C:\Users\hungn\.gradle\caches\transforms-4\b5788ac1d0c294358477c06ce7a4bb5c\transformed\jetified-credentials-1.2.0-rc01\res
+com.example.mychat.app-jetified-glide-4.16.0-32 C:\Users\hungn\.gradle\caches\transforms-4\bab4d8f9229e066ea06d5f0366e61f7f\transformed\jetified-glide-4.16.0\res
+com.example.mychat.app-jetified-viewpager2-1.0.0-33 C:\Users\hungn\.gradle\caches\transforms-4\c00b345bcdf330fabee9ee0e553cc9d0\transformed\jetified-viewpager2-1.0.0\res
+com.example.mychat.app-jetified-imagepicker-2.1-34 C:\Users\hungn\.gradle\caches\transforms-4\c28e6c7a96342950f9244d42a0da1634\transformed\jetified-imagepicker-2.1\res
+com.example.mychat.app-jetified-firebase-messaging-24.0.0-35 C:\Users\hungn\.gradle\caches\transforms-4\c9640815160dfc1c56f0e9bff5ccc521\transformed\jetified-firebase-messaging-24.0.0\res
+com.example.mychat.app-jetified-play-services-auth-20.7.0-36 C:\Users\hungn\.gradle\caches\transforms-4\ccb15f4b912501f74919c0b0025a2477\transformed\jetified-play-services-auth-20.7.0\res
+com.example.mychat.app-room-runtime-2.6.1-37 C:\Users\hungn\.gradle\caches\transforms-4\d204b0ca2498d33bcf21daae11babef3\transformed\room-runtime-2.6.1\res
+com.example.mychat.app-jetified-savedstate-1.2.1-38 C:\Users\hungn\.gradle\caches\transforms-4\ddafdcd44bf7fb5fdd20a5315532b9da\transformed\jetified-savedstate-1.2.1\res
+com.example.mychat.app-jetified-emoji2-views-1.4.0-39 C:\Users\hungn\.gradle\caches\transforms-4\e316bbd50ac4656adc10ebca00e3a2e7\transformed\jetified-emoji2-views-1.4.0\res
+com.example.mychat.app-cardview-1.0.0-40 C:\Users\hungn\.gradle\caches\transforms-4\eb3985b826b0e7d2c89b78a9cd2bc950\transformed\cardview-1.0.0\res
+com.example.mychat.app-jetified-play-services-base-18.1.0-41 C:\Users\hungn\.gradle\caches\transforms-4\f0c1ce388ccc9b9ccd3911621781aa7a\transformed\jetified-play-services-base-18.1.0\res
+com.example.mychat.app-jetified-emoji2-1.4.0-42 C:\Users\hungn\.gradle\caches\transforms-4\f23d88cf0c375ca07d05b6744fc54d29\transformed\jetified-emoji2-1.4.0\res
+com.example.mychat.app-material-1.12.0-43 C:\Users\hungn\.gradle\caches\transforms-4\f2de8e15c673b857324dcc6c572bc3db\transformed\material-1.12.0\res
+com.example.mychat.app-jetified-startup-runtime-1.1.1-44 C:\Users\hungn\.gradle\caches\transforms-4\fa8d1fa6dd91d0cc67e261e287dd3826\transformed\jetified-startup-runtime-1.1.1\res
+com.example.mychat.app-jetified-ccp-2.5.0-45 C:\Users\hungn\.gradle\caches\transforms-4\fd5861bc950a210c43b96d0fb4280815\transformed\jetified-ccp-2.5.0\res
+com.example.mychat.app-pngs-46 D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\build\generated\res\pngs\debug
+com.example.mychat.app-res-47 D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\build\generated\res\processDebugGoogleServices
+com.example.mychat.app-resValues-48 D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\build\generated\res\resValues\debug
+com.example.mychat.app-packageDebugResources-49 D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.mychat.app-packageDebugResources-50 D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.mychat.app-debug-51 D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.mychat.app-debug-52 D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\debug\res
+com.example.mychat.app-main-53 D:\HTTT1\Nam3\HK2\Android\BaiTapLon2\app\src\main\res
